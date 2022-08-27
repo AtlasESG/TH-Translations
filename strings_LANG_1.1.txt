@@ -1,0 +1,1907 @@
+
+#
+#============ Unit Strings and Translations ==============#
+#
+
+[comment_translationInfo]
+You're free to translate the mod through this file.
+Translate by adding the corresponding suffix of the lacked language on the display keys.
+If you're not sure how to do it follow the spanish translations as example.
+Send the finished file to me through Discord or the Rusted Warfare forums.
+I'll implement it and update the mod giving you credits.
+Thanks in advance.
+
+[comment_languageSuffixes]
+English: NO SUFFIX
+Belarusian: _by
+German: _de
+Spanish: _es
+Frech: _fr
+Italian: _it
+Japanese: _ja
+Dutch: _nl
+Polish: _pl
+Portuguese: _pt
+Romanian: _ro
+Russian: _ru
+Turkish: _tr
+Ukrainian: _uk
+Simplified Chinese: _zh_cn
+Traditional Chinese: _zh
+
+#
+#============ General Resources ==============#
+#
+
+[global_resource_morale]
+displayName: Morale
+displayName_es: Moral
+
+[resource_localOil]
+displayName: Local Oil
+displayName_es: Petróleo Local
+
+[global_resource_oil]
+displayName: Oil
+displayName_es: Petróleo
+
+[global_resource_crudeOil]
+displayName: Crude Oil
+displayName_es: Petróleo Crudo
+
+[resource_localIndustry]
+displayName: Local Industry
+displayName_es: Industria Local
+
+[global_resource_industry]
+displayName: Industry
+displayName_es: Industria
+
+[global_resource_influence]
+displayName: Influence
+displayName_es: Influencia
+
+[global_resource_rankPoint]
+displayName: Rank Point
+displayName_es: Punto de Rango
+
+#
+#============ Info Resources ==============#
+#
+
+[global_resource_refiningSpeed]
+displayName: Refining Speed
+displayName_es: Velocidad de Refinación
+
+[global_resource_industryProduction]
+displayName: Industry Production
+displayName_es: Producción de Industria
+
+#
+#============ Stat Resources ==============#
+#
+
+[global_resource_demoralizationLevel]
+displayName: Demoralization Level
+displayName_es: Nivel de Desmoralización
+
+[global_resource_infantryArmor]
+displayName: Infantry Armor
+displayName_es: Armadura de Infantería
+
+[global_resource_vehicleArmor]
+displayName: Vehicle Armor
+displayName_es: Armadura de Vehículos
+
+[global_resource_shipArmor]
+displayName: Ship Armor
+displayName_es: Armadura de Barcos
+
+[global_resource_airplaneArmor]
+displayName: Airplane Armor
+displayName_es: Armadura de Aviones
+
+#
+#============ Headquarters Info ==============#
+#
+
+[template_headquartersInfo]
+displayText: Headquarters
+displayText_es: Cuartel General
+displayDescription: -Main base\n-Can build structures and research economic technologies
+displayDescription_es: -Base principal\n-Puede construir estructuras e investigar tecnologías económicas
+
+[template_usaInfo]
+text: USA
+text_es: EE. UU.
+description: —'The nation that destroys its soil, destroys itself.' —Franklin D. Roosevelt\n\n-Defensive nation\n-Military units have +30% HP\n-Featured unit: B-29 Superfortress (Nuclear bomber)
+description_es: —"La nación que destruye su suelo, se destruye a sí misma." —Franklin D. Roosevelt\n\n-Nación defensiva\n-Unidades militares tienen +30% PV\n-Unidad destacada: B-29 Superfortress (Bombardero nuclear)
+
+[template_naziGermanyInfo]
+text: Nazi Germany
+text_es: Alemania Nazi
+description: —'With humanity and democracy the people have never been liberated.' —Adolf Hitler\n\n-Offensive nation\n-Military units have +20% attack damage\n-Featured building: V2 Launchpad (Rocket launcher)
+description_es: —"Con humanidad y democracia nunca han sido liberados los pueblos." —Adolf Hitler\n\n-Nación ofensiva\n-Unidades militares tienen +20% daño de ataque\n-Edificio destacado: Lanzador V2 (Lanzacohetes)
+
+[template_ussrInfo]
+text: USSR
+text_es: URSS
+description: —'Ours is a just cause. The enemy must be defeated. Victory will be ours.' —Josef Stalin\n\n-Quick nation\n-Military units are 30% cheaper\n-Military units have +30% movement speed (excepting airplanes)\n-Featured building: Gulag (Industry generator)
+description_es: —"La nuestra es una causa justa. El enemigo debe ser derrotado. La victoria será nuestra." —Josef Stalin\n\n-Nación rápida\n-Unidades militares son 30% más baratas\n-Unidades militares tienen +30% velocidad de movimiento (exceptuando aviones)\n-Edificio destacado: Gulag (Generador de industria)
+
+[template_japanEmpireInfo]
+text: Japan Empire
+text_es: Imperio del Japón
+description: —'We have to bear the unbearable.' —Hiro-Hito\n\n-Naval nation\n-Engineering teams can build factories, barracks and garages\n-Military units don't reduce morale on death\n-Featured unit: Yamato Class (Battleship)
+description_es: —"Hay que soportar lo insoportable." —Hiro-Hito\n\n-Nación naval\n-Los equipos de ingeniería pueden construir fábricas, cuarteles y garajes\n-Unidades militares no reducen la moral al morir\n-Unidad destacada: Clase Yamato (Acorazado)
+
+[template_unitedKingdomInfo]
+text: United Kingdom
+text_es: Reino Unido
+description: —'Never in the field of human conflict, has so much been owed by so many to so few.' —Winston Churchill\n\n-Air nation\n-Military units have +7% attack range\n-Featured unit: Airspeed AS.51 Horsa (Glider)
+description_es: —"Nunca en el campo de los conflictos humanos, tantos debieron tanto a tan pocos." —Winston Churchill\n\n-Nación de aire\n-Unidades militares tienen +7% rango de ataque\n-Unidad destacada: Airspeed AS.51 Horsa (Planeador)
+
+[template_italyKingdomInfo]
+text: Italy Kingdom
+text_es: Reino de Italia
+description: —'A people has to be poor in order to be proud.' —Benito Mussolini\n\n-Infantry nation\n-Military units have +30% fire rate\n-Military units are created 30% faster\n-Featured unit: Cavallieri (Mounted infantry)
+description_es: —"Un pueblo tiene que ser pobre para poder ser orgulloso." —Benito Mussolini\n\n-Nación de infantería\n-Unidades militares tienen +30% cadencia de fuego\n-Unidades militares se crean 30% más rápido\n-Unidad destacada: Cavallieri (Infantería montada)
+
+[template_displayHelpInfo]
+text: How To Play
+text_es: Cómo Jugar
+description: -Shows a starting guide\n-Useful to learn basics about the mod
+description_es: -Muestra una guía de inicio\n-Útil para aprender lo básico del mod
+
+[template_hideHelpInfo]
+text: Hide Guide
+text_es: Ocultar Guía
+description: -Hides the starting guide
+description_es: -Oculta la guía de inicio
+
+[template_resourceHelpInfo]
+text: Resources
+text_es: Recursos
+description: -Industry: the basic resource, obtained from factories\n-Oil: must be refined before it can be used, obtained from oil pools\n-Morale: defines the industry production efficiency, try to keep it as high as possible\n-Influence: defines your advance through the game, useful for some special skills
+description_es: -Industria: el recurso básico, obtenida de las fábricas\n-Petróleo: debe refinarse antes de que pueda utilizarse, obtenido de los pozos de petróleo\n-Moral: define la eficiencia de producción de industria, intente mantenerla lo más alto posible\n-Influencia: define su avance a través del juego, útil para algunas habilidades especiales
+
+[template_moraleHelpInfo]
+text: Morale
+text_es: Moral
+description: -Morale is decreased by time or when loosing units/buildings\n-Low morale decreases industry production and weakens units\n-Killing enemy units, building a district station and making some alliances rise morale
+description_es: -La moral disminuye con el tiempo o cuando se pierden unidades/edificios\n-La moral baja reduce la producción de industria y debilita a las unidades\n-Matar unidades enemigas, construir una estación de distrito y hacer algunas alianzas elevan la moral
+
+[template_influenceHelpInfo]
+text: Influence
+text_es: Influencia
+description: -Influence is obtained when constructing buildings, creating units or researching technologies\n-Influence is useful to choose alliances at the diplomatic center and using special skills\n-Alliances provide special advantages or better units with no extra cost
+description_es: -La influencia es obtenida cuando se construyen edificios, se crean unidades o se investigan tecnologías\n-La influencia es útil para elegir alianzas en el centro diplomático y usar habilidades especiales\n-Las alianzas proveen ventajas especiales o mejores unidades sin costo adicional
+
+[template_technologyHelpInfo]
+text: Technologies
+text_es: Tecnologías
+description: -All factions have generic and special tech upgrades\n-Some units and buildings require specific technologies to be available\n-Economic technologies improve industry and oil income, are available at headquarters\n-Military technologies improve or unlock units, are available at unit production buildings\n-Armor and attack technologies improve unit stats, are available at the reasearch station\n-Faction special technologies are available at the district station
+description_es: -Todas las facciones tienen mejoras tecnológicas genéricas y especiales\n-Algunas unidades y edificios requieren tecnologías específicas para estar disponibles\n-Las tecnologías económicas mejoran el ingreso de industria y petróleo, están disponibles en el cuartel general\n-Las tecnologías militares mejoran o desbloquean unidades, están disponibles en los edificios de producción de unidades\n-Las tecnologías de armadura y ataque mejoran las estadísticas de las unidades, están disponibles en la estación de investigación\n-Las tecnologías especiales de facción están disponibles en la estación de distrito
+
+[template_expansionHelpInfo]
+text: Expansion
+text_es: Expansión
+description: -Use engineering teams to expand your territory\n-Outposts can defend and build on new conquered zones\n-Being offensive has more benefits than being defensive
+description_es: -Use equipos de ingeniería para expandir su territorio\n-Los puestos avanzados pueden defender y construir en nuevas zonas conquistadas\n-Ser ofensivo tiene más beneficios que ser defensivo
+
+[template_gameModeHelpInfo]
+text: Game Modes
+text_es: Modos de Juego
+description: -Skirmish (Default)\n-Campaign (Map pack/Download apart)\n-Opposite AI (Starting unit)\n-Blitzkrieg (Starting unit)\n-Ranked (Starting unit/See ES & Co. Discord for more info)
+description_es: -Escaramuza (Predeterminado)\n-Campaña (Paquete de mapas/Descarga aparte)\n-IA Opuesta (Unidad inicial)\n-Blitzkrieg (Unidad inicial)\n-Ranked (Unidad inicial/Ver Discord ES & Co. para mayor información)
+
+#
+#============ Tool Info ==============#
+#
+
+[template_sandboxToolInfo]
+displayText: Sandbox Tool
+displayText_es: Herramienta de Sandbox
+displayDescription: -Useful to correct bugs and know all factions\n-Adds or removes resources\n-Researches technologies instantly\n-Affects the selected player
+displayDescription_es: -Útil para corregir errores y conocer todas las facciones\n-Añade o remueve recursos\n-Investiga tecnologías instantáneamente\n-Afecta al jugador seleccionado
+
+#
+#============ Generic Units ==============#
+#
+
+[template_factoryInfo]
+displayText: Factory
+displayText_es: Fábrica
+displayDescription: -Used to create ammunition, construction materials and foods\n-Generates industry\n-Morale and HP affects its production
+displayDescription_es: -Usado para crear munición, materiales de construcción y alimentos\n-Genera industria\n-La moral y los PV afectan su producción
+
+[template_derrickInfo]
+displayText: Derrick
+displayText_es: Torre de Perforación
+displayDescription: -Used to drill and get oil\n-Extracts crude oil from oil pools\n-Crude oil must be refined in refineries
+displayDescription_es: -Usada para perforar y obtener petróleo\n-Extrae petróleo crudo de los pozos de petróleo\n-El petróleo crudo debe ser refinado en las refinerías
+
+[template_rodPumpInfo]
+displayText: Rod Pump
+displayText_es: Bomba de Varilla
+displayDescription: -Used to extract oil from oil pools\n-Extracts till oil runs out\n-Upgradeable
+displayDescription_es: -Usada para extraer petróleo de los pozos de petróleo\n-Extrae hasta que el petróleo se agota\n-Mejorable
+
+[template_oilerTruckInfo]
+displayText: Oiler Truck
+displayText_es: Camión Petrolero
+displayDescription: -Transport vehicle\n-Uncontrollable unit\n-Transports crude oil from pumps to refineries
+displayDescription_es: -Vehículo de transporte\n-Unidad incontrolable\n-Transporta el petróleo crudo desde las bombas a las refinerías
+
+[template_refineryInfo]
+displayText: Refinery
+displayText_es: Refinería
+displayDescription: -Used to refine oil\n-Converts crude oil into usable oil\n-Can train engineering teams
+displayDescription_es: -Usada para refinar el petróleo\n-Convierte el petróleo crudo en petróleo usable\n-Puede entrenar equipos de ingeniería
+
+[template_civilShelterInfo]
+displayText: Civil Shelter
+displayText_es: Refugio Civil
+displayDescription: -Underground structure designed to resist bombings\n-Avoids losing morale from factories, refineries and civil buildings destroyed within its range
+displayDescription_es: -Estructura subterránea diseñada para resistir los bombardeos\n-Evita perder moral por fábricas, refinerías y edificios civiles destruidos en su rango
+
+[template_theaterInfo]
+displayText: Theater
+displayText_es: Teatro
+displayDescription: -Entertainment place\n-Civil building\n-Unlocks basic buildings and technologies\n-Upgradeable
+displayDescription_es: -Espacio de entretenimiento\n-Edificio civil\n-Desbloquea edificios y tecnologías básicas\n-Mejorable
+
+[template_squareInfo]
+displayText: Square
+displayText_es: Plaza
+displayDescription: -Public place\n-Civil building\n-Unlocks medium buildings and technologies\n-Units can move over it\n-Upgradeable
+displayDescription_es: -Espacio público\n-Edificio civil\n-Desbloquea edificios y tecnologías medias\n-Las unidades pueden moverse sobre ella\n-Mejorable
+
+[template_universityInfo]
+displayText: University
+displayText_es: Universidad
+displayDescription: -Professional formation place\n-Civil building\n-Unlocks advanced buildings and technologies\n-Upgradeable
+displayDescription_es: -Espacio de formación profesional\n-Edificio civil\n-Desbloquea edificios y tecnologías avanzadas\n-Mejorable
+
+[template_researchStationInfo]
+displayText: Research Station
+displayText_es: Estación de Investigación
+displayDescription: -Investigation facility\n-Can research military upgrades
+displayDescription_es: -Instalación de investigación\n-Puede investigar mejoras militares
+
+[template_districtStationInfo]
+displayText: District Station
+displayText_es: Estación de Distrito
+displayDescription: -Government palace\n-Allows using stratagems\n-Allows researching faction special techs
+displayDescription_es: -Palacio de gobierno\n-Permite usar estratagemas\n-Permite investigar tecnologías especiales de facción
+
+[template_diplomaticCenterInfo]
+displayText: Diplomatic Center
+displayText_es: Centro Diplomático
+displayDescription: -International relation catalyzer\n-Allows setting alliances with influence\n-Can send resources to other players
+displayDescription_es: -Catalizador de relaciones internacionales\n-Permite establecer alianzas con influencia\n-Puede enviar recursos a otros jugadores
+
+[template_barracksInfo]
+displayText: Barracks
+displayText_es: Cuartel
+displayDescription: -Used to train infantry\n-Can research infantry technologies
+displayDescription_es: -Usado para entrenar infantería\n-Puede investigar tecnologías de infantería
+
+[template_garageInfo]
+displayText: Garage
+displayText_es: Garaje
+displayDescription: -Used to create ground vehicles\n-Can research vehicle technologies\n-Can repair up to 2 vehicles at the same time
+displayDescription_es: -Usado para crear vehículos terrestres\n-Puede investigar tecnologías de vehículos\n-Puede reparar hasta 2 vehículos al mismo tiempo
+
+[template_airBaseInfo]
+displayText: Air Base
+displayText_es: Base Aérea
+displayDescription: -Used to store air vehicles\n-Includes an hangar to create air vehicles and research air technologies\n-Repairs air vehicles\n-Refills airships' fuel\n-Can hold up to 10 airplanes only
+displayDescription_es: -Usada para guardar vehículos aéreos\n-Incluye un hangar para crear vehículos aéreos e investigar tecnologías aéreas\n-Repara vehículos aéreos\n-Recarga el combustible de las aeronaves\n-Puede mantener hasta 10 aviones únicamente
+
+[template_hangarInfo]
+displayText: Hangar
+displayDescription: -Used to create air vehicles\n-Can research air technologies\n-Created airplanes take off from the air base
+displayDescription_es: -Usado para construir vehículos aéreos\n-Puede investigar tecnologías aéreas\n-Los aviones creados despegan desde la base aérea
+
+[template_harbourInfo]
+displayText: Harbour
+displayText_es: Puerto
+displayDescription: -Used to create maritime vehicles\n-Can research maritime technologies\n-Can repair up to 2 ships or submarines at the same time
+displayDescription_es: -Usado para crear vehículos marítimos\n-Puede investigar tecnologías marítimas\n-Puede reparar hasta 2 barcos o submarinos al mismo tiempo
+
+[template_staticArtilleryGunInfo]
+displayDescription: -Anti-air and anti-tank defense\n-Effective against airplanes and vehicles\n-Attacks ground and air\n-Can attack terrain continuously
+displayDescription_es: -Defensa antiaérea y anti-tanques\n-Efectiva contra aviones y vehículos\n-Ataca a tierra y aire\n-Puede atacar terreno continuamente
+
+[template_engineeringTeamInfo]
+displayText: Engineering Team
+displayText_es: Equipo de Ingeniería
+displayDescription: -Logistics infantry\n-Effective against infantry\n-Attacks ground only\n-Can disarm enemy traps and obstacles\n-Self-regenerates
+displayDescription_es: -Infantería logística\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Puede desarmar trampas enemigas y obstáculos\n-Se auto-regenera
+
+[template_conscriptTroopInfo]
+displayText: Conscript Troop
+displayText_es: Tropa de Conscriptos
+displayDescription: -Requisition infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-Doesn't reduce morale on death
+displayDescription_es: -Infantería de requisición (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-No reduce la moral al morir
+
+[template_rifleTroopInfo]
+displayText: Rifle Troop
+displayText_es: Tropa de Rifle
+displayDescription: -Basic infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-Self-regenerates
+displayDescription_es: -Infantería básica (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Se auto-regenera
+
+[template_medicTeamInfo]
+displayText: Medic Team
+displayText_es: Equipo Médico
+displayDescription: -Support infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-Infantry within its range have +2 HP regeneration per second\n-Heals infantry faster individually\n-Self-regenerates
+displayDescription_es: -Infantería de apoyo (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Las infantería en su rango tiene +2 de regeneración de PV por segundo\n-Cura a la infantería más rápido individualmente\n-Se auto-regenera
+
+[template_mgTroopInfo]
+displayText: MG Troop
+displayText_es: Tropa de AM
+displayDescription: -Basic infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-High sight range\n-Self-regenerates
+displayDescription_es: -Infantería básica (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Alto rango de visión\n-Se auto-regenera
+
+[template_rocketTeamInfo]
+displayText: Rocket Team
+displayText_es: Equipo de Cohete
+displayDescription: -Medium infantry (Infantry)\n-Effective against light vehicles and buildings\n-Attacks ground only\n-Self-regenerates
+displayDescription_es: -Infantería media (Infantería)\n-Efectiva contra vehículos ligeros y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+
+[template_mortarTeamInfo]
+displayText: Mortar Team
+displayText_es: Equipo de Mortero
+displayDescription: -Heavy infantry (Infantry)\n-Effective against light vehicles, buildings and ships\n-Attacks ground only\n-Self-regenerates
+displayDescription_es: -Infantería pesada (Infantería)\n-Efectiva contra vehículos ligeros, edificios y barcos\n-Ataca a tierra únicamente\n-Se auto-regenera
+
+[template_flamethrowerTeamInfo]
+displayText: Flamethrower Team
+displayText_es: Equipo Lanzallamas
+displayDescription: -Heavy infantry (Infantry)\n-Effective against infantry and buildings\n-Attacks ground only\n-Self-regenerates
+displayDescription_es: -Infantería pesada (Infantería)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+
+[template_landingCraftInfo]
+displayText: Landing Craft
+displayText_es: Lancha de Desembarco
+displayDescription: -Transport ship (Ship)\n-Attacks ground only\n-Transports up to 4 units
+displayDescription_es: -Barco de transporte (Barco)\n-Ataca a tierra únicamente\n-Transporta hasta 4 unidades
+
+[template_landingShipTankInfo]
+displayText: Landing Ship Tank
+displayText_es: Buque de Desembarco de Tanques
+displayDescription: -Transport ship (Ship)\n-Cannot attack\n-Transports up to 16 units
+displayDescription_es: -Barco de transporte (Barco)\n-No puede atacar\n-Transporta hasta 16 unidades
+
+[template_transportTruckInfo]
+displayDescription: -Transport vehicle (Light vehicle)\n-Cannot attack\n-Transports up to 6 infantry units\n-Can transport anti-tank guns
+displayDescription_es: -Vehículo de transporte (Vehículo ligero)\n-No puede atacar\n-Transporta hasta 6 unidades de infantería\n-Puede transportar cañones anti-tanque
+
+[template_troop-carrierInfo]
+displayDescription: -Troop-carrying airplane (Airplane)\n-Attacks ground only\n-Can drop up to 8 paratrooper units
+displayDescription_es: -Avión porta-tropas (Avión)\n-Ataca a tierra únicamente\n-Puede soltar hasta 8 unidades paracaidistas
+
+[template_outpostInfo]
+displayText: Outpost
+displayText_es: Puesto Avanzado
+displayDescription: -Defensive structure\n-Can build structures\n-Effective against airplanes, light vehicles and infantry\n-Attacks ground and air
+displayDescription_es: -Estructura defensiva\n-Puede construir estructuras\n-Efectivo contra aviones, vehículos ligeros e infantería\n-Ataca a tierra y aire
+
+[template_ruinsInfo]
+displayText: Ruins
+displayText_es: Ruinas
+displayDescription: -Can garrison infantry\n-Infantry can attack when garrisoned\n-This building can be rebuilt at lower cost
+displayDescription_es: -Puede guarecer infantería\n-La infantería puede atacar cuando está guarecida\n-Este edificio puede ser reconstruido a un costo más bajo
+
+[template_anti-airHalftrackInfo]
+displayDescription: -Anti-air half track (Light vehicle)\n-Effective against airplanes\n-Attacks air only\n-Transports up to 2 infantry units
+displayDescription_es: -Semioruga antiaéreo (Vehículo ligero)\n-Efectivo contra aviones\n-Ataca a aire únicamente\n-Transporta hasta 2 unidades de infantería
+
+[template_self-propelledAAGunInfo]
+displayDescription: -Self-propelled anti-air gun (Heavy vehicle)\n-Effective against airplanes\n-Attacks air only
+displayDescription_es: -Cañón antiaéreo auto-propulsado (Vehículo pesado)\n-Efectivo contra aviones\n-Ataca a aire únicamente
+
+[template_anti-tankGunInfo]
+displayDescription: -Anti-tank gun (Light vehicle)\n-Effective against vehicles\n-Attacks ground only
+displayDescription_es: -Cañón anti-tanque (Vehículo ligero)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+
+[template_minesweeperInfo]
+displayText: Minesweeper
+displayText_es: Dragaminas
+displayDescription: -Support ship (Ship)\n-Can disarm enemy marine mines
+displayDescription_es: -Barco de apoyo (Barco)\n-Puede desarmar minas marinas enemigas
+
+[template_mobileArtilleryGunInfo]
+displayDescription: -Mobile artillery gun (Light vehicle)\n-Effective against light vehicles, ships and buildings\n-Attacks ground only\n-Must be deployed to attack\n-Can attack terrain continuously
+displayDescription_es: -Cañón de artillería móbil (Vehículo ligero)\n-Efectivo contra vehículos ligeros, barcos y edificios\n-Ataca a tierra únicamente\n-Debe ser desplegado para atacar\n-Puede atacar terreno continuamente
+
+[template_patrolCraftInfo]
+displayText: Patrol Craft
+displayText_es: Barco Patrulla
+displayDescription: -Support unit (Ship)\n-High sight range\n-Effective against infantry\n-Attacks ground only
+displayDescription_es: -Barco de apoyo (Barco)\n-Alto rango de visión\n-Efectivo contra infantería\n-Ataca a tierra únicamente
+
+[template_supplyShipInfo]
+displayText: Supply Ship
+displayText_es: Barco de Suministros
+displayDescription: -Support ship (Ship)\n-Cannot attack\n-Deploys supply boats to repair ships\n-Detects damaged ships within its range
+displayDescription_es: -Barco de apoyo (Barco)\n-No puede atacar\n-Despliega botes de suministro para reparar barcos\n-Detecta barcos dañados dentro de su rango
+
+[template_barbwireInfo]
+displayText: Barbwire
+displayText_es: Alambre de Púas
+displayDescription: -Defensive structure\n-Damages nearby enemy infantry units\n-Suffers attrition when damaging enemies
+displayDescription_es: -Estructura defensiva\n-Daña a las unidades de infantería enemigas cercanas\n-Sufre desgaste cuando daña enemigos
+
+[template_tankTrapInfo]
+displayText: Tank Trap
+displayText_es: Trampa de Tanques
+displayDescription: -Defensive structure\n-Damages nearby enemy land vehicles\n-Suffers attrition when damaging enemies
+displayDescription_es: -Estructura defensiva\n-Daña a los vehículos de tierra enemigos cercanos\n-Sufre desgaste cuando daña enemigos
+
+[template_minefieldInfo]
+displayText: Minefield
+displayText_es: Minado
+displayDescription: -Defensive trap\n-Damages nearby land units once\n-Effective against infantry and vehicles
+displayDescription_es: -Trampa defensiva\n-Daña a las unidades de tierra cercanas una vez\n-Efectivas contra infantería y vehículos
+
+[template_barrageBalloonInfo]
+displayText: Barrage Balloon
+displayText_es: Globo de Barrera
+displayDescription: -Defensive air trap\n-Damages nearby enemy light airplanes\n-Does not affect other airplane types, like heavy bombers
+displayDescription_es: -Trampa aérea defensiva\n-Daña a los aviones ligeros enemigos cercanos\n-No afecta otros tipos de aviones, como bombarderos pesados
+
+[template_marineMineInfo]
+displayText: Marine Mine
+displayText_es: Mina Marina
+displayDescription: -Defensive trap\n-Damages nearby sea units once\n-Effective against ships
+displayDescription_es: -Trampa defensiva\n-Daña a las unidades de mar cercanas una vez\n-Efectiva contra barcos
+
+[template_trenchInfo]
+displayText: Trench
+displayText_es: Trinchera
+displayDescription: -Used to protect infantry\n-Can garrison up to 2 units\n-Infantry can attack when garrisoned\n-Units can move over it
+displayDescription_es: -Usada para proteger infantería\n-Puede guarecer hasta 2 unidades\n-La infantería puede atacar cuando está guarecida\n-Las unidades pueden moverse sobre ella
+
+[template_bunkerInfo]
+displayText: Bunker
+displayText_es: Búnker
+displayDescription: -Used to protect infantry\n-Can garrison up to 3 units\n-Infantry can attack when garrisoned\n-Attacks ground only
+displayDescription_es: -Usado para proteger infantería\n-Puede guarecer hasta 3 unidades\n-La infantería puede atacar cuando está guarecida\n-Ataca a tierra únicamente
+
+[template_anti-infantryLightTankInfo]
+displayDescription: -Light tank (Heavy vehicle)\n-Effective against infantry\n-Attacks ground only
+displayDescription_es: -Tanque ligero (Vehículo pesado)\n-Efectivo contra infantería\n-Ataca a tierra únicamente
+
+[template_lightTankInfo]
+displayDescription: -Light tank (Heavy vehicle)\n-Effective against light vehicles and buildings\n-Attacks ground only
+displayDescription_es: -Tanque ligero (Vehículo pesado)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra únicamente
+
+[template_mediumTankInfo]
+displayDescription: -Medium tank (Heavy vehicle)\n-Effective against light vehicles, light tanks and buildings\n-Attacks ground only
+displayDescription_es: -Tanque medio (Vehículo pesado)\n-Efectivo contra vehículos ligeros, tanques ligeros y edificios\n-Ataca a tierra únicamente
+
+[template_heavyTankInfo]
+displayDescription: -Heavy tank (Heavy vehicle)\n-Effective against light vehicles, light/medium tanks and buildings\n-Attacks ground only
+displayDescription_es: -Tanque pesado (Vehículo pesado)\n-Efectivo contra vehículos ligeros, tanques ligeros/medios y edificios\n-Ataca a tierra únicamente
+
+[template_tankDestroyerInfo]
+displayDescription: -Tank destroyer (Heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
+displayDescription_es: -Cazacarros (Vehículo pesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+
+[template_flamethrowerTankInfo]
+displayDescription: -Flamethrower tank (Heavy vehicle)\n-Effective against infantry and buildings\n-Attacks ground only
+displayDescription_es: -Tanque lanzallamas (Vehículo pesado)\n-Efectivo contra infantería y edificios\n-Ataca a tierra únicamente
+
+[template_lightFighterInfo]
+displayDescription: -Light fighter (Airplane)\n-Effective against airplanes and infantry\n-Attacks ground and air
+displayDescription_es: -Caza ligero (Avión)\n-Efectivo contra aviones e infantería\n-Ataca a tierra y aire
+
+[template_fighterJetInfo]
+displayDescription: -Fighter jet (Airplane)\n-Effective against airplanes and infantry\n-Attacks ground and air
+displayDescription_es: -Jet caza (Avión)\n-Efectivo contra aviones e infantería\n-Ataca a tierra y aire
+
+[template_diveBomberInfo]
+displayDescription: -Dive bomber (Airplane)\n-Effective against vehicles, ships and buildings\n-Attacks ground and air
+displayDescription_es: -Bombardero en picada (Avión)\n-Efectivo contra vehículos, barcos y edificios\n-Ataca a tierra y aire
+
+[template_mediumBomberInfo]
+displayDescription: -Medium bomber (Airplane)\n-Effective against vehicles, infantry and buildings\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing
+displayDescription_es: -Bombardero medio (Avión)\n-Efectivo contra vehículos, infantería y edificios\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear
+
+[template_heavyBomberInfo]
+displayDescription: -Heavy bomber (Airplane)\n-Effective against vehicles, infantry and buildings\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing
+displayDescription_es: -Bombardero pesado (Avión)\n-Efectivo contra vehículos, infantería y edificios\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear
+
+[template_destroyerInfo]
+displayDescription: -Destroyer (Ship)\n-Effective against vehicles, ships and airplanes\n-Attacks ground, air and underwater
+displayDescription_es: -Destructor (Barco)\n-Efectivo contra vehículos, barcos y aviones\n-Ataca a tierra, aire y bajo el agua
+
+[template_submarineInfo]
+displayDescription: -Submarine (Submarine)\n-Effective against ships\n-Attacks underwater, ground and air
+displayDescription_es: -Submarino (Submarino)\n-Efectivo contra barcos\n-Ataca bajo el agua, a tierra y a aire
+
+[template_battleshipInfo]
+displayDescription: -Battleship (Ship)\n-Effective against vehicles, ships and buildings\n-Attacks ground and air
+displayDescription_es: -Acorazado (Barco)\n-Efectivo contra vehículos, barcos y edificios\n-Ataca a tierra y aire
+
+#
+#============ Easter egg units ==============#
+#
+
+[template_fooFighterInfo]
+displayDescription: "Is it an illusion, is it a balloon? No one knows..."\n\n-Easter egg unit (?)\n-World war II UFO
+displayDescription_es: "¿Es una ilusión, es un globo? Nadie lo sabe..."\n\n-Unidad easter egg (?)\n-OVNI de la segunda guerra mundial
+
+[template_wojtekInfo]
+displayDescription: "Pay respect to the sargeant Wojtek!!"\n\n-Easter egg unit (?)\n-Polish military bear in charge of supplying the war front
+displayDescription_es: "¡¡Muestre respeto al sargento Wojtek!!"\n\n-Unidad easter egg (?)\n-Oso militar polaco a cargo de suministrar el frente de guerra
+
+[template_prisoner4859Info]
+displayDescription: "People behave much worse than animals..."\n\n-Easter egg unit (?)\n-Polish resistance agent infiltrated in Auschwitz
+displayDescription_es: "La gente se comporta mucho peor que los animales..."\n\n-Unidad easter egg (?)\n-Agente de la resistencia polaca infiltrado en Auschwitz
+
+#
+#============ Alliance units ==============#
+#
+
+[template_cacCa-1WirrawayInfo]
+displayDescription: -Australia special unit, provided through an alliance\n-Improved dive-bomber (Airplane)\n-Effective against airplanes, ships and buildings\n-Attacks ground and air
+displayDescription_es: -Unidad especial de Australia, proveída a través de una alianza\n-Bombardero-en-picada mejorado (Avión)\n-Efectivo contra aviones, barcos y edificios\n-Ataca a tierra y aire
+
+[template_d-classInfo]
+displayDescription: -Canada special unit, provided through an alliance\n-Improved destroyer (Ship)\n-Effective against vehicles, submarines and airplanes\n-Attacks ground, air and underwater
+displayDescription_es: -Unidad especial de Canadá, proveída a través de una alianza\n-Destructor mejorado (Barco)\n-Efectivo contra vehículos, submarinos y aviones\n-Ataca a tierra, aire y bajo el agua
+
+[template_dunkirkClassInfo]
+displayDescription: -Vichy France special unit, provided through an alliance\n-Improved battleship (Ship)\n-Effective against vehicles, ships and buildings\n-Attacks ground and air
+displayDescription_es: -Unidad especial de la Francia de Vichy, proveída a través de una alianza\n-Acorazado mejorado (Barco)\n-Efectivo contra vehículos, barcos y edificios\n-Ataca a tierra y aire
+
+#
+#============ USA Units ==============#
+#
+
+[template_3-inchM3Info]
+displayDescription: -Defensive anti-air gun\n-USA special building\n-Fast-firing anti-air defense\n-Effective against airplanes\n-Attacks air only
+displayDescription_es: -Cañón antiaéreo defensivo\n-Edificio especial de EE. UU.\n-Defensa antiaérea de fuego rápido\n-Efectiva contra aviones\n-Ataca a aire únicamente
+
+[template_16-inchM1919Info]
+displayDescription: -Defensive naval gun\n-USA special building\n-Long-range coastal defense\n-Effective against ships and submarines\n-Attacks ground only\n-Can attack terrain continuously
+displayDescription_es: -Cañón naval defensivo\n-Edificio especial de EE. UU.\n-Defensa costera de largo alcance\n-Efectiva contra barcos y submarinos\n-Ataca a tierra únicamente\n-Puede atacar terreno continuamente
+
+[template_rangerTeamInfo]
+displayDescription: -Special squad\n-USA special unit\n-Multipurpose infantry (Infantry)\n-Effective against vehicles and buildings\n-Attacks ground only\n-Self-regenerates
+displayDescription_es: -Escuadrón especial\n-Unidad especial de EE.UU.\n-Infantería multipropósito (Infantería)\n-Efectiva contra vehículos y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+
+[template_marineTeamInfo]
+displayDescription: -Amphibious special forces\n-USA special unit\n-Landing infantry (Infantry)\n-Receives +3 armor when near landing units\n-Effective against infantry and buildings\n-Attacks ground only\n-Self-regenerates
+displayDescription_es: -Fuerzas especiales anfibias\n-Unidad especial de EE.UU.\n-Infantería de desembarco (Infantería)\n-Recibe +3 de armadura cuando está cerca de unidades de desembarco\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+
+[template_b-29SuperfortressInfo]
+displayDescription: -Ultimate destruction massive weapon\n-USA special unit\n-Nuclear bomber (Airplane)\n-Effective against everything\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing
+displayDescription_es: -Arma de destrucción masiva definitiva\n-Unidad especial de EE. UU.\n-Bombardero nuclear (Avión)\n-Efectivo contra todo\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear
+
+[template_gummanTbfAvengerInfo]
+displayDescription: -Ground-attack airplane\n-USA special unit\n-Torpedo plane (Airplane)\n-Effective against ships, submarines and buildings\n-Attacks ground, air and underwater
+displayDescription_es: -Avión de ataque a tierra\n-Unidad especial de EE. UU.\n-Torpedero (Avión)\n-Efectivo contra barcos, submarinos y edificios\n-Ataca a tierra, aire y bajo el agua
+
+[template_kClassInfo]
+displayDescription: -Submarine tracker\n-USA special unit\n-Exploration and anti-submarine dirigible (Anti-submarines)\n-Effective against submarines, ships and buildings\n-Attacks ground and underwater
+displayDescription_es: -Rastreador de submarinos\n-Unidad especial de EE. UU.\n-Dirigible de exploración y anti-submarinos (Anti-submarinos)\n-Efectivo contra submarinos, barcos y edificios\n-Ataca a tierra y bajo el agua
+
+[template_lockheedP-38LightningInfo]
+displayDescription: -Exceptional fighter\n-USA special unit\n-Multipurpose airplane (Airplane)\n-Effective against airplanes, ships and buildings\n-Attacks ground and air
+displayDescription_es: -Caza excepcional\n-Unidad especial de EE. UU.\n-Avión multipropósito (Avión)\n-Efectivo contra aviones, barcos y edificios\n-Ataca a tierra y aire
+
+[template_m8GreyhoundInfo]
+displayDescription: -Infantry shock unit\n-USA special unit\n-Tactic tankette (Light vehicle)\n-Effective against infantry and buildings\n-Attacks ground only\n-Can place traps
+displayDescription_es: -Unidad de choque de infantería\n-Unidad especial de EE. UU.\n-Tanqueta táctica (Vehículo ligero)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Puede colocar trampas
+
+[template_hmcM8ScottInfo]
+displayDescription: -Demolition armored unit\n-USA special unit\n-Self-propelled howitzer (Light vehicle)\n-Effective against infantry and buildings\n-Attacks ground only
+displayDescription_es: -Unidad blindada de demolición\n-Unidad especial de EE. UU.\n-Obús auto-propulsado (Vehículo ligero)\n-Efectivo contra infantería y edificios\n-Ataca a tierra únicamente
+
+[template_t34CalliopeInfo]
+displayDescription: -Demolition variation\n-USA special unit\n-Medium tank equipped with a rocket launcher (Heavy vehicle)\n-Effective against light vehicles, light tanks and buildings\n-Attacks ground only\n-Has a passive powerful rocket burst attack
+displayDescription_es: -Variación de demolición\n-Unidad especial de EE. UU.\n-Tanque medio equipado con un lanzacohetes (Vehículo pesado)\n-Efectivo contra vehículos ligeros, tanques ligeros y edificios\n-Ataca a tierra únicamente\n-Tiene un ataque de ráfaga de ráfaga de misiles poderoso
+
+[template_shermanDDInfo]
+displayDescription: -Amphibious variation\n-USA special unit\n-Amphibious medium tank (Heavy vehicle)\n-Effective against light vehicles, light tanks and buildings\n-Attacks ground only\n-Cannot attack while over water
+displayDescription_es: -Variación anfibia\n-Unidad especial de EE. UU.\n-Tanque medio anfibio (Vehículo pesado)\n-Efectivo contra vehículos ligeros, tanques ligeros y edificios\n-Ataca a tierra únicamente\n-No puede atacar cuando está sobre el agua
+
+[template_essexClassInfo]
+displayDescription: -Main maritime articulation\n-USA special unit\n-Resistant aircraft carrier (Ship)\n-Attacks air only\n-Can transport up to 8 light airplanes\n-Includes 3 light fighters\n-Can transport medium bombers
+displayDescription_es: -Articulación marítima principal\n-Unidad especial de EE. UU.\n-Portaaviones resistente (Barco)\n-Ataca a aire únicamente\n-Puede transportar hasta 8 aviones ligeros\n-Incluye 3 cazas ligeros\n-Puede transportar bombarderos medios
+
+[template_t30Info]
+displayDescription: -Experimental heavy tank\n-USA special unit\n-Very resistant super heavy tank (Super heavy vehicle)\n-Effective against light vehicles and buildings\n-Attacks ground only
+displayDescription_es: -Tanque pesado experimental\n-Unidad especial de EE. UU.\n-Tanque superpesado muy resistente (Vehículo superpesado)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra únicamente
+
+[template_t28Info]
+displayDescription: -The largest tank developed\n-USA special unit\n-Very long-ranged super heavy tank destroyer (Super heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
+displayDescription_es: -El tanque más grande desarrollado\n-Unidad especial de EE. UU.\n-Cazacarros superpesado de muy largo alcance (Vehículo superpesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+
+#
+#============ USSR Units ==============#
+#
+
+[template_gulagInfo]
+displayDescription: -Confinement place\n-USSR special building\n-Industry generator that isn't affected by morale or HP\n-Does not reduces morale when destroyed
+displayDescription_es: -Lugar de reclusión\n-Edificio especial de la URSS\n-Generador de industria que no es afectado por la moral o los PV\n-No reduce la moral cuando es destruido
+
+[template_bm-13KatyushaInfo]
+displayDescription: -Intimidating artillery\n-USSR special unit\n-Mobile rocket launcher (Light vehicle)\n-Effective against infantry and buildings\n-Attacks ground only\n-Reduces morale on attack
+displayDescription_es: -Artillería intimidante\n-Unidad especial de la URSS\n-Lanzacohetes móvil (Vehículo ligero)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Reduce la moral al atacar
+
+[template_203mmB-4HowitzerInfo]
+displayDescription: -Powerful artillery\n-USSR special unit\n-Very long-ranged and powerful artillery (Light vehicle)\n-Effective against infantry, vehicles and buildings\n-Attacks ground only\n-Must be deployed to attack\n-Can attack terrain continuously
+displayDescription_es: -Artillería potente\n-Unidad especial de la URSS\n-Artillería de muy largo alcance y muy poderosa (Vehículo ligero)\n-Efectiva contra infantería, vehículos y edificios\n-Ataca a tierra únicamente\n-Debe ser desplegado para atacar\n-Puede atacar terreno continuamente
+
+[template_partisanTroopInfo]
+displayDescription: -Brave and patriotic civilians\n-USSR special unit\n-Rebellion infantry (Infantry)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only\n-Affects terrain with fire\n-Fire does not affects vehicles\n-Self-regenerates
+displayDescription_es: -Civiles valientes y patrióticos\n-Unidad especial de la URSS\n-Infantería de rebelión (Infantería)\n-Efectiva contra infantería, vehículos ligeros y edificios\n-Ataca a tierra únicamente\n-Afecta el terreno con fuego\n-El fuego no afecta vehículos\n-Se auto-regenera
+
+[template_assaultSappersInfo]
+displayDescription: -Saboteur forces\n-USSR special unit\n-Trapper and anti-building infantry (Infantry)\n-Effective against infantry and buildings\n-Attacks ground only\n-Can place minefields with no oil cost\n-Can throw demolition charges to buildings\n-Self-regenerates
+displayDescription_es: -Fuerzas saboteadoras\n-Unidad especial de la URSS\n-Infantería trampera y anti-edificios (Infantería)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Puede colocar minados sin costo en petróleo\n-Puede lanzar cargas de demolición a los edificios\n-Se auto-regenera
+
+[template_sniperTeamInfo]
+displayDescription: -Lethal hunters\n-USSR special unit\n-Very long-ranged infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-High sight range\n-Self-regenerates
+displayDescription_es: -Cazadores letales\n-Unidad especial de la URSS\n-Infantería de muy largo alcance(Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Alto rango de visión\n-Se auto-regenera
+
+[template_nkvdTeamInfo]
+displayDescription: -The people's police\n-USSR special unit\n-Very heavy infantry (Infantry)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only\n-Invulnerable to toxic gas\n-Rises morale a lot when killing\n-Self-regenerates
+displayDescription_es: -La policía del pueblo\n-Unidad especial de la URSS\n-Infantería muy pesada (Infantería)\n-Efectiva contra infantería, vehículos ligeros y edificios\n-Ataca a tierra únicamente\n-Invulnerable al gas tóxico\n-Incrementa mucho la moral al matar\n-Se auto-regenera
+
+[template_shchukaClassInfo]
+displayDescription: -Main anti-submarine presence\n-USSR special unit\n-Quick anti-submarine submarine (Anti-submarines)\n-Effective against submarines\n-Attacks underwater and air
+displayDescription_es: -Presencia anti-submarina principal\n-Unidad especial de la URSS\n-Submarino anti-submarinos rápido (Anti-submarinos)\n-Efectivo contra submarinos\n-Ataca bajo el agua y a aire
+
+[template_su-100yInfo]
+displayDescription: -Mobile naval gun\n-USSR special unit\n-Self-propelled naval gun (Heavy vehicle)\n-Effective against ships and submarines\n-Attacks ground only\n-Can attack terrain continuously\n-Can attack tank traps
+displayDescription_es: -Cañón naval móvil\n-Unidad especial de la URSS\n-Cañón naval auto-propulsado (Vehículo pesado)\n-Efectivo contra barcos y submarinos\n-Ataca a tierra únicamente\n-Puede atacar terreno continuamente\n-Puede atacar trampas de tanque
+
+[template_t-40Info]
+displayDescription: -Tactical vehicle\n-USSR special unit\n-Amphibious light tank (Heavy vehicle)\n-Effective against infantry\n-Attacks ground only
+displayDescription_es: -Vehículo táctico\n-Unidad especial de la URSS\n-Tanque ligero anfibio (Vehículo pesado)\n-Efectivo contra infantería\n-Ataca a tierra únicamente
+
+[template_tupolevBomberInfo]
+displayDescription: -Experimental success\n-USSR special unit\n-Heavy bomber and aircraft carrier (Airplane)\n-Includes two I-16 fighters at no cost\n-Effective against airplanes, vehicles, infantry and buildings\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing
+displayDescription_es: -Éxito experimental\n-Unidad especial de la URSS\n-Bombardero pesado y portaaviones (Avión)\n-Incluye dos cazas I-16 sin costo\n-Efectivo contra aviones, vehículos, infantería y edificios\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear
+
+[template_polikarpovFighterInfo]
+displayDescription: -Common fighter\n-USSR special unit\n-Free fighter transported by TB-3 bombers (Airplane)\n-Effective against airplanes and infantry\n-Attacks ground and air\n-Doesn't reduce morale when destroyed
+displayDescription_es: -Caza común\n-Unidad especial de la URSS\n-Caza gratis transportado por bombarderos TB-3 (Avión)\n-Efectivo contra aviones e infantería\n-Ataca a tierra y aire\n-No reduce la moral cuando es destruido
+
+[template_zsu-37Info]
+displayDescription: -Anti-air offensive force\n-USSR special unit\n-Anti-air and anti-tank self-propelled gun (Heavy vehicle)\n-Effective against heavy vehicles and airplanes\n-Attacks ground and air\n-Can switch between air and ground attack
+displayDescription_es: -Fuerza ofensiva antiaérea\n-Unidad especial de la URSS\n-Cañón auto-propulsado antiaéreo y anti-tanques (Vehículo pesado)\n-Efectivo contra vehículos pesados y aviones\n-Ataca a tierra y aire\n-Puede cambiar entre ataque de aire y tierra
+
+[template_kv-2Info]
+displayDescription: -Defense destroyer\n-USSR special unit\n-Heavy self-propelled howitzer (Heavy vehicle)\n-Effective against infantry and buildings\n-Attacks ground only
+displayDescription_es: -Destructor de defensas\n-Unidad especial de la URSS\n-Obús auto-propulsado pesado (Vehículo pesado)\n-Efectivo contra infantería y edificios\n-Ataca a tierra únicamente
+
+[template_kv-5Info]
+displayDescription: -Heavy tank with multiple turrets\n-USSR special unit\n-Very quick super heavy tank (Super heavy vehicle)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only
+displayDescription_es: -Tanque pesado con múltiples torretas\n-Unidad especial de la URSS\n-Tanque superpesado muy rápido (Vehículo superpesado)\n-Efectivo contra infantería, vehículos ligeros y edificios\n-Ataca a tierra únicamente
+
+[template_t-100Info]
+displayDescription: -Fastest main battle tank\n-USSR special unit\n-Fast-firing super heavy tank destroyer (Super heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
+displayDescription_es: -Tanque principal de batalla más rápido\n-Unidad especial de la URSS\n-Cazacarros superpesado de fuego rápido (Vehículo superpesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+
+#
+#============ United Kingdom Units ==============#
+#
+
+[template_horsaTroopCarrierInfo]
+displayDescription: -Main airborne tool\n-United Kingdom special unit\n-Troop-carrying glider (Airplane)\n-Attacks ground only\n-Cannot be attacked by land defenses\n-Does not have fuel limit\n-Can drop up to 6 paratrooper units
+displayDescription_es: -Herramienta de aerotransporte principal\n-Unidad especial de Reino Unido\n-Planeador porta-tropas (Avión)\n-Ataca a tierra únicamente\n-No puede ser atacado por defensas de tierra\n-No tiene límite de combustible\n-Puede soltar hasta 6 unidades paracaidistas
+
+[template_avroLancasterBiInfo]
+displayDescription: -Expensive weapon of massive destruction\n-United Kingdom special unit\n-Seismic bomber (Airplane)\n-Effective against light vehicles and buildings\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing
+displayDescription_es: -Arma cara de destrucción masiva\n-Unidad especial de Reino Unido\n-Bombardero sísmico (Avión)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear
+
+[template_colonialCenterInfo]
+displayDescription: -Organization point with the colonies\n-United Kingdom special building\n-Secondary base and resource generator\n-Can build structures\n-Produces industry and oil\n-Its production is not reduced by damage or low morale
+displayDescription_es: -Punto de organización con las colonias\n-Edificio especial de Reino Unido\n-Base secundaria y generador de recursos\n-Puede construir estructuras\n-Produce industria y petróleo\n-Su producción no se reduce por daño o baja moral
+
+[template_commandoTeamInfo]
+displayDescription: -Assault infantry\n-United Kingdom special unit\n-Demolition infantry (Infantry)\n-Effective against infantry and buildings\n-Attacks ground only\n-Can throw demolition charges to buildings\n-Self-regenerates
+displayDescription_es: -Infantería de asalto\n-Unidad especial de Reino Unido\n-Infantería de demolición (Infantería)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Puede lanzar cargas de demolición a los edificios\n-Se auto-regenera
+
+[template_sasTeamInfo]
+displayDescription: -Special air service soldiers\n-United Kingdom special unit\n-Stealth infantry (Infantry)\n-Effective against infantry, vehicles and buildings\n-Attacks ground only\n-Cannot be detected on minimap by enemies\n-Self-regenerates
+displayDescription_es: -Soldados del servicio aéreo especial\n-Unidad especial de Reino Unido\n-Infantería furtiva (Infantería)\n-Efectiva contra infantería, vehículos y edificios\n-Ataca a tierra únicamente\n-No puede ser detectada en el minimapa por enemigos\n-Se auto-regenera
+
+[template_havillandFighterInfo]
+displayDescription: -Wood airplane\n-United Kingdom special unit\n-Quick bomber-fighter (Airplane)\n-Effective against airplanes, ships and buildings\n-Attacks ground and air
+displayDescription_es: -Avión de madera\n-Unidad especial de Reino Unido\n-Caza-bombardero rápido (Avión)\n-Efectivo contra aviones, barcos y edificios\n-Ataca a tierra y aire
+
+[template_flowerClassInfo]
+displayDescription: -Patrolling unit\n-United Kingdom special unit\n-Resistant anti-submarine corvette (Anti-sumarines)\n-Effective against submarines\n-Attacks ground, air and underwater
+displayDescription_es: -Unidad de patrullaje\n-Unidad especial de Reino Unido\n-Corveta anti-submarinos resistente (Anti-submarinos)\n-Efectiva contra submarinos\n-Ataca a tierra, aire y bajo el agua
+
+[template_implacableClassInfo]
+displayDescription: -Vanguard ship\n-United Kingdom special unit\n-Long-ranged aircraft carrier (Ship)\n-Attacks air only\n-Can transport up to 8 light airplanes\n-Includes 3 light fighters\n-Can build light fighters
+displayDescription_es: -Navío de vanguardia\n-Unidad especial de Reino Unido\n-Portaaviones de largo alcance (Barco)\n-Ataca a aire únicamente\n-Puede transportar hasta 8 aviones ligeros\n-Incluye 3 cazas ligeros\n-Puede construir cazas ligeros
+
+[template_rdfInfo]
+displayDescription: -Chain home node\n-United Kingdom special building\n-Range and direction finder (Radar)\n-Detects enemy airplanes within its range, even in the fog\n-Provides +20% damage to all anti-air units within its range, including airplanes
+displayDescription_es: -Nodo de la chain home\n-Edificio especial de Reino Unido\n-Buscador de rango y dirección (Radar)\n-Detecta aviones enemigos dentro de su rango, incluso en la niebla\n-Provee +20% de daño a todas las unidades antiaéreas en su rango, incluyendo aviones
+
+[template_redoubtInfo]
+displayDescription: -Adapted medieval building\n-United Kingdom special building\n-Defensive structure\n-Can garrison infantry
+displayDescription_es: -Edificio medieval adaptado\n-Edificio especial de Reino Unido\n-Estructura defensiva\n-Puede guarecer infantería
+
+[template_shermanFireflyTulipInfo]
+displayDescription: -Anti-tank sherman variation\n-United Kingdom special unit\n-Tank destroyer equipped with rocket launchers (Heavy vehicle)\n-Effective against vehicles, buildings and infantry\n-Attacks ground only
+displayDescription_es: -Variación de sherman anti-tanque\n-Unidad especial de Reino Unido\n-Cazacarros equipado con lanzacohetes (Vehículo pesado)\n-Efectivo contra vehículos, edificios e infantería\n-Ataca a tierra únicamente
+
+[template_churchillAvreInfo]
+displayDescription: -Engineering vehicle\n-United Kingdom special unit\n-Armored self-propelled mortar (Heavy vehicle)\n-Effective against infantry and buildings\n-Attacks ground only\n-Can place traps
+displayDescription_es: -Vehículo de ingeniería\n-Unidad especial de Reino Unido\n-Mortero auto-propulsado blindado (Vehículo pesado)\n-Efectivo contra infantería y edificios\n-Ataca a tierra únicamente\n-Puede colocar trampas
+
+[template_a39TortoiseInfo]
+displayDescription: -Heavy assault tank\n-United Kingdom special unit\n-Super heavy tank destroyer with critical damage (Super heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
+displayDescription_es: -Tanque de asalto pesado\n-Unidad especial de Reino Unido\n-Cazacarros superpesado con daño crítico (Vehículo superpesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+
+#
+#============ Nazi Germany Units ==============#
+#
+
+[template_concentrationCampInfo]
+displayDescription: -Purging place\n-Nazi Germany special building\n-Industry generator that isn't affected by morale or HP\n-Does not reduces morale when destroyed\n-Can train prisoners
+displayDescription_es: -Lugar de purga\n-Edificio especial de la Alemania Nazi\n-Generador de industria que no es afectado por la moral o los PV\n-No reduce la moral cuando es destruido\n-Puede entrenar prisioneros
+
+[template_flakTowerInfo]
+displayDescription: -Imposing german defense\n-Nazi Germany special building\n-Powerful anti-air defense\n-Effective against airplanes\n-Attacks air only
+displayDescription_es: -Defensa alemana imponente\n-Edificio especial de la Alemania Nazi\n-Defensa antiaérea poderosa\n-Efevtiva contra aviones\n-Ataca a aire únicamente
+
+[template_panzerIiInfo]
+displayDescription: -Profitable vehicle\n-Nazi Germany special unit\n-Light tank with burst attack (Heavy vehicle)\n-Effective against light vehicles and buildings\n-Attacks ground only
+displayDescription_es: -Vehículo rentable\n-Unidad especial de la Alemania Nazi\n-Tanque ligero con ataque de ráfaga (Vehículo pesado)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra únicamente
+
+[template_prisonersInfo]
+displayDescription: -Free and discardable manpower\n-Nazi Germany special unit\n-Quick builders that don't reduce morale on death\n-Cannot attack\n-Can build structures at lower cost (-30%)\n-Can disarm enemy traps and obstacles
+displayDescription_es: -Mano de obra gratis y descartable\n-Unidad especial de la Alemania Nazi\n-Constructores rápidos que no reducen la moral al morir\n-No pueden atacar\n-Pueden construir estructuras a menor costo (-30%)\n-Pueden desarmar trampas enemigas y obstáculos
+
+[template_schnellbootInfo]
+displayDescription: -Naval guard element\n-Nazi Germany special unit\n-Very fast anti-ship corvette (Ship)\n-Effective against ships\n-Attacks ground only
+displayDescription_es: -Elemento de guardia naval\n-Unidad especial de la Alemania Nazi\n-Corveta anti-barcos muy rápida (Barco)\n-Efectiva contra barcos\n-Ataca a tierra únicamente
+
+[template_goliathInfo]
+displayDescription: -Slippery tracked mine\n-Nazi Germany special unit\n-Remotely controlled bomb (Heavy vehicle)\n-Effective against vehicles and buildings\n-Attacks ground only
+displayDescription_es: -Mina de rastreo escurridiza\n-Unidad especial de la Alemania Nazi\n-Bomba controlada remotamente (Vehículo pesado)\n-Efectiva contra vehículos y edificios\n-Ataca a tierra únicamente
+
+[template_panzergrenadiersInfo]
+displayDescription: -Motorized divisions\n-Nazi Germany special unit\n-Cheap anti-vehicle infantry (Infantry)\n-Effective against vehicles\n-Attacks ground only\n-Self-regenerates
+displayDescription_es: -Divisiones motorizadas\n-Unidad especial de la Alemania Nazi\n-Infantería anti-vehículos barata (Infantería)\n-Efectiva contra vehículos\n-Ataca a tierra únicamente\n-Se auto-regenera
+
+[template_ssTeamInfo]
+displayDescription: -Elite forces\n-Nazi Germany special unit\n-Versatile infantry (Infantry)\n-Effective against infantry, vehicles and buildings\n-Attacks ground only\n-Self-regenerates
+displayDescription_es: -Fuerzas de élite\n-Unidad especial de la Alemania Nazi\n-Infantería versátil (Infantería)\n-Efectiva contra infantería, vehículos y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+
+[template_nebelwerfer42Info]
+displayDescription: -Light rocket artilley\n-Nazi Germany special unit\n-Artillery infantry (Infantry)\n-Effective against infantry and buildings\n-Attacks ground only\n-Self-regenerates
+displayDescription_es: -Artillería de cohetes ligera\n-Unidad especial de la Alemania Nazi\n-Infantería de artillería (Infantería)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+
+[template_typeViiBInfo]
+displayDescription: -Submarine countermeasure\n-Nazi Germany special unit\n-Powerful anti-submarine submarine (Anti-submarines)\n-Effective against submarines\n-Attacks underwater and air
+displayDescription_es: -Contramedida submarina\n-Unidad especial de la Alemania Nazi\n-Submarino anti-submarinos potente (Anti-submarinos)\n-Efectivo contra submarinos\n-Ataca bajo el agua y a aire
+
+[template_v2LaunchpadInfo]
+displayDescription: -V2 rocket launcher\n-Nazi Germany special building\n-Ballistic rocket launcher\n-Can create and launch V2 rockets\n-V2 rockets reduce enemy morale
+displayDescription_es: -Lanzador de cohetes V2\n-Edificio especial de la Alemania Nazi\n-Lanzacohetes balístico\n-Puede crear y lanzar cohetes V2\n-Los cohetes V2 reducen la moral del enemigo
+
+[template_panzerViiiMausInfo]
+displayDescription: -The most tough tank of history\n-Nazi Germany special unit\n-Powerful super heavy tank (Super heavy vehicle)\n-Effective against light vehicles and buildings\n-Attacks ground only
+displayDescription_es: -El tanque más pesado de la historia\n-Unidad especial de la Alemania Nazi\n-Tanque super pesado potente (Vehículo superpesado)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra únicamente
+
+[template_jagdtigerInfo]
+displayDescription: -Infantry support vehicle\n-Nazi Germany special unit\n-Demolition super heavy tank destroyer (Super heavy vehicle)\n-Effective against vehicles and buildings\n-Attacks ground only
+displayDescription_es: -Vehículo de apoyo de infantería\n-Unidad especial de la Alemania Nazi\n-Cazacarros superpesado de demolición (Vehículo superpesado)\n-Efectivo contra vehículos y edificios\n-Ataca a tierra únicamente
+
+#
+#============ Japan Empire Units ==============#
+#
+
+[template_aichiM6aInfo]
+displayDescription: -Scouting seaplane\n-Japan Empire special unit\n-Dive bomber with no cost (Airplane)\n-Effective against vehicles, ships and buildings\n-Attacks ground and air
+displayDescription_es: -Hidroavión de exploración\n-Unidad especial del Imperio del Japón\n-Bombardero en picada sin costo (Avión)\n-Efectivo contra vehículos, barcos y edificios\n-Ataca a tierra y aire
+
+[template_fortInfo]
+displayDescription: -Special defensive architecture\n-Japan Empire special structure\n-Defensive bunker\n-Effective against vehicles\n-Attacks ground only\n-Can garrison infantry\n-Garrisoned infantry cannot be damaged\n-Infantry can attack when garrisoned
+displayDescription_es: -Arquitectura defensiva especial\n-Estructura especial del Imperio del Japón\n-Búnker defensivo\n-Efectiva contra vehículos\n-Ataca a tierra únicamente\n-Puede guarecer infantería\n-La infantería guarecida no puede ser dañada\n-La infantería puede atacar cuando está guarecida
+
+[template_banzaiTeamInfo]
+displayDescription: -Honorable soldiers\n-Japan Empire special unit\n-Suicide infantry (Infantry)\n-Effective against infantry, vehicles and buildings\n-Attacks ground only\n-Reduces morale on attack\n-Self-regenerates
+displayDescription_es: -Soldados honorables\n-Unidad especial del Imperio del Japón\n-Infantería suicida (Infantería)\n-Efectiva contra infantería, vehículos y edificios\n-Ataca a tierra únicamente\n-Reduce la moral al atacar\n-Se auto-regenera
+
+[template_teishinShudanTeamInfo]
+displayDescription: -Sabotaging forces\n-Japan Empire special unit\n-Versatile infantry (Infantry)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only\n-Self-regenerates
+displayDescription_es: -Fuerzas de sabotaje\n-Unidad especial del Imperio del Japón\n-Infantería versátil (Infantería)\n-Efectiva contra infantería, vehículos ligeros y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+
+[template_gaserTeamInfo]
+displayDescription: -Chemical team\n-Japan Empire special unit\n-Gas-thrower infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-Affects terrain with toxic gas\n-Gas does not affects buildings and vehicles, but reduces morale\n-Self-regenerates
+displayDescription_es: -Equipo químico\n-Unidad especial del Imperio del Japón\n-Infantería lanza-gases (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Afecta el terreno con gas tóxico\n-El gas no afecta vehículos y edificios, pero reduce la moral\n-Se auto-regenera
+
+[template_typeB3Info]
+displayDescription: -Maritime countermeasure\n-Japan Empire special unit\n-Resistant anti-submarine submarine (Anti-submarines)\n-Effective against submarines\n-Attacks underwater and air
+displayDescription_es: -Contramedida marítima\n-Unidad especial del Imperio del Japón\n-Submarino anti-submarinos resistente (Anti-submarinos)\n-Efectivo contra submarinos\n-Ataca bajo el agua y a aire
+
+[template_shokakuClassInfo]
+displayDescription: -Key point in naval battles\n-Japan Empire special unit\n-Quick aircraft carrier (Ship)\n-Attacks air only\n-Can transport up to 8 light airplanes\n-Includes 3 light fighters\n-Can build dive bombers
+displayDescription_es: -Un punto clave en batallas navales\n-Unidad especial del Imperio del Japón\n-Portaaviones rápido (Barco)\n-Ataca a aire únicamente\n-Puede transportar hasta 8 aviones ligeros\n-Incluye 3 cazas ligeros\n-Puede construir bombarderos en picada
+
+[template_yamatoClassInfo]
+displayDescription: -The biggest battleship\n-Japan Empire special unit\n-Very resistant and very long-ranged battleship (Ship)\n-Effective against vehicles, ships and buildings\n-Attacks ground and air
+displayDescription_es: -El acorazado más grande\n-Unidad especial del Imperio del Japón\n-Acorazado muy resistente y de gran alcance (Barco)\n-Efectivo contra vehículos, barcos y edificios\n-Ataca a tierra y aire
+
+[template_mitsubishiA6mZeroInfo]
+displayDescription: -One of the best airplanes of Japan\n-Japan Empire special unit\n-Suicide dive-bomber (Airplane)\n-Effective against ships and buildings\n-Attacks ground and air\n-Kamikaze when destroyed
+displayDescription_es: -Uno de los mejores aviones de Japón\n-Unidad especial del Imperio del Japón\n-Bombardero en picada suicida (Avión)\n-Efectivo barcos y edificios\n-Ataca a tierra y aire\n-Es kamikaze cuando es destruido
+
+[template_mitsubishiG4mInfo]
+displayDescription: -Result of the kamikaze program\n-Japan Empire special unit\n-Medium bomber that transports kamikaze airplanes (Airplane)\n-Effective against vehicles, infantry and buildings\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing\n-Can deploy ohka kamikaze airplanes
+displayDescription_es: -Resultado del programa kamikaze\n-Unidad especial del Imperio del Japón\n-Bombardero medio que transporta aviones kamikaze (Avión)\n-Efectivo contra vehículos, infantería y edificios\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear\n-Puede desplegar aviones ohka kamikaze
+
+[template_i-400ClassInfo]
+displayDescription: -Experimental project\n-Japan Empire special unit\n-Carrier submarine (Submarine)\n-Effective against ships\n-Attacks underwater, ground and air\n-Includes 2 M6A dive bombers at no cost
+displayDescription_es: -Proyecto experimental\n-Unidad especial del Imperio del Japón\n-Submarino portaaviones (Submarino)\n-Efectivo contra barcos\n-Ataca bajo el agua, a tierra y a aire\n-Incluye 2 bombarderos en picada M6A sin costo
+
+[template_type94Te-KeInfo]
+displayDescription: -Chemical vehicle\n-Japan Empire special unit\n-Gas-thrower light tank (Heavy vehicle)\n-Effective against infantry\n-Attacks ground only\n-Affects terrain with toxic gas\n-Gas does not affects buildings and vehicles, but reduces morale
+displayDescription_es: -Vehículo químico\n-Unidad especial del Imperio del Japón\n-Tanque ligero lanzagas (Vehículo pesado)\n-Efectivo contra infantería\n-Ataca a tierra únicamente\n-Afecta el terreno con gas tóxico\n-El gas no afecta vehículos y edificios, pero reduce la moral
+
+[template_type4Ha-ToInfo]
+displayDescription: -Strong mobile mortar\n-Japan Empire special unit\n-Self-propelled mortar (Heavy vehicle)\n-Effective against light vehicles, buildings ans ships\n-Attacks ground only\n-Must be deployed to attack\n-Can attack terrain continuously
+displayDescription_es: -Mortero móvil fuerte\n-Unidad especial del Imperio del Japón\n-Mortero auto-propulsado (Vehículo pesado)\n-Efectivo contra vehículos ligeros, edificios y barcos\n-Ataca a tierra únicamente\n-Debe ser desplegado para atacar\n-Puede atacar terreno continuamente
+
+[template_o-iInfo]
+displayDescription: -Experimental armored unit\n-Japan Empire special unit\n-Fast-firing super heavy tank (Super heavy vehicle)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only
+displayDescription_es: -Unidad blindada experimental\n-Unidad especial del Imperio del Japón\n-Tanque super pesado de fuego rápido (Vehículo superpesado)\n-Efectivo contra infantería, vehículos ligeros y edificios\n-Ataca a tierra únicamente
+
+[template_type2605O-RiInfo]
+displayDescription: -Entering to the armored combat!\n-Japan Empire special unit\n-Heavily armored super heavy tank destroyer (Super heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
+displayDescription_es: -¡Entrando al combate blindado!\n-Unidad especial del Imperio del Japón\n-Cazacarros superpesado fuertemente blindado (Vehículo superpesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+
+#
+#============ Italy Kingdom Units ==============#
+#
+
+[template_blackBrigadeTeamInfo]
+displayDescription: -Fascist skirmishers\n-Italy Kingdom special unit\n-Booster infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-Rises morale a lot when killing\n-Increases attack damage of nearby infantry by 10%\n-Self-regenerates
+displayDescription_es: -Guerrilleros fascistas\n-Unidad especial del Reino de Italia\n-Infantería de intensificación (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Incrementa mucho la moral al matar\n-Incrementa el daño de ataque de la infantería cercana en 10%\n-Se auto-regenera
+
+[template_bersaglieriInfo]
+displayDescription: -Motorized infantry\n-Italy Kingdom special unit\n-Very versatile infantry (Infantry)\n-Effective against infantry and light vehicles\n-Attacks ground only\n-Can be repaired at the garage\n-Self-regenerates
+displayDescription_es: -Infantería motorizada\n-Unidad especial del Reino de Italia\n-Infantería muy versátil (Infantería)\n-Efectiva contra infantería y vehículos ligeros\n-Ataca a tierra únicamente\n-Puede ser reparado en el garaje\n-Se auto-regenera
+
+[template_alpiniTeamInfo]
+displayDescription: -Alpine elite men\n-Italy Kingdom special unit\n-Climber infantry (Infantry)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only\n-High sight range\n-Self-regenerates\n-Can move over cliffs
+displayDescription_es: -Hombres de élite alpinos\n-Unidad especial del Reino de Italia\n-Infantería escaladora (Infantería)\n-Efectiva contra infantería, vehículos ligeros y edificios\n-Alto rango de visión\n-Se auto-regenera\n-Puede moverse sobre desniveles
+
+[template_cavallieriInfo]
+displayDescription: -Main shock forces\n-Italy Kingdom special unit\n-Mounted infantry (Infantry)\n-Effective against infantry, vehicles and buildings\n-Attacks ground only\n-Affects terrain with fire\n-Fire does not affects vehicles\n-Self-regenerates
+displayDescription_es: -Fuerzas de choque principales\n-Unidad especial del Reino de Italia\n-Infantería montada (Infantería)\n-Efectiva contra infantería, vehículos y edificios\n-Ataca a tierra únicamente\n-Afecta el terreno con fuego\n-El fuego no afecta vehículos\n-Se auto-regenera
+
+[template_aquilaInfo]
+displayDescription: -Modified cruiser\n-Italy Kingdom special unit\n-Cheap aircraft carrier (Ship)\n-Attacks air only\n-Can transport up to 10 light airplanes\n-Includes 3 light fighters
+displayDescription_es: -Crucero modificado\n-Unidad especial del Reino de Italia\n-Portaaviones barato (Barco)\n-Ataca a aire únicamente\n-Puede transportar hasta 10 aviones ligeros\n-Incluye 3 cazas ligeros
+
+[template_breda501Info]
+displayDescription: -Multipurpose gun\n-Italy Kingdom special unit\n-Self-propelled anti-tank gun (Light vehicle)\n-Effective against vehicles and airplanes\n-Attacks ground and air\n-Must be deployed to attack air
+displayDescription_es: -Cañón multipropósito\n-Unidad especial del Reino de Italia\n-Cañón anti-tanque auto-propulsado (Vehículo ligero)\n-Efectivo contra vehículos y aviones\n-Ataca a tierra y aire\n-Debe ser desplegada para atacar a aire
+
+[template_bunkerM-13Info]
+displayDescription: -Entrenched tank\n-Italy Kingdom special structure\n-Tank bunker\n-Effective against light vehicles, light tanks and buildings\n-Attacks ground only\n-Can be unbury to move the tank
+displayDescription_es: -Tanque atrincherado\n-Estructura especial del Reino de Italia\n-Tanque búnker\n-Efectiva contra vehículos ligeros, tanques ligeros y edificios\n-Ataca a tierra únicamente\n-Puede ser desenterrado para mover el tanque
+
+[template_cannone149/35Info]
+displayDescription: -Lined up naval guns\n-Italy Kingdom special building\n-Fast-firing coastal defense\n-Effective against ships and submarines\n-Attacks ground only\n-Can be rotated
+displayDescription_es: -Cañones navales alineados\n-Edificio especial del Reino de Italia\n-Defensa costera de fuego rápido\n-Efectiva contra barcos y submarinos\n-Ataca a tierra únicamente\n-Puede ser rotada
+
+[template_gabbianoClassInfo]
+displayDescription: -Naval hunter\n-Italy Kingdom special unit\n-Quick anti-submarine corvette (Anti- submarine)\n-Effective against submarines\n-Attacks ground, air and underwater
+displayDescription_es: -Cazador naval\n-Unidad especial del Reino de Italia\n-Corveta anti-submarinos rápida (Anti-submarinos)\n-Efectiva contra submarinos\n-Ataca a tierra, aire y bajo el agua
+
+[template_savoia-marchettiInfo]
+displayDescription: -Multipurpose bomber\n-Italy Kingdom special unit\n-Bomber-fighter that drops bombs in 2 rounds (Airplane)\n-Effective against airplanes, ships and buildings\n-Attacks ground and air
+displayDescription_es: -Bombardero multipropósito\n-Unidad especial del Reino de Italia\n-Caza-bombardero que suelta bombas en 2 rondas (Avión)\n-Efectivo contra aviones, barcos y edificios\n-Ataca a tierra y aire
+
+[template_semoventeDa20/70QuadruploInfo]
+displayDescription: -Improvised anti-air vehicle\n-Italy Kingdom special unit\n-Self-propelled anti-air and anti-infantry gun (Heavy vehicle)\n-Effective against infantry and airplanes\n-Attacks ground and air\n-Can switch between air and ground attack
+displayDescription_es: -Vehículo antiaéreo improvisado\n-Unidad especial del Reino de Italia\n-Cañón antiaéreo y anti-infantería auto-propulsado (Vehículo pesado)\n-Efectivo contra infantería y aviones\n-Ataca a tierra y aire\n-Puede cambiar entre ataque de aire y tierra
+
+[template_l640Info]
+displayDescription: -Cheap vehicle\n-Italy Kingdom special unit\n-Light tank with burst attack (Heavy vehicle)\n-Effective against light vehicles and buildings\n-Attacks ground only\n-Can move over cliffs
+displayDescription_es: -Vehículo barato\n-Unidad especial del Reino de Italia\n-Tanque ligero con ataque de ráfaga (Vehículo pesado)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra únicamente\n-Puede moverse sobre desniveles
+
+[template_p43BisInfo]
+displayDescription: -Modern medium tank\n-Italy Kingdom special unit\n-Fast-firing and long-ranged super heavy tank destroyer (Super heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
+displayDescription_es: -Tanque medio moderno\n-Unidad especial del Reino de Italia\n-Cazacarros superpesado de fuego rápido y amplio alcance (Vehículo superpesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+
+[template_semoventeDa14940M42Info]
+displayDescription: -Support artillery\n-Italy Kingdom special unit\n-Long-ranged and armored self-propelled gun (Super heavy vehicle)\n-Effective against vehicles and buildings\n-Attacks ground only\n-Must be deployed to attack\n-Can attack terrain continuously
+displayDescription_es: -Artillería de apoyo\n-Unidad especial del Reino de Italia\n-Cañón de largo alcance blindado auto-propulsado (Vehículo superpesado)\n-Efectivo contra vehículos y edificios\n-Ataca a tierra únicamente\n-Debe ser desplegado para atacar\n-Puede atacar terreno continuamente
+
+#
+#============ Generic Actions and Skills ==============#
+#
+
+[template_buildingEnemyLockInfo]
+isLockedMessage: -There are enemy units too near\n-We cannot work under attack
+isLockedMessage_es: -Hay unidades enemigas demasiado cerca\n-No podemos trabajar bajo ataque
+
+[template_buildingRepairInfo]
+text: Repair
+text_es: Reparar
+description: -Prioritizes this building repair\n-Repairs +2,5% of its HP per second until it's fully repaired
+description_es: -Prioritiza la reparación de este edificio\n-Repara +2,5% de sus PV por segundo hasta que esté completamente reparado
+
+[template_buildingRepairingInfo]
+text: Repairing...
+text_es: Reparando...
+description: -This building has higher repair priority
+description_es: -Este edificio tiene mayor prioridad de reparación
+
+[template_buildingDismantleInfo]
+text: Dismantle
+text_es: Desmantelar
+description: -Dismantles this building returning ${int(core.maxHp*0.05)} industry
+description_es: -Desmantela este edificio retornando ${int(core.maxHp*0.05)} de industria
+
+[template_suppressiveFireInfo]
+text: Suppressive Fire
+text_es: Fuego Supresivo
+description: -Orders this artillery to attack terrain constantly\n-Can attack at longer distance but with lower accuracy
+description_es: -Ordena a esta artillería atacar terreno constantemente\n-Puede atacar a mayor distancia pero con menor precisión
+
+[template_stopSuppressiveFireInfo]
+text: Stop S. Fire
+text_es: Parar Fuego S.
+description: -Stops the suppressive fire\n-Can attack at shorter distance automatically with higher accuracy
+description_es: -Para el fuego supresivo\n-Puede atacar a distancia más corta automáticamente con mayor precisión
+
+[template_airBaseSetRallyPointInfo]
+text: Rally Point
+text_es: Punto de Reunión
+description: -Set a rally point for airplanes\n-Airplanes will move to this point when taking off
+description_es: -Establece un punto de reunión para los aviones\n-Los aviones se moverán a este punto cuando despeguen
+
+[template_takeoffAllAirplanesInfo]
+text: Takeoff Airplanes
+text_es: Despegar Aviones
+description: -Orders all airplanes to takeoff
+description_es: -Ordena a todos los aviones despegar
+
+[template_airBaseHangarInfo]
+text: No airplanes
+text_es: Sin aviones
+description: -This air base is empty, build more airplanes at the hangar or land some airplanes
+description_es: -Esta base aérea está vacía, construya más aviones en el hangar o aterrice algunos aviones
+
+[template_returnAirplanesInfo]
+text: Return Airplanes
+text_es: Regresar Aviones
+description: -Orders all airplanes to land\n-Flying units will move to the nearest air base or aircraft carrier
+description_es: -Ordena a todos los aviones aterrizar\n-Las unidades aéreas se moverán a la base aérea o portaaviones más cercano
+
+[template_returnSingleInfo]
+text: Return to Base
+text_es: Regresar a Base
+description: -Orders this airplane to land
+description_es: -Ordena a este avión a aterrizar
+
+[template_bombInfo]
+text: Bombs: %{self.ammo}
+text_es: Bombas: %{self.ammo}
+description: -Amount of bombs available to drop\n-Damage per bomb: ${bombDamage}
+description_es: -Cantidad de bombas disponibles para soltar\n-Daño por bomba: ${bombDamage}
+
+[template_torpedoInfo]
+text: Torpedoes: %{self.resource(type='torpedo')}
+text_es: Torpedos: %{self.resource(type='torpedo')}
+description: -Amount of torpedoes available to drop\n-Damage per torpedo: ${torpedoDamage}
+description_es: -Cantidad de torpedos disponibles para soltar\n-Daño por torpedo: ${torpedoDamage}
+
+[template_rocketInfo]
+text: Rockets: %{self.resource(type='rocket')}
+text_es: Cohetes: %{self.resource(type='rocket')}
+description: -Amount of rockets available to launch\n-Damage per rocket: ${rocketDamage}
+description_es: -Cantidad de cohetes disponibles para lanzar\n-Daño por cohete: ${rocketDamage}
+
+[template_paratroopersInfo]
+text: Paratroopers: %{self.ammo}
+text_es: Paracaidistas: %{self.ammo}
+description: -Amount of paratrooper units available to drop\n-Paratroopers are dropped when attacking a building
+description_es: -Cantidad de unidades paracaidistas disponibles para soltar\n-Los paracaidistas se sueltan al atacar un edificio
+
+[template_manualDropInfo]
+text: Manual Drop
+text_es: Descenso Manual
+description: -Drops all paratroopers, even without having a target
+description_es: -Suelta todos los paracaidistas, incluso sin tener un objetivo
+
+[template_airplaneAlertOnInfo]
+text: Enable Alert
+text_es: Habilitar Alerta
+description: -Enables an air raid alert that takeoffs fighters when detecting enemy airplanes automatically
+description_es: -Habilita una alerta de asalto aéreo que despega a los cazas cuando detecta aviones enemigos automáticamente
+
+[template_airplaneAlertOffInfo]
+text: Disable Alert
+text_es: Inhabilitar Alerta
+description: -Disables the air raid alert when detecting enemy airplanes
+description_es: -Inhabilita la alerta de asalto aéreo cuando detecta aviones enemigos
+
+[template_moraleVeryHighInfo]
+text: Morale: Very High
+text_es: Moral: Muy Alta
+description: -Morale is very high\n-Our units cause full damage
+description_es: -La moral está muy alta\n-Nuestras unidades causan daño completo
+
+[template_moraleHighInfo]
+text: Morale: High
+text_es: Moral: Alta
+description: -Morale is high\n-Our units cause -10% damage
+description_es: -La moral está alta\n-Nuestras unidades causan -10% de daño
+
+[template_moraleMediumInfo]
+text: Morale: Medium
+text_es: Moral: Media
+description: -Morale is medium\n-Our units cause -20% damage
+description_es: -La moral es media\n-Nuestras unidades causan -20% de daño
+
+[template_moraleLowInfo]
+text: Morale: Low
+text_es: Moral: Baja
+description: -Morale is low\n-Our units cause -30% damage
+description_es: -La moral es baja\n-Nuestras unidades causan -30% de daño
+
+#
+#============ Factory Actions and Skills ==============#
+#
+
+[template_factoryProductionInfo]
+text: Production: %{self.resource(type='industryProduction')}
+text_es: Producción: %{self.resource(type='industryProduction')}
+description: -%{self.resource(type='morale')} morale grants this production\n-Reduction by damage: -5\n-Reduction by induced inflation: -5
+description_es: -%{self.resource(type='morale')} de moral otorga esta producción\n-Reducción por daño: -5\n-Reducción por inflación inducida: -5
+
+[template_localTradingInfo]
+text: Local Trading
+text_es: Comercio Local
+description: -Increases industry production spending oil\n-Costs more oil over time
+description_es: -Incrementa la producción de industria gastando petróleo\n-Cuesta más petróleo con el tiempo
+
+[template_stopLocalTradingInfo]
+text: Stop Local Trading
+text_es: Parar Comercio Local
+description: -Reduces industry production and stops oil expense
+description_es: -Reduce la producción de industria y para el gasto de petróleo
+
+#
+#============ Refinery Actions and Skills ==============#
+#
+
+[template_countCrudeOilInfo]
+text: Crude Oil: %{self.resource(type='crudeOil')}
+text_es: Petróleo Crudo: %{self.resource(type='crudeOil')}
+description: -Amount of crude oil available to refine
+description_es: -Cantidad de petróleo crudo disponible para refinar
+
+[template_refineryProductionInfo]
+text: Production: %{self.resource(type='refiningSpeed')}
+text_es: Producción: %{self.resource(type='refiningSpeed')}
+description: -This is the current oil production level\n-Reduction by damage: -5\n-Reduction by induced inflation: -5
+description_es: -Este es el nivel de producción de petróleo actual\n-Reducción por daño: -5\n-Reducción por inflación inducida: -5
+
+#
+#============ Rod Pump Actions and Skills ==============#
+#
+
+[template_rodPumpProductionInfo]
+text: Production: %{self.resource(type='ammo')}
+text_es: Producción: %{self.resource(type='ammo')}
+description: -This is the current crude oil extraction level\n-Upgrade the pump to increase the extraction rate
+description_es: -Este es el nivel de extracción de petróleo crudo actual\n-Mejore la bomba para incrementar la tasa de extracción
+
+[template_rodPumpSupervisionInfo]
+isLockedAltMessage: -Requires a refinery
+isLockedAltMessage_es: -Requiere una refinería
+text: Supervision
+text_es: Supervisión
+description: -Increases crude oil extraction speed by 100%\n-Adds an engineering team to this pump
+description_es: -Incrementa la velocidad de extracción de petróleo crudo por 100%\n-Añade un equipo de ingeniería a esta bomba
+
+[template_rodPumpReinforcementInfo]
+text: Reinforcement
+text_es: Refuerzo
+description: -Increases crude oil extraction speed by 100%\n-Increases HP and prevents fires
+description_es: -Incrementa la velocidad de extracción de petróleo crudo por 100%\n-Incrementa los PV y previene los incendios
+
+#
+#============ Theater Actions and Skills ==============#
+#
+
+[template_warPropagandaInfo]
+isLockedMessage: -This skill is active
+isLockedMessage_es: -Esta habilidad está activa
+text: War Propaganda
+text_es: Propaganda de Guerra
+description: -Theater generates 0.15 morale/second passively, during 2 minutes
+description_es: -El teatro genera 0.15 de moral/segundo pasivamente, durante 2 minutos
+
+[template_highClassInvestmentsInfo]
+text: High Class Investments
+text_es: Inversiones de Clase Alta
+description: -Generates 800 industry by 5 influence
+description_es: -Genera 800 de industria por 5 de influencia
+
+[template_criminalAdmissionInfo]
+text: Criminal Admission
+text_es: Admisión Criminal
+description: -Generates 400 oil by 5 influence
+description_es: -Genera 400 de petróleo por 5 de influencia
+
+#
+#============ Square Actions and Skills ==============#
+#
+
+[template_honorableRecruitmentInfo]
+text: Honorable Recruitment
+text_es: Reclutamiento Honorable
+description: -Square generates 4 conscript troops at no cost, every 5 seconds
+description_es: -La plaza genera 4 tropas de conscriptos sin costo, cada 5 segundos
+
+[template_culturalEventsInfo]
+isLockedMessage: -There's no factories near this building
+isLockedMessage_es: -No hay fábricas cerca de este edificio
+text: Cultural Events
+text_es: Eventos Culturales
+description: -Factories affected by this square, produce +3 industry\n-Affected factory's local trading doesn't require starting oil
+description_es: -Las fábricas afectadas por esta plaza, producen +3 de industria\n-El comercio local de las fábricas afectadas no requiere petróleo inicial
+
+[template_defensivePointInfo]
+text: Defensive Point
+text_es: Punto Defensivo
+description: -Square is reinforced with 4 artillery guns\n-Adds +25 HP auto-repair per second to nearby buildings
+description_es: -La plaza está reforzada con 4 cañones de artillería\n-Añade +25 de auto-reparación de PV por segundo los edificios cercanos
+
+#
+#============ University Actions and Skills ==============#
+#
+
+[template_modernArchitectureInfo]
+text: Modern Architecture
+text_es: Arquitectura Moderna
+description: -Buildings affected by university have +20 armour and +2000 HP
+description_es: -Los edificios afectados por la universidad tienen +20 de armadura y +2000 PV
+
+[template_economicAdviseInfo]
+isLockedMessage: -There's no economic buildings near this building
+isLockedMessage_es: -No hay edificios económicos cerca de este edificio
+text: Economic Advise
+text_es: Asesoría Económica
+description: -Factories and refineries affected by university produce 33% faster
+description_es: -Las fábricas y refinerías afectadas por la universidad producen 33% más rápido
+
+[template_nationalistFurorInfo]
+text: Nationalist Furor
+text_es: Furor Nacionalista
+description: -University generates 8 morale every minute
+description_es: -La universidad genera 8 de moral cada minuto
+
+#
+#============ Diplomatic Center Actions and Skills ==============#
+#
+
+[template_allianceGenericsInfo]
+#CREATE A ${name} FOR ALLIANCE NAME IN YOUR LANGUAGE TO BE ABLE TO TRANSLATE ITS NAME. EXAMPLE: ${name_ru}
+text: ${name}
+text_es: ${name_es}
+showQuickWarLogToAllPlayers: %{self.playerName} has allied with ${name}
+showQuickWarLogToAllPlayers_es: %{self.playerName} se ha aliado con ${name_es}
+
+[template_usaAllianceInfo]
+#DEFINE NEW STATIC VARIABLES WITH THE NAME OF THE COUNTRY YOU CHOSEN. EXAMPLE: @define name_ru:
+@define name: USA
+@define name_es: EE. UU.
+description: -Grants +2K industry and +1K oil instantly
+description_es: -Otorga +2K de industria y +1K de petróleo instantáneamente
+
+[template_ussrAllianceInfo]
+@define name: USSR
+@define name_es: URSS
+description: -Factories produce +5 industry
+description_es: -Las fábricas producen +5 de industria
+
+[template_unitedKingdomAllianceInfo]
+@define name: United Kingdom
+@define name_es: Reino Unido
+description: -Air bases have +2 airplane capacity
+description_es: -Las bases aéreas tienen +2 de capacidad de aviones
+
+[template_freeFranceAllianceInfo]
+@define name: Free France
+@define name_es: Francia Libre
+description: -Grants 50% chance of getting a free rifle troop when training infantry
+description_es: -Otorga un 50% de probabilidad de obtener una tropa de rifle gratis cuando se entrena infantería
+
+[template_polandAllianceInfo]
+@define name: Poland
+@define name_es: Polonia
+description: -Increases morale by 25 instantly\n-Conscript troops rise morale a lot when killing (+1 per kill)
+description_es: -Incrementa la moral en 25 instantáneamente\n-Las tropas de conscriptos elevan mucho la moral al matar (+1 por muerte)
+
+[template_czechoslovakiaAllianceInfo]
+@define name: Czechoslovakia
+@define name_es: Checoslovaquia
+description: -All units return industry and oil on death (4% of their HP as industry, 2% of their HP as oil)
+description_es: -Todas las unidades retornan industria y petróleo al morir (4% de sus PV como industria, 2% de sus PV como petróleo)
+
+[template_australiaAllianceInfo]
+@define name: Australia
+@define name_es: Australia
+description: -Ships and submarines rise morale when constructed (+0.2 per unit)\n-Improves dive bombers to CAC CA-1 Wirraway\n-Dive bombers have more attack damage and speed
+description_es: -Los barcos y submarinos elevan la moral cuando son construidos (+0.2 por unidad)\n-Mejora los bombarderos en picada a CAC CA-1 Wirraway\n-Los bombarderos en picada tienen más daño de ataque y velocidad
+
+[template_canadaAllianceInfo]
+@define name: Canada
+@define name_es: Canadá
+description: -Ships and submarines have +7% attack range\n-Improves destroyers to D-Class\n-Destroyers have more attack damage, speed and are created faster
+description_es: -Los barcos y submarinos tienen +7% de rango de ataque\n-Mejora los destructores a Clase-D\n-Los destructores tienen más daño de ataque, velocidad y se crean más rápido
+
+[template_chinaRepublicAllianceInfo]
+@define name: China Republic
+@define name_es: República de China
+description: -Infantry units have +20% HP
+description_es: -Las unidades de infantería tienen +20% PV
+
+[template_philippinesAllianceInfo]
+@define name: Philippines
+@define name_es: Filipinas
+description: -Ships and submarines have +30% movement speed
+description_es: -Los barcos y submarinos tienen +30% de velocidad de movimiento
+
+[template_naziGermanyAllianceInfo]
+@define name: Nazi Germany
+@define name_es: Alemania Nazi
+description: -Infantry units have +20% attack damage
+description_es: -Las unidades de infantería tienen +20% de daño de ataque
+
+[template_japanEmpireAllianceInfo]
+@define name: Japan Empire
+@define name_es: Imperio del Japón
+description: -All enemy players have 30 morale reduction instantly
+description_es: -Todos los jugadores enemigos tienen 30 de reducción de moral instantáneamente
+
+[template_italyKingdomAllianceInfo]
+@define name: Italy Kingdom
+@define name_es: Reino de Italia
+description: -Grants +1.2K industry and +800 oil instantly
+description_es: -Otorga +1.2K de industria y +800 de petróleo instantáneamente
+
+[template_vichyFranceAllianceInfo]
+@define name: Vichy France
+@define name_es: Francia de Vichy
+description: -Outposts have +10% attack range and +9 sight range\n-Improves battleships to Dunkirk Class\n-Battleships have more attack damage, speed and are created faster
+description_es: -Los puestos avanzados tienen +10% de rango de ataque y +9 de rango de visión\n-Mejora los acorazados a Clase Dunquerque\n-Los acorazados tienen más daño de ataque, velocidad y se crean más rápido
+
+[template_hungaryKingdomAllianceInfo]
+@define name: Hungary Kingdom
+@define name_es: Reino de Hungría
+description: -Heavy vehicles have +15% attack speed
+description_es: -Los vehículos pesados tienen +15% de velocidad de ataque
+
+[template_romaniaKingdomAllianceInfo]
+@define name: Romania Kingdom
+@define name_es: Reino de Rumania
+description: -Refineries produce +5 oil\n-Rod pumps extract +10 crude oil
+description_es: -Las refinerías producen +5 de petróleo\n-Las bombas de varilla extraen +10 de petróleo crudo
+
+[template_slovakiaAllianceInfo]
+@define name: Slovakia
+@define name_es: Eslovaquia
+description: -Engineering teams have +15% attack damage and +30% HP\n-Engineering teams can build air bases and place traps
+description_es: -Los equipos de ingeniería tienen +15% de daño de ataque y +30% PV\n-Los equipos de ingeniería pueden construir bases aéreas y colocar trampas
+
+[template_bulgariaKingdomAllianceInfo]
+@define name: Bulgaria Kingdom
+@define name_es: Reino de Bulgaria
+description: -All map is revealed during 10 seconds
+description_es: -Todo el mapa es revelado durante 10 segundos
+
+[template_croatiaAllianceInfo]
+@define name: Croatia
+@define name_es: Croacia
+description: -Traps and defensive structures rise morale when killing units (+0.4 per kill)
+description_es: -Las trampas y las estructuras defensivas elevan la moral cuando matan unidades (+0.4 por muerte)
+
+[template_finlandAllianceInfo]
+@define name: Finland
+@define name_es: Finlandia
+description: -Infantry units have +3 armor
+description_es: -Las unidades de infantería tienen +3 de armadura
+
+[template_sendIndustryOpenInfo]
+text: Send Industry
+text_es: Enviar Industria
+description: -Send industry to other players
+description_es: -Enviar industria a otros jugadores
+
+[template_sendOilOpenInfo]
+text: Send Oil
+text_es: Enviar Petróleo
+description: -Send oil to other players
+description_es: -Enviar petróleo a otros jugadores
+
+[template_sendResourceCancelInfo]
+text: Cancel
+text_es: Cancelar
+
+[template_sendIndustryInfo]
+description: -Sends 800 industry to %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Our alliance: %{self.teamName}
+description_es: -Envía 800 de industria a %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Su alianza: %{self.teamName}
+
+[template_sendOilInfo]
+description: -Sends 400 oil to %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Our alliance: %{self.teamName}
+description: -Envía 400 de petróleo a %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Nuestra alianza: %{self.teamName}
+
+[template_receivedIndustryInfo]
+showQuickWarLogToPlayer: Received 800 Industry from %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
+showQuickWarLogToPlayer_es: 800 de Industria recibido de %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
+
+[template_receivedOilInfo]
+showQuickWarLogToPlayer: Received 400 Oil from %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
+showQuickWarLogToPlayer_es: 400 de Petróleo recibido de %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
+
+#
+#============ Technology Info ==============#
+#
+
+[template_techGenericsInfo]
+isLockedMessage: -Someone is sabotaging our research!
+isLockedMessage_es: -¡Alguien está saboteando nuestra investigación!
+isLockedAlt2Message: -This technology is already being researched
+isLockedAlt2Message_es: -Esta tecnología ya está siendo investigada
+#CREATE A ${tech} FOR ALLIANCE NAME IN YOUR LANGUAGE TO BE ABLE TO TRANSLATE ITS NAME. EXAMPLE: ${tech_ru}
+text: ${tech}
+text_es: ${tech_es}
+showQuickWarLogToPlayer: Research completed: ${tech}
+showQuickWarLogToPlayer_es: Investigación completada: ${tech_es}
+
+[template_workingHabilitationInfo]
+#DEFINE NEW STATIC VARIABLES WITH THE NAME OF THE TECH YOU CHOSEN. EXAMPLE: @define tech_ru:
+@define tech: Working Habilitation
+@define tech_es: Habilitación Laboral
+description: -Factories produce industry 15% faster
+description_es: -Las fábricas producen industria 15% más rápido
+
+[template_warContributionEventsInfo]
+@define tech: War Contribution Events
+@define tech_es: Eventos de C. de Guerra
+description: -Factories produce +5 industry
+description_es: -Las fábricas producen +5 de industria
+
+[template_fastProcessingInfo]
+@define tech: Fast Processing
+@define tech_es: Procesado Rápido
+description: -Refineries refine +100% oil each time
+description_es: -Las refinerías refinan +100% de petróleo cada vez
+
+[template_specializedRefinementInfo]
+@define tech: Specialized Refinement
+@define tech_es: Refinación Especializada
+description: -Refineries produce +3 oil
+description_es: -Las refinerías producen +3 de petróleo
+
+[template_mobilizationInfo]
+@define tech: Mobilization
+@define tech_es: Movilización
+description: -Infantry units have +3 armour
+description_es: -Las unidades de infantería tienen +3 de armadura
+
+[template_warDrugsInfo]
+@define tech: War Drugs
+@define tech_es: Drogas de Guerra
+description: -Infantry units have +3 armour
+description_es: -Las unidades de infantería tienen +3 de armadura
+
+[template_assaultEquipmentInfo]
+@define tech: Assault Equipment
+@define tech_es: Equipamiento de Asalto
+description: -Infantry units have +4 armour
+description_es: -Las unidades de infantería tienen +4 de armadura
+
+[template_reinforcedInfantryInfo]
+@define tech: Reinforced Infantry
+@define tech_es: Infantería Reforzada
+description: -Infantry units have +10% attack damage
+description_es: -Las unidades de infantería tienen +10% daño de ataque
+
+[template_convoyScortsInfo]
+@define tech: Convoy Scorts
+@define tech_es: Escoltas de Convoy
+description: -Infantry units have +10% attack damage
+description_es: -Las unidades de infantería tienen +10% daño de ataque
+
+[template_strategicSuppliesInfo]
+@define tech: Strategic Supplies
+@define tech_es: Suministros Estratégicos
+description: -Infantry units have +15% attack damage
+description_es: -Las unidades de infantería tienen +15% daño de ataque
+
+[template_extensiveTracksInfo]
+@define tech: Extensive Tracks
+@define tech_es: Orugas Gruesas
+description: -Ground vehicles have +15 armour
+description_es: -Los vehículos terrestres tienen +15 de armadura
+
+[template_reusableChasisInfo]
+@define tech: Reusable Chasis
+@define tech_es: Chásis Reusables
+description: -Ground vehicles have +15 armour
+description_es: -Los vehículos terrestres tienen +15 de armadura
+
+[template_100mmArmourInfo]
+@define tech: 100mm Armour
+@define tech_es: Armadura de 100mm
+description: -Ground vehicles have +20 armour
+description_es: -Los vehículos terrestres tienen +20 de armadura
+
+[template_combinedFormationsInfo]
+@define tech: Combined Formations
+@define tech_es: Formaciones Conjuntas
+description: -Ground vehicles have +10% attack damage
+description_es: -Los vehículos terrestres tienen +10% daño de ataque
+
+[template_armoredAmbushInfo]
+@define tech: Armored Ambush
+@define tech_es: Emboscada Blindada
+description: -Ground vehicles have +10% attack damage
+description_es: -Los vehículos terrestres tienen +10% daño de ataque
+
+[template_enhancedShellsInfo]
+@define tech: Enhanced Shells
+@define tech_es: Proyectiles Mejorados
+description: -Ground vehicles have +15% attack damage
+description_es: -Los vehículos terrestres tienen +15% daño de ataque
+
+[template_lightStabilizersInfo]
+@define tech: Light Stabilizers
+@define tech_es: Estabilizadores Ligeros
+description: -Ships and submarines have +15 armour
+description_es: -Los barcos y submarinos tienen +15 de armadura
+
+[template_armoredDecksInfo]
+@define tech: Armored Decks
+@define tech_es: Cubiertas Blindadas
+description: -Ships and submarines have +15 armour
+description_es: -Los barcos y submarinos tienen +15 de armadura
+
+[template_reinforcedStructuresInfo]
+@define tech: Reinforced Structures
+@define tech_es: Estructuras Reforzadas
+description: -Ships and submarines have +20 armour
+description_es: -Los barcos y submarinos tienen +20 de armadura
+
+[template_navalCodeInfo]
+@define tech: Naval Code
+@define tech_es: Código Naval
+description: -Ships and submarines have +10% attack damage
+description_es: -Barcos y submarinos tienen +10% daño de ataque
+
+[template_armoredAxisInfo]
+@define tech: Armored Axis
+@define tech_es: Eje Blindado
+description: -Ships and submarines have +10% attack damage
+description_es: -Barcos y submarinos tienen +10% daño de ataque
+
+[template_enhancedNavalArtilleryInfo]
+@define tech: Enhanced Naval Artillery
+@define tech_es: Artillería Naval Mejorada
+description: -Ships and submarines have +15% attack damage
+description_es: -Barcos y submarinos tienen +15% daño de ataque
+
+[template_dogfightTacticsInfo]
+@define tech: Dogfight Tactics
+@define tech_es: Tácticas de Combate Aéreo
+description: -Airplanes have +3 armour
+description_es: -Los aviones tienen +3 de armadura
+
+[template_armoredGlassInfo]
+@define tech: Armored Glass
+@define tech_es: Vidrio Blindado
+description: -Airplanes have +3 armour
+description_es: -Los aviones tienen +3 de armadura
+
+[template_monohullConstructionInfo]
+@define tech: Monohull Construction
+@define tech_es: Construcción Monocasco
+description: -Airplanes have +4 armour
+description_es: -Los aviones tienen +4 de armadura
+
+[template_specializedStrafingInfo]
+@define tech: Specialized Strafing
+@define tech_es: Ametrallamiento Especializado
+description: -Airplanes have +10% attack damage
+description_es: -Los aviones tienen +10% daño de ataque
+
+[template_airRelayInfo]
+@define tech: Air Relay
+@define tech_es: Relevo Aéreo
+description: -Airplanes have +10% attack damage
+description_es: -Los aviones tienen +10% daño de ataque
+
+[template_30mmAmmoInfo]
+@define tech: 30mm Ammo
+@define tech_es: Munición de 30mm
+description: -Airplanes have +15% attack damage
+description_es: -Los aviones tienen +15% daño de ataque
+
+[template_infantryTacticsInfo]
+@define tech: Infantry Tactics
+@define tech_es: Tácticas de Infantería
+description: -Rifle, MG, rocket and conscript troops can capture buildings when near them\n-Rifle, MG, rocket and conscript troops can build trenches
+description_es: -Las tropas de rifle, AM, cohete y conscriptos pueden capturar edificios cuando están cerca de ellos\n-Las tropas de rifle, AM, cohete y conscriptos pueden construir trincheras
+
+[template_mediumTanksInfo]
+@define tech: Medium Tanks
+@define tech_es: Tanques Medios
+description: -Upgrades tanks to medium tanks\n-Tanks have more HP, attack range and attack damage
+description_es: -Mejora los tanques a tanques medios\n-Los tanques tienen más PV, rango de ataque y daño de ataque
+
+[template_heavyTanksInfo]
+@define tech: Heavy Tanks
+@define tech_es: Tanques Pesados
+description: -Upgrades tanks to heavy tanks\n-Tanks have more HP, attack range and attack damage
+description_es: -Mejora los tanques a tanques pesados\n-Los tanques tienen más PV, rango de ataque y daño de ataque
+
+[template_superHeavyProjectsInfo]
+@define tech: Super Heavy Projects
+@define tech_es: Proyectos Super Pesados
+description: -Unlocks super heavy vehicles
+description_es: -Desbloquea los vehículos superpesados
+
+[template_groundTacticsInfo]
+@define tech: Ground Tactics
+@define tech_es: Tácticas de Tierra
+description: -Upgrades AT guns to tank destroyers\n-Tank destroyers have more mobility and HP
+description_es: -Mejora los cañones AT a cazacarros\n-Los cazacarros tienen más movilidad y PV
+
+[template_mineFlailsInfo]
+@define tech: Mine Flails
+@define tech_es: Mayales de Minas
+description: -Heavy vehicles are invulnerable to traps and remove them when near
+description_es: -Los vehículos pesados son invulnerables a las trampas y las remueven cuando están cerca
+
+[template_heavyAASupportInfo]
+@define tech: Heavy AA Support
+@define tech_es: Apoyo AA Pesado
+description: -Upgrades AA halftracks to self-propelled AA guns\n-AA vehicles have more HP, attack range, attack damage and area damage
+description_es: -Mejora los semiorugas AA a cañones AA auto-propulsados\n-Los vehículos AA tienen más PV, rango de ataque, daño de ataque y daño en área
+
+[template_jetPowerInfo]
+@define tech: Jet Power
+@define tech_es: Potencia Jet
+description: -Improves light fighters to jet fighters\n-Fighters have more HP, move speed and attack damage
+description_es: -Mejora los cazas ligeros a cazas jet\n-Los cazas tienen más PV, velocidad de movimiento y daño de ataque
+
+[template_mediumBombersInfo]
+@define tech: Medium Bombers
+@define tech_es: Bombarderos Medios
+description: -Unlocks strategic bombers at the hangar
+description_es: -Desbloquea los bombarderos estratégicos en el hangar
+
+[template_heavyBombersInfo]
+@define tech: Heavy Bombers
+@define tech_es: Bombarderos Pesados
+description: -Upgrades strategic bombers to heavy bombers\n-Strategic bombers have more HP, attack damage, speed and can carry more bombs
+description_es: -Mejora los bombarderos estratégicos a bombarderos pesados\n-Los bombarderos estratégicos tienen más PV, daño de ataque, velocidad y pueden llevar más bombas
+
+[template_navalSupportInfo]
+@define tech: Naval Support
+@define tech_es: Apoyo Naval
+description: -Unlocks battleships and LST transports at the harbour
+description_es: -Desbloquea los acorazados y los transportes LST en el puerto
+
+[template_submarineWarfareInfo]
+@define tech: Submarine Warfare
+@define tech_es: Guerra Submarina
+description: -Unlocks submarines and minesweepers at the harbour\n-Unlocks anti-submarine units\n-Allows placing marine mines
+description_es: -Desbloquea los submarinos y dragaminas en el puerto\n-Desbloquea unidades anti-submarinas\n-Permite colocar minas marinas
+
+[template_massiveDestructionInfo]
+@define tech: Massive Destruction
+@define tech_es: Destrucción Masiva
+description: -Unlocks flamethrower and chemical units at the barracks and garage
+description_es: -Desbloquea las unidades lanzallamas y químicas en el cuartel y el garaje
+
+[template_manhattanProjectInfo]
+@define tech: Manhattan Project
+@define tech_es: Proyecto Manhattan
+description: -Unlocks the B-29 Superfortress nuclear bomber at the hangar
+description_es: -Desbloquea el bombardero nuclear B-29 Superfortress en el hangar
+
+[template_additionalFuelTanksInfo]
+@define tech: Additional Fuel Tanks
+@define tech_es: Tanques de C. Adicionales
+description: -Airplanes have +20 fuel, to fly more time
+description_es: -Los aviones tienen +20 de combustible, para volar más tiempo
+
+[template_finalSolutionInfo]
+@define tech: Final Solution
+@define tech_es: Solución Final
+description: -Allows the building of concentration camps\n-Unlocks the SS team at the barracks
+description_es: -Permite la construcción de campos de concentración\n-Desbloquea el equipo SS en el cuartel
+
+[template_strategicRocketsInfo]
+@define tech: Strategic Rockets
+@define tech_es: Cohetes Estratégicos
+description: -Allows the building of V2 launchpads
+description_es: -Permite la construcción de plataformas V2
+
+[template_stalinArsenalInfo]
+@define tech: Stalin's Arsenal
+@define tech_es: Arsenal de Stalin
+description: -Unlocks the BM-13 Katyusha and 203mm B-4 Howitzer artilleries at the garage
+description_es: -Desbloquea las artillerías BM-13 Katiusha y Obús B-4 de 203mm en el garaje
+
+[template_allySupportInfo]
+@define tech: Ally Support
+@define tech_es: Apoyo Aliado
+description: -Reinforcements are generated on the diplomatic center periodically
+description_es: -Se generan refuerzos en el centro diplomático periódicamente
+
+[template_zvenoProjectInfo]
+@define tech: Zveno Project
+@define tech_es: Proyecto Zveno
+description: -Unlocks the tupolev bomber-aircraft-carrier at the hangar
+description_es: -Desbloquea el bombardero-portaaviones túpolev en el hangar
+
+[template_navalArsenalInfo]
+@define tech: Naval Arsenal
+@define tech_es: Arsenal Naval
+description: -Unlocks the yamato class battleship at the harbour
+description_es: -Desbloquea el acorazado clase yamato en el puerto
+
+[template_advancedDiveBombersInfo]
+@define tech: Advanced Dive Bombers
+@define tech_es: B. en Picada Avanzados
+description: -Unlocks the Aichi M6A at the I-400 Class submarine\n-Upgrades dive bombers to Mitsubishi A6M Zero at the air base\n-Dive bombers have more attack damage, speed, bombs and go suicide on death
+description_es: -Desbloquea el Aichi M6A en el submarino Clase I-400\n-Mejora los bombarderos en picada a Mitsubishi A6M Zero en la base aérea\n-Los bombarderos en picada tienen más daño de ataque, velocidad, bombas y son suicidas al morir
+
+[template_commonwealthPlanInfo]
+@define tech: Commonwealth Plan
+@define tech_es: Plan Commonwealth
+description: -When an airplane is created, a fighter is created for free\n-Unlocks the Horsa glider at the hangar
+description_es: -Cuando un avión es creado, un caza es creado gratis\n-Desbloquea el planeador Horsa en el hangar
+
+[template_colonialOrganizationInfo]
+@define tech: Colonial Organization
+@define tech_es: Organización Colonial
+description: -Allows the building of colonial centers
+description_es: -Permite la construcción de centros coloniales
+
+[template_fascistMilitaryServiceInfo]
+@define tech: Fascist Military Service
+@define tech_es: Servicio Militar Fascista
+description: -When an infantry unit is trained, a rifle troop is trained for free\n-Unlocks the alpini troop and the cavallieri at the barracks
+description_es: -Cuando una unidad de infantería es entrenada, una tropa de rifle es entrenada gratis\n-Desbloquea la tropa alpini y el cavallieri en el cuartel
+
+[template_reinforcedFacilitiesInfo]
+@define tech: Reinforced Facilities
+@define tech_es: Instalaciones Reforzadas
+description: -Adds +45 HP auto-repair per second to buildings
+description_es: -Añade +45 de auto-reparación por segundo a los edificios
+
+#
+#============ Stratagem Info ==============#
+#
+
+[template_stratagemGenericsInfo]
+isLockedMessage: -An enemy is confusing us!
+isLockedMessage_es: -¡Un enemigo nos está confundiendo!
+
+[template_massProductionInfo]
+text: Mass Production
+text_es: Producción en Masa
+description: -Vehicles are produced 30% faster and medium tanks cost -30% during 1 minute
+description_es: -Los vehículos son producidos 30% más rápido y los tanques medios cuestan -30% durante 1 minuto
+
+[template_codebreakersInfo]
+text: Codebreakers
+text_es: Descifracódigos
+description: -Ships and submarines have +12 fog sight range during 1 minute
+description_es: -Los barcos y submarinos tienen +12 de rango de visión durante 1 minuto
+
+[template_navalRepairingsInfo]
+text: Naval Repairings
+text_es: Reparaciones Navales
+description: -Damaged ships and submarines recover 500 HP over 5 seconds
+description_es: -Los barcos y submarinos dañados recuperan 500 PV en 5 segundos
+
+[template_napalmBombingInfo]
+text: Napalm Bombing
+text_es: Bombardeo de Napalm
+description: -Strategic bombers cause fires with their bombs during 30 seconds
+description_es: -Los bombarderos estratégicos causan incendios con sus bombas durante 30 segundos
+
+[template_resistanceInfo]
+text: Resistance
+text_es: Resistencia
+description: -Destroyed buildings generate partisan troops during 1 minute
+description_es: -Los edificios destruidos generan tropas de partisanos durante 1 minuto
+
+[template_zealotryInfo]
+text: Zealotry
+text_es: Fanatismo
+description: -Infantry units have +30% attack speed during 30 seconds
+description_es: -Las unidades de infantería tienen +30% de velocidad de ataque durante 30 segundos
+
+[template_227OrderInfo]
+text: 227 Order
+text_es: Orden 227
+description: -Infantry units generate morale on death (0.1) during 2 minutes
+description_es: -Las unidades de infantería generan moral al morir (0.1) durante 2 minutos
+
+[template_rocketStrafingInfo]
+text: Rocket Strafing
+text_es: Ataque a Tierra de Cohetes
+description: -Dive bombers attack with air-to-ground rockets during 30 seconds
+description_es: -Los bombardeos en picada atacan con cohetes de aire-tierra durante 30 segundos
+
+[template_sabotageInfo]
+text: Sabotage
+text_es: Sabotaje
+description: -Prevents enemies from investigating during 1 minute
+description_es: -Impide que los enemigos investiguen durante 1 minuto
+
+[template_spionageInfo]
+text: Spionage
+text_es: Espionaje
+description: -A random enemy citizen reveals fog of war for you during 15 seconds
+description_es: -Un ciudadano enemigo aleatorio revela niebla de guerra para ti durante 15 segundos
+
+[template_requisitionInfo]
+text: Requisition
+text_es: Requisición
+description: -When a ship is built a patrol craft is created for free during 2 minutes
+description_es: -Cuando un barco es construido un barco patrulla es creado gratis durante 2 minutos
+
+[template_navalCommerceInfo]
+text: Naval Commerce
+text_es: Comercio Naval
+description: -Harbours generate 5 industry and 3 oil during 1 minute
+description_es: -Los puertos generan 5 de Industria y 3 de petróleo durante 1 minuto
+
+[template_blitzkriegInfo]
+text: Blitzkrieg
+text_es: Blitzkrieg
+description: -Vehicles have +30% movement speed during 1 minute
+description_es: -Los vehículos tienen +30% de velocidad de movimiento durante 1 minuto
+
+[template_forcedMarchInfo]
+text: Forced March
+text_es: Marcha Forzada
+description: -Infantry have +50% movement speed during 30 seconds
+description_es: -La infantería tienen +50% de velocidad de movimiento durante 30 segundos
+
+[template_counterpropagandaInfo]
+text: Counterpropaganda
+text_es: Contrapropaganda
+description: -Enemy infantry is trained 50% slower and cause -10% damage during 1 minute
+description_es: -La infantería enemiga es entrenada 50% más lento y causa -10% de daño durante 1 minuto
+
+[template_inducedInflationInfo]
+text: Induced Inflation
+text_es: Inflación Inducida
+description: -Enemy refineries and factories have -5 production during 2 minutes
+description_es: -Las refinerías y fábricas enemigas tienen -5 de producción durante 2 minutos
+
+[template_modifiedTorpedoesInfo]
+text: Modified Torpedoes
+text_es: Torpedos Modificados
+description: -Main dive bombers attack with torpedoes during 30 seconds
+description_es: -Los bombarderos en picada principales atacan con torpedos durante 30 segundos
+
+[template_honorCultureInfo]
+text: Honor Culture
+text_es: Cultura del Honor
+description: -When a infantry unit is trained, a rifle troop and a mortar team are trained for free during 30 seconds
+description_es: -Cuando una unidad de infantería es entrenada, una tropa de rifle y un equipo de mortero son entrenados gratis durante 30 segundos
+
+[template_unexpectedMoveInfo]
+text: Unexpected Move
+text_es: Movimiento Inesperado
+description: -Prevents enemies from using stratagems during 1 minute
+description_es: -Evita que los enemigos utilicen estratgemas durante 1 minuto
+
+[template_civilBombardmentInfo]
+text: Civil Bombardment
+text_es: Bombardeo Civil
+description: -Strategic bombers reduce morale with their bombs (-0.08) during 30 seconds
+description_es: -Los bombarderos estratégicos reducen la moral con sus bombas (-0.08) durante 30 segundos
+
+[template_industrialExpropiationInfo]
+text: Industrial Expropiation
+text_es: Expropiación Industrial
+description: -Factories produce +5 industry during 1 minute
+description_es: -Las fábricas producen +5 de industria durante 1 minuto
+
+[template_fascistSupportInfo]
+text: Fascist Support
+text_es: Apoyo Fascista
+description: -A regiment of german units is generated at the diplomatic center
+description_es: -Un regimiento de unidades alemanas es generado en el centro diplomático
+
+[template_militarismInfo]
+text: Militarism
+text_es: Militarismo
+description: -Infantry doesn't reduce morale on death during 1 minute
+description_es: -La infantería no reduce la moral al morir durante 1 minuto
+
+[template_eliteInfantryInfo]
+text: Elite Infantry
+text_es: Infantería de Élite
+description: -Infantry have +20% attack damage during 30 seconds
+description_es: -La infantería tiene +20% de daño de ataque durante 30 segundos
+
+#
+#============ Sandbox Tool Actions and Skills ==============#
+#
+
+[template_debugAddResourcesInfo]
+text: Add Resources
+text_es: Añadir Recursos
+description: -Adds 2K industry and 1k oil\n-Only for debug purposes
+description_es: -Añade 2K de industria y 1K de petróleo\n-Solo para propósitos de corrección de bugs
+
+[template_increaseMoraleInfo]
+text: Increase Morale
+text_es: Incrementar Moral
+description: -Adds 10 morale\n-Only for debug purposes
+description_es: -Añade 10 de moral\n-Solo para propósitos de corrección de bugs
+
+[template_reduceMoraleInfo]
+text: Reduce Morale
+text_es: Reducir Moral
+description: -Removes 10 morale\n-Only for debug purposes
+description_es: -Remueve 10 de moral\n-Solo para propósitos de corrección de bugs
+
+[template_increaseInfluenceInfo]
+text: Increase Influence
+text_es: Incrementar Influencia
+description: -Adds 10 influence\n-Only for debug purposes
+description_es: -Añade 10 de influencia\n-Solo para propósitos de corrección de bugs
+
+[template_reduceInfluenceInfo]
+text: Reduce Influence
+text_es: Reducir Influencia
+description: -Removes 10 influence\n-Only for debug purposes
+description_es: -Remueve 10 de influencia\n-Solo para propósitos de corrección de bugs
+
+#
+#============ Game Mode Info ==============#
+#
+
+[template_blitzkriegModeInfo]
+showMessageToPlayer: -BLITZKRIEG MODE: Rush your enemies and conquer outposts!
+showMessageToPlayer_es: -MODO BLITZKRIEG: ¡Arrase a sus enemigos y conquiste puestos avanzados!
+showQuickWarLogToPlayer: Game mode selected: Blitzkrieg
+showQuickWarLogToPlayer_es: Modo de juego seleccionado: Blitzkrieg
+
+[template_oppositeAiModeInfo]
+showMessageToPlayer: -OPPOSITE AI MODE: Enemy AIs will be on the opposed side!
+showMessageToPlayer_es: -MODO IA ADVERSA: Las IAs enemigas serán del bando opuesto!
+showQuickWarLogToPlayer: Game mode selected: Opposite AI
+showQuickWarLogToPlayer_es: Modo de juego seleccionado: IA Adversa
+
+[template_rankedModeInfo]
+showMessageToPlayer: -RANKED MODE: Destroy your opponents and earn ES coins!
+showMessageToPlayer_es: -MODO RANKED: ¡Destruya a sus oponentes y obtenga ES coins!
+showQuickWarLogToPlayer: Game mode selected: Ranked
+showQuickWarLogToPlayer_es: Modo de juego seleccionado: Ranked
