@@ -643,6 +643,7 @@ displayDescription: -Brave and patriotic civilians\n-USSR special unit\n-Rebelli
 displayDescription_es: -Civiles valientes y patrióticos\n-Unidad especial de la URSS\n-Infantería de rebelión (Infantería)\n-Efectiva contra infantería, vehículos ligeros y edificios\n-Ataca a tierra únicamente\n-Afecta el terreno con fuego\n-El fuego no afecta vehículos\n-Se auto-regenera
 
 [template_assaultSappersInfo]
+#EDITED description
 displayDescription: -Saboteur forces\n-USSR special unit\n-Trapper and anti-building infantry (Infantry)\n-Effective against infantry and buildings\n-Attacks ground only\n-Can place minefields with no oil cost\n-Can throw demolition charges to buildings\n-Self-regenerates
 displayDescription_es: -Fuerzas saboteadoras\n-Unidad especial de la URSS\n-Infantería trampera y anti-edificios (Infantería)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Puede colocar minados sin costo en petróleo\n-Puede lanzar cargas de demolición a los edificios\n-Se auto-regenera
 
