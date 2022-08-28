@@ -36,34 +36,49 @@ Traditional Chinese: _zh
 [global_resource_morale]
 displayName: Morale
 displayName_es: Moral
+displayName_uk: Моральний Дух 
+displayName_zh: 士气
 
 [resource_localOil]
 displayName: Local Oil
 displayName_es: Petróleo Local
+displayName_uk: Локальна Нафта
+displayName_zh: 储存油
 
 [global_resource_oil]
 displayName: Oil
 displayName_es: Petróleo
+displayName_uk: Нафта
+displayName_zh:石油
 
 [global_resource_crudeOil]
 displayName: Crude Oil
 displayName_es: Petróleo Crudo
+displayName_uk: Сира Нафта
+displayName_zh: 原油
 
 [resource_localIndustry]
 displayName: Local Industry
 displayName_es: Industria Local
+displayName_uk: Локальна промисловість
 
 [global_resource_industry]
 displayName: Industry
 displayName_es: Industria
+displayName_uk: Промисловість
+displayName_zh: 工业值
 
 [global_resource_influence]
 displayName: Influence
 displayName_es: Influencia
+displayName_uk: Вплив
+displayName_zh: 影响力
 
 [global_resource_rankPoint]
 displayName: Rank Point
 displayName_es: Punto de Rango
+displayName_uk: Рангові очки
+displayName_zh: 等级
 
 #
 #============ Info Resources ==============#
@@ -72,10 +87,14 @@ displayName_es: Punto de Rango
 [global_resource_refiningSpeed]
 displayName: Refining Speed
 displayName_es: Velocidad de Refinación
+displayName_uk: Швидкість обробки
+displayName_zh: 精炼速度
 
 [global_resource_industryProduction]
 displayName: Industry Production
 displayName_es: Producción de Industria
+displayName_uk: Промислове виробництво
+displayName_zh:工业产值
 
 #
 #============ Stat Resources ==============#
@@ -84,22 +103,32 @@ displayName_es: Producción de Industria
 [global_resource_demoralizationLevel]
 displayName: Demoralization Level
 displayName_es: Nivel de Desmoralización
+displayName_uk: Рівень деморалізації
+displayName_zh: 士气减少水平
 
 [global_resource_infantryArmor]
 displayName: Infantry Armor
 displayName_es: Armadura de Infantería
+displayName_uk: Броня піхоти
+displayName_zh: 步兵护甲
 
 [global_resource_vehicleArmor]
 displayName: Vehicle Armor
 displayName_es: Armadura de Vehículos
+displayName_uk: Броня техніки
+displayName_zh: 车辆装甲
 
 [global_resource_shipArmor]
 displayName: Ship Armor
 displayName_es: Armadura de Barcos
+displayName_uk: Броня корабля
+displayName_zh: 海军装甲
 
 [global_resource_airplaneArmor]
 displayName: Airplane Armor
 displayName_es: Armadura de Aviones
+displayName_uk: Броня літака
+displayName_zh: 飞机装甲
 
 #
 #============ Headquarters Info ==============#
@@ -108,92 +137,152 @@ displayName_es: Armadura de Aviones
 [template_headquartersInfo]
 displayText: Headquarters
 displayText_es: Cuartel General
+displayText_uk: Штаб
+displayText_zh: 基地
 displayDescription: -Main base\n-Can build structures and research economic technologies
 displayDescription_es: -Base principal\n-Puede construir estructuras e investigar tecnologías económicas
+displayDescription_uk: -Головна база\n-Може будувати споруди та досліджувати економічні технології
+displayDescription_zh: -主要基地\n-可以建造建筑和研究改良经济政策
 
 [template_usaInfo]
 text: USA
 text_es: EE. UU.
+text_uk: США
+text_zh: 美利坚合众国
 description: —'The nation that destroys its soil, destroys itself.' —Franklin D. Roosevelt\n\n-Defensive nation\n-Military units have +30% HP\n-Featured unit: B-29 Superfortress (Nuclear bomber)
 description_es: —"La nación que destruye su suelo, se destruye a sí misma." —Franklin D. Roosevelt\n\n-Nación defensiva\n-Unidades militares tienen +30% PV\n-Unidad destacada: B-29 Superfortress (Bombardero nuclear)
+description_uk: —«Нація, яка руйнує свій ґрунт, руйнує саму себе.» —Франклін Д. Рузвельт\n\n-Оборонна фракція\n-Військові частини мають +30% здоров'я\n-Рекомендована одиниця: B-29 Superfortress (Ядерний бомбардувальник)
+description_zh: —'一个毁掉自己所有土壤的国家也将毁灭自身。' —富兰克林·德拉诺·罗斯福\n\n-防守派系\n-军事单位生命+30%\n-特色单位:B-29“超级空中堡垒”
 
 [template_naziGermanyInfo]
 text: Nazi Germany
 text_es: Alemania Nazi
+text_uk: Нацистська Німеччина
+text_zh: 纳粹德国
 description: —'With humanity and democracy the people have never been liberated.' —Adolf Hitler\n\n-Offensive nation\n-Military units have +20% attack damage\n-Featured building: V2 Launchpad (Rocket launcher)
 description_es: —"Con humanidad y democracia nunca han sido liberados los pueblos." —Adolf Hitler\n\n-Nación ofensiva\n-Unidades militares tienen +20% daño de ataque\n-Edificio destacado: Lanzador V2 (Lanzacohetes)
+description_uk: —«З гуманністю і демократією люди ніколи не були вільними.» —Адольф Гітлер\n\n-Наступальна фракція\n-Військові одиниці мають +20% шкоди\n-Рекомендована споруда: V2 Launchpad (Ракетна установка)
+description_zh: —'人道是愚蠢、怯懦和自作聪明的混合物。' —阿道夫·希特勒\n\n-进攻派系\n-军事单位攻击+20%\n-特色建筑:“复仇”2型导弹
 
 [template_ussrInfo]
 text: USSR
 text_es: URSS
+text_uk: СРСР
+text_zh: 苏维埃社会主义共和国联盟
 description: —'Ours is a just cause. The enemy must be defeated. Victory will be ours.' —Josef Stalin\n\n-Quick nation\n-Military units are 30% cheaper\n-Military units have +30% movement speed (excepting airplanes)\n-Featured building: Gulag (Industry generator)
 description_es: —"La nuestra es una causa justa. El enemigo debe ser derrotado. La victoria será nuestra." —Josef Stalin\n\n-Nación rápida\n-Unidades militares son 30% más baratas\n-Unidades militares tienen +30% velocidad de movimiento (exceptuando aviones)\n-Edificio destacado: Gulag (Generador de industria)
+description_uk: —«Наше дєло правоє. Враг будєт разбіт. Побєда будєт за намі.» —Йосип Сталін\n\n-Швидка фракція\n-Військові одиниці дешевше на 30%.\n-Військові одиниці мають +30% швидкості (крім літаків)\n-Рекомендована споруда: ГУЛАГ (генератор Промисловості)
+description_zh: —'我们的事业是正义的。敌人将被消灭。胜利将属于我们！ ' —约瑟夫·斯大林\n\n-闪击派系\n-军事单位费用-30%\n-军事单位+30%移动速度(飞机除外)\n-特色建筑:古拉格
 
 [template_japanEmpireInfo]
 text: Japan Empire
 text_es: Imperio del Japón
+text_uk: Японська Імперія
+text_zh: 日本帝国
 description: —'We have to bear the unbearable.' —Hiro-Hito\n\n-Naval nation\n-Engineering teams can build factories, barracks and garages\n-Military units don't reduce morale on death\n-Featured unit: Yamato Class (Battleship)
 description_es: —"Hay que soportar lo insoportable." —Hiro-Hito\n\n-Nación naval\n-Los equipos de ingeniería pueden construir fábricas, cuarteles y garajes\n-Unidades militares no reducen la moral al morir\n-Unidad destacada: Clase Yamato (Acorazado)
+description_uk: —«Ми повинні терпіти нестерпне.» —Хіро-Хіто\n\n-Військово-морська фракція\n-Інженерні команди можуть будувати фабрики, казарми та гаражі\n-Військові одиниці не знижують моральний дух після смерті\n-Рекомендована одиниця: Yamato Class (Лінкор)
+description_zh: —‘我们不得不忍受我们无法忍受的’—裕仁\n-海军派系\n-工程队可以建造工厂，军营和车库\n-军事单位死亡不会降低士气\n-特色单位: 大和级战列舰
 
 [template_unitedKingdomInfo]
 text: United Kingdom
 text_es: Reino Unido
+text_uk: Сполучене Королівство
+text_zh: 联合王国
 description: —'Never in the field of human conflict, has so much been owed by so many to so few.' —Winston Churchill\n\n-Air nation\n-Military units have +7% attack range\n-Featured unit: Airspeed AS.51 Horsa (Glider)
 description_es: —"Nunca en el campo de los conflictos humanos, tantos debieron tanto a tan pocos." —Winston Churchill\n\n-Nación de aire\n-Unidades militares tienen +7% rango de ataque\n-Unidad destacada: Airspeed AS.51 Horsa (Planeador)
+description_uk: —«Ніколи на полях людських конфліктів не залежало так багато для людства від небагатьох.» —Вінстон Черчілль\n\n-Повітряна фракція\n-Військові одиниці мають +7% дальності\n-Рекомендована одиниця: Airspeed AS.51 Horsa (Планер)
+description_zh: —‘在人类战争史上,从来也没有一次像这样,以如此少的兵力,取得如此大的成功,保护如此多的民众.’—温斯顿·丘吉尔\n-空军派系\n- 军事单位+7%射程\n-特色单位: AS.51霍莎滑翔机
 
 [template_italyKingdomInfo]
 text: Italy Kingdom
 text_es: Reino de Italia
+text_uk: Королівство Італія
+text_zh: 意大利王国
 description: —'A people has to be poor in order to be proud.' —Benito Mussolini\n\n-Infantry nation\n-Military units have +30% fire rate\n-Military units are created 30% faster\n-Featured unit: Cavallieri (Mounted infantry)
 description_es: —"Un pueblo tiene que ser pobre para poder ser orgulloso." —Benito Mussolini\n\n-Nación de infantería\n-Unidades militares tienen +30% cadencia de fuego\n-Unidades militares se crean 30% más rápido\n-Unidad destacada: Cavallieri (Infantería montada)
+description_uk: —«Народ повинен бути бідним, щоб бути гордим.» —Беніто Муссоліні\n\n-Піхотна фракція\n-Військові одиниці мають +30% скорострільності\n-Військові одиниці створюються на 30% швидше\n-Рекомендована одиниця: Cavallieri (Кінна піхота)
+description_zh: —'鲜血推动历史车轮前进。' —贝尼托·墨索里尼\n\n-步兵派系\n-军事单位射速+30%\n-特色单位:“萨伏伊”骑兵团
 
 [template_displayHelpInfo]
 text: How To Play
 text_es: Cómo Jugar
+text_uk: Як Грати
+text_zh: 怎么玩？
 description: -Shows a starting guide\n-Useful to learn basics about the mod
 description_es: -Muestra una guía de inicio\n-Útil para aprender lo básico del mod
+description_uk: -Показує початковий посібник\n-Корисно для вивчення основ моду
+description_zh: -显示新手教程\n-对新手了解该mod很有帮助
 
 [template_hideHelpInfo]
 text: Hide Guide
 text_es: Ocultar Guía
+text_uk: Сховати Посібник
+text_zh_:隐藏新手教程
 description: -Hides the starting guide
 description_es: -Oculta la guía de inicio
+description: -Приховує початковий посібник
+description_zh: -隐藏新手教程
 
 [template_resourceHelpInfo]
 text: Resources
 text_es: Recursos
+text_uk: Ресурси
+text_zh: 资源
 description: -Industry: the basic resource, obtained from factories\n-Oil: must be refined before it can be used, obtained from oil pools\n-Morale: defines the industry production efficiency, try to keep it as high as possible\n-Influence: defines your advance through the game, useful for some special skills
 description_es: -Industria: el recurso básico, obtenida de las fábricas\n-Petróleo: debe refinarse antes de que pueda utilizarse, obtenido de los pozos de petróleo\n-Moral: define la eficiencia de producción de industria, intente mantenerla lo más alto posible\n-Influencia: define su avance a través del juego, útil para algunas habilidades especiales
+description_uk: -Промисловість: основний ресурс, отримується з фабрик\n-Нафта: має бути очищеною перед використанням, отримується з нафтових джерел\n-Моральний дух: визначає ефективність виробництва, намагайтеся підтримувати її якомога вищою\n-Вплив: визначає ваше просування в грі, корисно для деяких спеціальних навичок
+description_zh: -工业值:基本资源，从工厂获得\n-石油，必须在炼油厂提炼以后使用，从炼油厂获得\n-士气，他影响着工厂炼油厂的生产效率以及你的军队战斗力，请尽量保持士气高昂
 
 [template_moraleHelpInfo]
 text: Morale
 text_es: Moral
+text_uk: Моральний дух
+text_zh: 士气
 description: -Morale is decreased by time or when loosing units/buildings\n-Low morale decreases industry production and weakens units\n-Killing enemy units, building a district station and making some alliances rise morale
 description_es: -La moral disminuye con el tiempo o cuando se pierden unidades/edificios\n-La moral baja reduce la producción de industria y debilita a las unidades\n-Matar unidades enemigas, construir una estación de distrito y hacer algunas alianzas elevan la moral
+description_uk: -Моральний дух знижується з часом або при втраті одиниць/споруд\n-Низький моральний дух знижує промислове виробництво та послаблює одиниці\n-Знищення ворожих одиниць, будівництво районної станції та створення альянсів підвищують моральний дух
+description_zh: -士气会因时间流逝或单位损失或者建筑被毁而降低\n-士气低落会导致工厂效率底下，单位战斗力不足\n-杀死一个敌方单位，或通过剧院大学中的特殊技能，或选择合适的联盟，或建造一个政府区站
 
 [template_influenceHelpInfo]
 text: Influence
 text_es: Influencia
+text_uk: Вплив
+text_zh: 影响力
 description: -Influence is obtained when constructing buildings, creating units or researching technologies\n-Influence is useful to choose alliances at the diplomatic center and using special skills\n-Alliances provide special advantages or better units with no extra cost
 description_es: -La influencia es obtenida cuando se construyen edificios, se crean unidades o se investigan tecnologías\n-La influencia es útil para elegir alianzas en el centro diplomático y usar habilidades especiales\n-Las alianzas proveen ventajas especiales o mejores unidades sin costo adicional
+description_uk: -Вплив отримують при будівництві споруд, створенні одиниць або дослідженні технологій\n-Вплив корисний для вибору альянсу в дипломатичному центрі та використання спеціальних навичок\n-Альянси надають особливі переваги або кращі одиниці без додаткових витрат
+description_zh: -影响力是在建造建筑、训练单位或研究科技时获得的\n-影响力可以用来在外交中心选择联盟和在一些建筑中使用特殊技能\n-联盟将会提供特殊的加成或更强大的单位而没有额外的成本
 
 [template_technologyHelpInfo]
 text: Technologies
 text_es: Tecnologías
+text_uk: Технології
+text_zh: 科技
 description: -All factions have generic and special tech upgrades\n-Some units and buildings require specific technologies to be available\n-Economic technologies improve industry and oil income, are available at headquarters\n-Military technologies improve or unlock units, are available at unit production buildings\n-Armor and attack technologies improve unit stats, are available at the reasearch station\n-Faction special technologies are available at the district station
 description_es: -Todas las facciones tienen mejoras tecnológicas genéricas y especiales\n-Algunas unidades y edificios requieren tecnologías específicas para estar disponibles\n-Las tecnologías económicas mejoran el ingreso de industria y petróleo, están disponibles en el cuartel general\n-Las tecnologías militares mejoran o desbloquean unidades, están disponibles en los edificios de producción de unidades\n-Las tecnologías de armadura y ataque mejoran las estadísticas de las unidades, están disponibles en la estación de investigación\n-Las tecnologías especiales de facción están disponibles en la estación de distrito
+description_uk: -Усі фракції мають загальні та спеціальні технічні покращення\n-Деякі одиниці та будівлі вимагають наявності спеціальних технологій\n-Економічні технології, які покращують промисловість і видобуток нафти, доступні в штабі\n-Військові технології, які покращують або розблоковують одиниці, доступні у виробляючих одиниць спорудах\n-Технології броні та атаки, які покращують одиниці, доступні на дослідницькій станції\n-На районній станції доступні фракційні спеціальні технології
+description_zh: -所有派别都有通用和特殊的科技\n-一些单位和建筑需要具备特定科技\n-经济科技提高工厂与炼油厂的效率，可以在总部研发\n-军事科技解锁单位，可在生产该类单位的建筑研发\n-增加护甲和提高攻击力的科技将会提升单位战斗力，可在研究站研发\n-派系特殊技术可在政府区站研发
 
 [template_expansionHelpInfo]
 text: Expansion
 text_es: Expansión
+text: Експансія
+text_zh: 扩张
 description: -Use engineering teams to expand your territory\n-Outposts can defend and build on new conquered zones\n-Being offensive has more benefits than being defensive
 description_es: -Use equipos de ingeniería para expandir su territorio\n-Los puestos avanzados pueden defender y construir en nuevas zonas conquistadas\n-Ser ofensivo tiene más beneficios que ser defensivo
+description_uk: -Використовуйте інженерні команди, щоб розширити свою територію\n-Аванпости можуть захищатися та будувати на нових завойованих зонах\n-У нападі більше переваг, ніж у обороні
+description_zh: -使用工程队来扩张你的领地\n-前哨站可以保护并建设你新征服的地区\n-进攻往往是最好的防守
 
 [template_gameModeHelpInfo]
 text: Game Modes
 text_es: Modos de Juego
+text_uk: Режими Гри
+text_zh: 扩展包
 description: -Skirmish (Default)\n-Campaign (Map pack/Download apart)\n-Opposite AI (Starting unit)\n-Blitzkrieg (Starting unit)\n-Ranked (Starting unit/See ES & Co. Discord for more info)
 description_es: -Escaramuza (Predeterminado)\n-Campaña (Paquete de mapas/Descarga aparte)\n-IA Opuesta (Unidad inicial)\n-Blitzkrieg (Unidad inicial)\n-Ranked (Unidad inicial/Ver Discord ES & Co. para mayor información)
+description_uk: -Сутичка (За-замовчуванням)\n-Кампанія (Map pack/Завантажте окремо)\n-Навпроти ШІ (Початкові одиниці)\n-Бліцкриг (Початкові одиниці)\n-Рейтинг (Початкові одиниці/Детально дивіться на сервері ES & Co.)
+description_zh: -小规模冲突（默认）\n-战役（地图与TH是需要分别下载并同时运行的）\n-AI对抗（初始单位设置）\n-闪电战（初始单位设置）\n-排名模式（初始单位设置，更多内容请见discord服务器 ES & CO.)
 
 #
 #============ Tool Info ==============#
@@ -202,8 +291,12 @@ description_es: -Escaramuza (Predeterminado)\n-Campaña (Paquete de mapas/Descar
 [template_sandboxToolInfo]
 displayText: Sandbox Tool
 displayText_es: Herramienta de Sandbox
+displayText_uk: Інструмент Пісочниці
+displayText_zh: 沙盒工具
 displayDescription: -Useful to correct bugs and know all factions\n-Adds or removes resources\n-Researches technologies instantly\n-Affects the selected player
 displayDescription_es: -Útil para corregir errores y conocer todas las facciones\n-Añade o remueve recursos\n-Investiga tecnologías instantáneamente\n-Afecta al jugador seleccionado
+displayDescription_uk: -Корисно виправляти помилки та вивчати фракції\n-Додає або видаляє ресурси\n-Миттєво досліджує технології\n-Впливає на вибраного гравця
+displayDescription_zh: -有助于更正错误和了解所有阵营派系\n-添加或删除资源\n-可以立即获取技术\n-仅影响使用的玩家
 
 #
 #============ Generic Units ==============#
@@ -212,319 +305,517 @@ displayDescription_es: -Útil para corregir errores y conocer todas las faccione
 [template_factoryInfo]
 displayText: Factory
 displayText_es: Fábrica
+displayText_uk: Фабрика
+displayText_zh: 工厂
 displayDescription: -Used to create ammunition, construction materials and foods\n-Generates industry\n-Morale and HP affects its production
 displayDescription_es: -Usado para crear munición, materiales de construcción y alimentos\n-Genera industria\n-La moral y los PV afectan su producción
+displayDescription_uk: -Використовується для створення боєприпасів, будівельних матеріалів та продуктів харчування\n-Створює промисловість\n-Моральний дух та здоров'я впливає на його виробництво
+displayDescription_zh: -用于制造弹药，建筑材料与食物\n-产生工业值\n-产量会被士气和当前工厂血量影响
 
 [template_derrickInfo]
 displayText: Derrick
 displayText_es: Torre de Perforación
+displayText_uk: Нафтова вишка
+displayText_zh: 油井
 displayDescription: -Used to drill and get oil\n-Extracts crude oil from oil pools\n-Crude oil must be refined in refineries
 displayDescription_es: -Usada para perforar y obtener petróleo\n-Extrae petróleo crudo de los pozos de petróleo\n-El petróleo crudo debe ser refinado en las refinerías
+displayDescription_uk: -Використовується для свердління та отримання нафти\n-Добуває сиру нафту з нафтових джерел\n-Сира нафта повинна перероблятися на нафтопереробних заводах
+displayDescription_zh: 用来钻探石油\n-将会开采原油\n-原油必须在炼油厂中提炼才能使用
 
 [template_rodPumpInfo]
 displayText: Rod Pump
 displayText_es: Bomba de Varilla
+displayText_uk: Стрижневий насос
+displayText_zh: 油泵
 displayDescription: -Used to extract oil from oil pools\n-Extracts till oil runs out\n-Upgradeable
 displayDescription_es: -Usada para extraer petróleo de los pozos de petróleo\n-Extrae hasta que el petróleo se agota\n-Mejorable
+displayDescription_uk: -Використовується для видобутку нафти з нафтових джерел\n-Видобуває поки нафта не закінчиться\n-Є можливість покращити
+displayDescription_zh: -用于在油田中开采原油\n-将会开采至石油枯竭\n-可以升级
 
 [template_oilerTruckInfo]
 displayText: Oiler Truck
 displayText_es: Camión Petrolero
+displayText_uk: Нафтова Вантажівка
+displayText_zh: 运油车
 displayDescription: -Transport vehicle\n-Uncontrollable unit\n-Transports crude oil from pumps to refineries
 displayDescription_es: -Vehículo de transporte\n-Unidad incontrolable\n-Transporta el petróleo crudo desde las bombas a las refinerías
+displayDescription_uk: -Транспортний засіб\n-Одиниця, якою не можна керувати\n-Транспортує сиру нафту від насосів до нафтопереробних заводів
+displayDescription_zh: -运输车辆\n-不可控制单位\n-会把原油从油井运往炼油厂
 
 [template_refineryInfo]
 displayText: Refinery
 displayText_es: Refinería
+displayText_uk: Нафтопереробний Завод
+displayText_zh: 炼油厂
 displayDescription: -Used to refine oil\n-Converts crude oil into usable oil\n-Can train engineering teams
 displayDescription_es: -Usada para refinar el petróleo\n-Convierte el petróleo crudo en petróleo usable\n-Puede entrenar equipos de ingeniería
+displayDescription_uk: -Використовується для очищення нафти\n-Перетворює сиру нафту в придатну для використання\n-Може навчати інженерні команди
+displayDescription_zh: -用来提炼石油\n-将原油提炼为可以使用的石油\n-可以训练工程队
 
 [template_civilShelterInfo]
 displayText: Civil Shelter
 displayText_es: Refugio Civil
+displayText_uk: Цивільний Бункер
+displayText_zh: 民用防空洞
 displayDescription: -Underground structure designed to resist bombings\n-Avoids losing morale from factories, refineries and civil buildings destroyed within its range
 displayDescription_es: -Estructura subterránea diseñada para resistir los bombardeos\n-Evita perder moral por fábricas, refinerías y edificios civiles destruidos en su rango
+displayDescription_uk: -Підземна споруда, призначена для захисту від бомбардувань\n-Уникає втрати морального духу від фабрик, нафтопереробних заводів і цивільних споруд, знищених поруч
+displayDescription_zh: -为抵抗爆炸而设计的地下防空洞\n-在其范围内被摧毁的工厂、炼油厂和民用防空洞将不会失去士气
 
 [template_theaterInfo]
 displayText: Theater
 displayText_es: Teatro
+displayText_uk: Театр
+displayText_zh: 剧院
 displayDescription: -Entertainment place\n-Civil building\n-Unlocks basic buildings and technologies\n-Upgradeable
 displayDescription_es: -Espacio de entretenimiento\n-Edificio civil\n-Desbloquea edificios y tecnologías básicas\n-Mejorable
+displayDescription_uk: -Місце розваг\n-Цивільна споруда\n-Розблокує основні споруди та технології\n-Є можливість покращити
+displayDescription_zh: -娱乐场所\n-民用建筑\n-解锁更多建筑和更多可研究科技\n-可以使用特殊技能
 
 [template_squareInfo]
 displayText: Square
 displayText_es: Plaza
+displayText_uk: Майдан
+displayText_zh: 广场
 displayDescription: -Public place\n-Civil building\n-Unlocks medium buildings and technologies\n-Units can move over it\n-Upgradeable
 displayDescription_es: -Espacio público\n-Edificio civil\n-Desbloquea edificios y tecnologías medias\n-Las unidades pueden moverse sobre ella\n-Mejorable
+displayDescription_uk: -Громадське місце\n-Цивільна споруда\n-Розблокує середні споруди та технології\n-Одиниці можуть переміщатися по ньому\n-Є можливість покращити
+displayDescription_zh: -公共场所\n-民用建筑\n-解锁更多建筑和更多可研究科技\n-单位可以在上面移动\n-可以使用特殊技能
 
 [template_universityInfo]
 displayText: University
 displayText_es: Universidad
+displayText_uk: Університет
+displayText_zh: 大学
 displayDescription: -Professional formation place\n-Civil building\n-Unlocks advanced buildings and technologies\n-Upgradeable
 displayDescription_es: -Espacio de formación profesional\n-Edificio civil\n-Desbloquea edificios y tecnologías avanzadas\n-Mejorable
+displayDescription_uk: -Місце професійного формування\n-Цивільна споруда\n-Відкриває просунуті споруди та технології\n-Є можливість покращити
+displayDescription_zh: -专业理论形成的地方\n-民用建筑\n-解锁先进建筑和技术\n-可升级
 
 [template_researchStationInfo]
 displayText: Research Station
 displayText_es: Estación de Investigación
+displayText_uk: Дослідна станція
+displayText_zh: 研究站
 displayDescription: -Investigation facility\n-Can research military upgrades
 displayDescription_es: -Instalación de investigación\n-Puede investigar mejoras militares
+displayDescription_uk: -Досліднецька споруда\n-Може досліджувати військові покращення
+displayDescription_zh: -研究科技的地方\n-将会提高军队的战斗力
 
 [template_districtStationInfo]
 displayText: District Station
 displayText_es: Estación de Distrito
+displayText_uk: Районна Станція
+displayText_zh: 政府区站
 displayDescription: -Government palace\n-Allows using stratagems\n-Allows researching faction special techs
 displayDescription_es: -Palacio de gobierno\n-Permite usar estratagemas\n-Permite investigar tecnologías especiales de facción
+displayDescription_uk: -Урядовий палац\n-Дозволяє використовувати стратегії\n-Дозволяє досліджувати спеціальні фракційні технології
+displayDescription_zh: -行政管理中心\n-允许使用战术\n-可以研究派系特殊科技
 
 [template_diplomaticCenterInfo]
 displayText: Diplomatic Center
 displayText_es: Centro Diplomático
+displayText_uk: Дипломатичний Центр
 displayDescription: -International relation catalyzer\n-Allows setting alliances with influence\n-Can send resources to other players
+displayText_zh: 外交中心
 displayDescription_es: -Catalizador de relaciones internacionales\n-Permite establecer alianzas con influencia\n-Puede enviar recursos a otros jugadores
+displayDescription_uk: -Каталізатор міжнародних відносин\n-Дозволяє створювати альянси з впливом\n-Може відправляти ресурси іншим гравцям
+displayDescription_zh: -用于交易和发送资源给其他玩家\n-允许选择盟友国家\n-根据国家的不同，联盟会给予一些小的帮助
 
 [template_barracksInfo]
 displayText: Barracks
 displayText_es: Cuartel
+displayText_uk: Казарма
+displayText_zh: 军营
 displayDescription: -Used to train infantry\n-Can research infantry technologies
 displayDescription_es: -Usado para entrenar infantería\n-Puede investigar tecnologías de infantería
+displayDescription_uk: -Використовується для навчання піхоти\n-Може досліджувати технології піхоти
+displayDescription_zh: -用来训练步兵\n-可以研究步兵科技
 
 [template_garageInfo]
 displayText: Garage
 displayText_es: Garaje
+displayText_uk: Гараж
+displayText_zh: 车库
 displayDescription: -Used to create ground vehicles\n-Can research vehicle technologies\n-Can repair up to 2 vehicles at the same time
 displayDescription_es: -Usado para crear vehículos terrestres\n-Puede investigar tecnologías de vehículos\n-Puede reparar hasta 2 vehículos al mismo tiempo
+displayDescription_uk: -Використовується для створення наземної техніки\n-Може досліджувати технології техніки\n-Може ремонтувати до 2 машин одночасно
+displayDescription_zh: -用来制造地面车辆\n-可以研究车辆技术\n-最多可同时维修2个单位
 
 [template_airBaseInfo]
 displayText: Air Base
 displayText_es: Base Aérea
+displayText_uk: Авіабаза
+displayText_zh: 空军基地
 displayDescription: -Used to store air vehicles\n-Includes an hangar to create air vehicles and research air technologies\n-Repairs air vehicles\n-Refills airships' fuel\n-Can hold up to 10 airplanes only
 displayDescription_es: -Usada para guardar vehículos aéreos\n-Incluye un hangar para crear vehículos aéreos e investigar tecnologías aéreas\n-Repara vehículos aéreos\n-Recarga el combustible de las aeronaves\n-Puede mantener hasta 10 aviones únicamente
+displayDescription_uk: -Використовується для зберігання повітряної техніки\n-Включає ангар для створення повітряної техніки та дослідження повітряних технологій\n-Ремонтує повітряну техніку\n-Заправляє паливо дирижаблю\n-Може вмістити до 10 літаків
+displayDescription_zh: -用来存放飞机的地方\n-拥有一个机库，建造飞机和研究空军科技\n-可以修理飞机\n-可以给飞机加油\n-最多存放10架飞机
 
 [template_hangarInfo]
 displayText: Hangar
+displayText_uk: Ангар
+displayText_zh: 机库
 displayDescription: -Used to create air vehicles\n-Can research air technologies\n-Created airplanes take off from the air base
 displayDescription_es: -Usado para construir vehículos aéreos\n-Puede investigar tecnologías aéreas\n-Los aviones creados despegan desde la base aérea
+displayDescription_uk: -Використовується для створення повітряної техніки\n-Може досліджувати повітряні технології\n-Створені літаки злітають з авіабази
+displayDescription_zh: 可以制造飞机\n-可以研究空军科技以解锁轰炸机或喷气式战斗机\n-制造完的飞机将停在空军基地并可以随时起飞
 
 [template_harbourInfo]
 displayText: Harbour
 displayText_es: Puerto
+displayText_uk: Гавань
+displayText_zh: 港口
 displayDescription: -Used to create maritime vehicles\n-Can research maritime technologies\n-Can repair up to 2 ships or submarines at the same time
 displayDescription_es: -Usado para crear vehículos marítimos\n-Puede investigar tecnologías marítimas\n-Puede reparar hasta 2 barcos o submarinos al mismo tiempo
+displayDescription_uk: -Використовується для створення морської техніки\n-Може досліджувати морські технології\n-Може ремонтувати до 2 човнів одночасно
+displayDescription_zh: -用来制造海军舰船\n-可以研究海军科技解锁更多战舰\n-最多可同维修两艘海军战舰
 
 [template_staticArtilleryGunInfo]
 displayDescription: -Anti-air and anti-tank defense\n-Effective against airplanes and vehicles\n-Attacks ground and air\n-Can attack terrain continuously
 displayDescription_es: -Defensa antiaérea y anti-tanques\n-Efectiva contra aviones y vehículos\n-Ataca a tierra y aire\n-Puede atacar terreno continuamente
+displayDescription_uk: -Протиповітряна і протитанкова оборона\n-Ефективний проти повітряної та наземної техніки\n-Атакує наземні і повітряні цілі\n-Може постійно атакувати місцевість
+displayDescription_zh: -可以用来防空或者反坦克\n-对飞机和车辆有效\n-攻击地面和空中\n-可以进行火力覆盖
 
 [template_engineeringTeamInfo]
 displayText: Engineering Team
 displayText_es: Equipo de Ingeniería
+displayText_uk: Інженерна Команда
+displayText_zh: 工程队
 displayDescription: -Logistics infantry\n-Effective against infantry\n-Attacks ground only\n-Can disarm enemy traps and obstacles\n-Self-regenerates
 displayDescription_es: -Infantería logística\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Puede desarmar trampas enemigas y obstáculos\n-Se auto-regenera
+displayDescription_uk: -Логістична піхота\n-Ефективна проти піхоти\n-Атакує тільки наземні цілі\n-Може знешкодити ворожі пастки та перешкоди\n-Має регенерацію здоров'я
+displayDescription_zh: -工兵\n-有效对抗步兵\n-仅攻击地面\n--可以拆除敌方的陷阱或排除地雷\n-可以自愈
 
 [template_conscriptTroopInfo]
 displayText: Conscript Troop
 displayText_es: Tropa de Conscriptos
+displayText_uk: Загін Строковиків
+displayText_zh: 征召兵
 displayDescription: -Requisition infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-Doesn't reduce morale on death
 displayDescription_es: -Infantería de requisición (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-No reduce la moral al morir
+displayDescription_uk: -Реквізиція піхоти (Піхота)\n-Ефективний проти піхоти\n-Атакує тільки наземні цілі\n-Не знижує моральний дух після смерті
+displayDescription_zh: -动员步兵\n-有效打击步兵\n-仅攻击地面\n-死亡不会降低士气
 
 [template_rifleTroopInfo]
 displayText: Rifle Troop
 displayText_es: Tropa de Rifle
+displayText_uk: Загін Стрільців
+displayText_zh: 步枪部队
 displayDescription: -Basic infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-Self-regenerates
 displayDescription_es: -Infantería básica (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Se auto-regenera
+displayDescription_uk: -Основна піхота (Піхота)\n-Ефективний проти піхоти\n-Атакує тільки наземні цілі\n-Має регенерацію здоров'я
+displayDescription_zh: 基本步兵\n-有效打击步兵\n-仅攻击地面\n-优秀视野\n-可以自愈
 
 [template_medicTeamInfo]
 displayText: Medic Team
 displayText_es: Equipo Médico
+displayText_uk: Команда Медиків
+displayText_zh: 医疗小组
 displayDescription: -Support infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-Infantry within its range have +2 HP regeneration per second\n-Heals infantry faster individually\n-Self-regenerates
 displayDescription_es: -Infantería de apoyo (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Las infantería en su rango tiene +2 de regeneración de PV por segundo\n-Cura a la infantería más rápido individualmente\n-Se auto-regenera
+displayDescription_uk: -Підтримка піхоти (Піхота)\n-Ефективна проти піхоти\n-Атакує тільки наземні цілі\n-Поруч піхота має +2 до відновлення здоров'я за секунду\n-Швидше лікує піхоту індивідуально\n-Має регенерацію здоров'я
+displayDescription_zh: -支援单位（步兵）\n-有效打击步兵\n-仅攻击地面\n-其射程内的步兵每秒回复2HP\n-治疗单个步兵速度会更快\n-可以自愈
 
 [template_mgTroopInfo]
 displayText: MG Troop
 displayText_es: Tropa de AM
+displayText_uk: Загін Кулеметників
+displayText_zh: 机枪部队
 displayDescription: -Basic infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-High sight range\n-Self-regenerates
 displayDescription_es: -Infantería básica (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Alto rango de visión\n-Se auto-regenera
+displayDescription_uk: -Основна піхота (Піхота)\n-Ефективний проти піхоти\n-Атакує тільки наземні цілі\n-Має великий радіус зору\n-Має регенерацію здоров'я
+displayDescription_zh: -基本步兵\n-在近距离有效打击步兵\n-仅攻击地面\n-可以自愈\n-射击散布比步枪小
 
 [template_rocketTeamInfo]
 displayText: Rocket Team
 displayText_es: Equipo de Cohete
+displayText_uk: Команда Ракетників
+displayText_zh: 火箭筒部队
 displayDescription: -Medium infantry (Infantry)\n-Effective against light vehicles and buildings\n-Attacks ground only\n-Self-regenerates
 displayDescription_es: -Infantería media (Infantería)\n-Efectiva contra vehículos ligeros y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+displayDescription_uk: -Середня піхота (Піхота)\n-Ефективна проти легкої техніки та споруд\n-Атакує тільки наземні цілі\n-Має регенерацію здоров'я
+displayDescription_zh: -基本步兵\n-有效打击轻型车辆和建筑物\n-仅攻击地面\n-可以自愈
 
 [template_mortarTeamInfo]
 displayText: Mortar Team
 displayText_es: Equipo de Mortero
+displayText_uk: Команда Мінометників
+displayText_zh: 迫击炮小队
 displayDescription: -Heavy infantry (Infantry)\n-Effective against light vehicles, buildings and ships\n-Attacks ground only\n-Self-regenerates
 displayDescription_es: -Infantería pesada (Infantería)\n-Efectiva contra vehículos ligeros, edificios y barcos\n-Ataca a tierra únicamente\n-Se auto-regenera
+displayDescription_uk: -Важка піхота (Піхота)\n-Ефективна проти легкої техніки, споруд та кораблів\n-Атакує тільки наземні цілі\n-Має регенерацію здоров'я
+displayDescription_zh: -基本步兵\n-有效打击舰船,轻型车辆和建筑物\n-仅攻击地面\n-可以自愈
 
 [template_flamethrowerTeamInfo]
 displayText: Flamethrower Team
 displayText_es: Equipo Lanzallamas
+displayText_uk: Команда Вогнеметників 
+displayText_zh: 火焰喷射器部队
 displayDescription: -Heavy infantry (Infantry)\n-Effective against infantry and buildings\n-Attacks ground only\n-Self-regenerates
 displayDescription_es: -Infantería pesada (Infantería)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+displayDescription_uk: -Важка піхота (Піхота)\n-Ефективна проти піхоти та споруд\n-Атакує тільки наземні цілі\n-Має регенерацію здоров'я
+displayDescription_zh: -重装步兵\n-有效打击步兵和建筑物\n-仅攻击地面\n-可以自愈
 
 [template_landingCraftInfo]
 displayText: Landing Craft
 displayText_es: Lancha de Desembarco
+displayText_uk: Десантне Судно
+displayText_zh: 登陆艇
 displayDescription: -Transport ship (Ship)\n-Attacks ground only\n-Transports up to 4 units
 displayDescription_es: -Barco de transporte (Barco)\n-Ataca a tierra únicamente\n-Transporta hasta 4 unidades
+displayDescription_uk: -Транспортне судно (Корабель)\n-Атакує тільки наземні цілі\n-Перевозить до 4 одиниць
+displayDescription_zh: -运输舰船（船）\n-仅攻击地面\n-最多运输4个单位
 
 [template_landingShipTankInfo]
 displayText: Landing Ship Tank
 displayText_es: Buque de Desembarco de Tanques
+displayText_uk: Танко-Десантний Корабель
+displayText_zh: 坦克登录舰
 displayDescription: -Transport ship (Ship)\n-Cannot attack\n-Transports up to 16 units
 displayDescription_es: -Barco de transporte (Barco)\n-No puede atacar\n-Transporta hasta 16 unidades
+displayDescription_uk: -Транспортне судно (Корабель)\n-Не може атакувати\n-Перевозить до 16 одиниць
+displayDescription_zh: -运输舰船（船）\n-无法攻击\n-最多运输16个单位
 
 [template_transportTruckInfo]
 displayDescription: -Transport vehicle (Light vehicle)\n-Cannot attack\n-Transports up to 6 infantry units\n-Can transport anti-tank guns
 displayDescription_es: -Vehículo de transporte (Vehículo ligero)\n-No puede atacar\n-Transporta hasta 6 unidades de infantería\n-Puede transportar cañones anti-tanque
+displayDescription_uk: -Транспортна техніка (Легка техніка)\n-Не може атакувати\n-Перевозить до 6 пехотних одиниць \n-Може перевозити протитанкові гармати
+displayDescription_zh: -运输车辆（轻型车辆）\n-无法攻击\n-可以运输6个步兵单位\n-可以运输反坦克炮
 
 [template_troop-carrierInfo]
 displayDescription: -Troop-carrying airplane (Airplane)\n-Attacks ground only\n-Can drop up to 8 paratrooper units
 displayDescription_es: -Avión porta-tropas (Avión)\n-Ataca a tierra únicamente\n-Puede soltar hasta 8 unidades paracaidistas
+displayDescription_uk: -Військово-десантний літак (Літак)\n-Атакує тільки наземні цілі\n-Може скинути до 8 десантних одиниць
+displayDescription_zh: -运送伞兵的飞机（空军）\n-仅攻击地面\n-可以空降8支步兵部队
 
 [template_outpostInfo]
 displayText: Outpost
 displayText_es: Puesto Avanzado
+displayText_uk: Застава
+displayText_zh: 前哨站
 displayDescription: -Defensive structure\n-Can build structures\n-Effective against airplanes, light vehicles and infantry\n-Attacks ground and air
 displayDescription_es: -Estructura defensiva\n-Puede construir estructuras\n-Efectivo contra aviones, vehículos ligeros e infantería\n-Ataca a tierra y aire
+displayDescription_uk: -Оборонна споруда\n-Може будувати інші споруди\n-Ефективний проти літаків, легкої техніки та піхоти\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -防御工事\n-可以建造建筑\n-有效打击飞机,轻型车辆和步兵\n-仅攻击地面
 
 [template_ruinsInfo]
 displayText: Ruins
 displayText_es: Ruinas
+displayText_uk: Руїни
+displayText_zh: 废墟
 displayDescription: -Can garrison infantry\n-Infantry can attack when garrisoned\n-This building can be rebuilt at lower cost
 displayDescription_es: -Puede guarecer infantería\n-La infantería puede atacar cuando está guarecida\n-Este edificio puede ser reconstruido a un costo más bajo
+displayDescription_uk: -Піхота може їх зайняти\n-Піхота може атакувати в гарнізоні\n-Цю будівлю можна перебудувати з меншими витратами
+displayDescription_zh: -可以进驻步兵n-驻守中的步兵可以攻击\n-废墟可以以较低的成本重建建筑
 
 [template_anti-airHalftrackInfo]
 displayDescription: -Anti-air half track (Light vehicle)\n-Effective against airplanes\n-Attacks air only\n-Transports up to 2 infantry units
 displayDescription_es: -Semioruga antiaéreo (Vehículo ligero)\n-Efectivo contra aviones\n-Ataca a aire únicamente\n-Transporta hasta 2 unidades de infantería
+displayDescription_uk: -Протиповітряна вантажівка (Легка техніка)\n-Ефективний проти літаків\n-Атакує тільки повітряні цілі\n-Перевозить до 2 піхотних одиниць
+displayDescription_zh: -半履带防空车\n-有效打击飞机\n-仅攻击空中\n-最多可以运输2个单位
 
 [template_self-propelledAAGunInfo]
 displayDescription: -Self-propelled anti-air gun (Heavy vehicle)\n-Effective against airplanes\n-Attacks air only
 displayDescription_es: -Cañón antiaéreo auto-propulsado (Vehículo pesado)\n-Efectivo contra aviones\n-Ataca a aire únicamente
+displayDescription_uk: -Самохідна зенітна установка (Важка техніка)\n-Ефективна проти літаків\n-Атакує тільки повітряні цілі
+displayDescription_zh: -自行防空炮\n-有效打击飞机\n-仅攻击空中
 
 [template_anti-tankGunInfo]
 displayDescription: -Anti-tank gun (Light vehicle)\n-Effective against vehicles\n-Attacks ground only
 displayDescription_es: -Cañón anti-tanque (Vehículo ligero)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+displayDescription_uk: -Протитанкова установка (Легка техніка)\n-Ефективний проти техніки\n-Атакує тільки наземні цілі
+displayDescription_zh: -反坦克炮\n-有效打击车辆\n-仅攻击地面
 
 [template_minesweeperInfo]
 displayText: Minesweeper
 displayText_es: Dragaminas
+displayText_uk: Тральщик
+displayText_zh: 扫雷舰
 displayDescription: -Support ship (Ship)\n-Can disarm enemy marine mines
 displayDescription_es: -Barco de apoyo (Barco)\n-Puede desarmar minas marinas enemigas
+displayDescription_uk: -Допоміжне судно (Корабель)\n-Може знешкодити морські міни противника
+displayDescription_zh: -支援船\n-可以解除敌方水雷
 
 [template_mobileArtilleryGunInfo]
 displayDescription: -Mobile artillery gun (Light vehicle)\n-Effective against light vehicles, ships and buildings\n-Attacks ground only\n-Must be deployed to attack\n-Can attack terrain continuously
 displayDescription_es: -Cañón de artillería móbil (Vehículo ligero)\n-Efectivo contra vehículos ligeros, barcos y edificios\n-Ataca a tierra únicamente\n-Debe ser desplegado para atacar\n-Puede atacar terreno continuamente
+displayDescription_uk: -Мобільна артилерія (Легка техніка)\n-Ефективний проти легкої техніки, кораблів та споруд\n-Атакує тільки наземні цілі\n-Повинна бути розгорнута\n-Може постійно атакувати місцевість
+displayDescription_zh: -移动火炮\n-有效打击舰船,车辆和建筑物\n-仅攻击地面\n-必须部署才能攻击\n-可以指定攻击地面
 
 [template_patrolCraftInfo]
 displayText: Patrol Craft
 displayText_es: Barco Patrulla
+displayText_uk: Патрульне Судно
+displayText_zh: 巡逻舰
 displayDescription: -Support unit (Ship)\n-High sight range\n-Effective against infantry\n-Attacks ground only
 displayDescription_es: -Barco de apoyo (Barco)\n-Alto rango de visión\n-Efectivo contra infantería\n-Ataca a tierra únicamente
+displayDescription_uk: -Допоміжна одиниця (Корабель)\n-Далеко бачать за туман війни\n-Ефективна проти піхоти\n-Атакує тільки наземні цілі
+displayDescription_zh: -支援船\n-极佳视野范围\n-有效打击步兵\n-仅攻击地面
 
 [template_supplyShipInfo]
 displayText: Supply Ship
 displayText_es: Barco de Suministros
+displayText_uk: Судно Постачання
+displayText_zh: 补给船
 displayDescription: -Support ship (Ship)\n-Cannot attack\n-Deploys supply boats to repair ships\n-Detects damaged ships within its range
 displayDescription_es: -Barco de apoyo (Barco)\n-No puede atacar\n-Despliega botes de suministro para reparar barcos\n-Detecta barcos dañados dentro de su rango
+displayDescription_uk: -Судно підтримки (Корабель)\n-Не може атакувати\n-Розгортає човни постачання для ремонту кораблів\n-Виявляє найближчі пошкоджені кораблі
+displayDescription_zh: -支援船\n-无法攻击\n-可以维修舰船\n-将会自动派出维修小组维修范围内舰船
 
 [template_barbwireInfo]
 displayText: Barbwire
 displayText_es: Alambre de Púas
+displayText_uk: Колючий дріт
+displayText_zh: 铁丝网
 displayDescription: -Defensive structure\n-Damages nearby enemy infantry units\n-Suffers attrition when damaging enemies
 displayDescription_es: -Estructura defensiva\n-Daña a las unidades de infantería enemigas cercanas\n-Sufre desgaste cuando daña enemigos
+displayDescription_uk: -Оборонна споруда\n-Шкодить піхотним одиницям противника\n-Зазнає шкоди, коли завдає шкоди ворогам
+displayDescription_zh: -防御建筑\n-伤害靠近的步兵\n-伤害敌人时消耗耐久
 
 [template_tankTrapInfo]
 displayText: Tank Trap
 displayText_es: Trampa de Tanques
+displayText_uk: Протитанковий Їжак
+displayText_zh: 坦克拒马
 displayDescription: -Defensive structure\n-Damages nearby enemy land vehicles\n-Suffers attrition when damaging enemies
 displayDescription_es: -Estructura defensiva\n-Daña a los vehículos de tierra enemigos cercanos\n-Sufre desgaste cuando daña enemigos
+displayDescription_uk: -Оборонна споруда\n-Шкодить наземній техніці противника\n-Зазнає шкоди, коли завдає шкоди ворогам
+displayDescription_zh: -防御建筑\n-损坏靠近的车辆\n-伤害敌人时消耗耐久
 
 [template_minefieldInfo]
 displayText: Minefield
 displayText_es: Minado
+displayText_uk: Мінне поле
+displayText_zh: 雷区
 displayDescription: -Defensive trap\n-Damages nearby land units once\n-Effective against infantry and vehicles
 displayDescription_es: -Trampa defensiva\n-Daña a las unidades de tierra cercanas una vez\n-Efectivas contra infantería y vehículos
+displayDescription_uk: -Оборонна пастка\n-При активації завдає шкоди по площі наземним одиницям\n-Ефективна проти піхоти та техніки
+displayDescription_zh: -防御建筑\n-被踩到后将会爆炸并伤害周围单位\n-有效对抗步兵和车辆
 
 [template_barrageBalloonInfo]
 displayText: Barrage Balloon
 displayText_es: Globo de Barrera
+displayText_uk: Загороджувальна куля
+displayText_zh: 防空气球
 displayDescription: -Defensive air trap\n-Damages nearby enemy light airplanes\n-Does not affect other airplane types, like heavy bombers
 displayDescription_es: -Trampa aérea defensiva\n-Daña a los aviones ligeros enemigos cercanos\n-No afecta otros tipos de aviones, como bombarderos pesados
+displayDescription_uk: -Оборонна повітряна пастка\n-При активації завдає шкоди по площі легким літакам\n-Не впливає на інші типи літаків (наприклад, на важкі бомбардувальники)
+displayDescription_zh: -防御建筑\n-破坏附近的敌人轻型飞机\n-无法破坏敌人的喷气式战斗机重型轰炸机等
 
 [template_marineMineInfo]
 displayText: Marine Mine
 displayText_es: Mina Marina
+displayText_uk: Морська Міна
+displayText_zh: 水雷
 displayDescription: -Defensive trap\n-Damages nearby sea units once\n-Effective against ships
 displayDescription_es: -Trampa defensiva\n-Daña a las unidades de mar cercanas una vez\n-Efectiva contra barcos
+displayDescription_uk: -Оборонна пастка\n-При активації завдає шкоди по площі морським одиницям\n-Ефективна проти кораблів
+displayDescription_zh: -防御建筑\n-被舰船触碰后将会爆炸并伤害附近敌方单位\n-有效打击舰船
 
 [template_trenchInfo]
 displayText: Trench
 displayText_es: Trinchera
+displayText_uk: Траншея
+displayText_zh: 战壕
 displayDescription: -Used to protect infantry\n-Can garrison up to 2 units\n-Infantry can attack when garrisoned\n-Units can move over it
 displayDescription_es: -Usada para proteger infantería\n-Puede guarecer hasta 2 unidades\n-La infantería puede atacar cuando está guarecida\n-Las unidades pueden moverse sobre ella
+displayDescription_uk: -Використовується для захисту піхоти\n-Може зайняти 2 одиниці\n-Піхота може атакувати в гарнізоні\n-Одиниці можуть переміщатися над ним
+displayDescription_zh: -可以用来保护步兵让其更安全地攻击敌方\n-可以进驻俩支步兵部队\n-进驻的步兵可以攻击\n-军事单位可以直接通过
 
 [template_bunkerInfo]
 displayText: Bunker
 displayText_es: Búnker
+displayText_uk: Бункер
+displayText_zh: 堡垒
 displayDescription: -Used to protect infantry\n-Can garrison up to 3 units\n-Infantry can attack when garrisoned\n-Attacks ground only
 displayDescription_es: -Usado para proteger infantería\n-Puede guarecer hasta 3 unidades\n-La infantería puede atacar cuando está guarecida\n-Ataca a tierra únicamente
+displayDescription_uk: -Використовується для захисту піхоти\n-Може зайняти до 3 одиниць\n-Піхота може атакувати в гарнізоні\n-Атакує тільки наземні цілі
+displayDescription_zh: -可以用来保护步兵让其更安全地攻击敌方\n-可以进驻三支步兵部队\n-进驻的步兵可以攻击\n-仅攻击地面
 
 [template_anti-infantryLightTankInfo]
 displayDescription: -Light tank (Heavy vehicle)\n-Effective against infantry\n-Attacks ground only
 displayDescription_es: -Tanque ligero (Vehículo pesado)\n-Efectivo contra infantería\n-Ataca a tierra únicamente
+displayDescription_uk: -Легкий танк (Важка техніка)\n-Ефективний проти піхоти\n-Атакує тільки наземні цілі
+displayDescription_zh: -轻型坦克（重型车辆）\n-有效打击步兵\n-仅攻击地面
 
 [template_lightTankInfo]
 displayDescription: -Light tank (Heavy vehicle)\n-Effective against light vehicles and buildings\n-Attacks ground only
 displayDescription_es: -Tanque ligero (Vehículo pesado)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Легкий танк (Важка техніка)\n-Ефективний проти легкої техніки та споруд\n-Атакує тільки наземні цілі
+displayDescription_zh: -轻型坦克（重型车辆）\n-有效打击轻型车辆和建筑\n-仅攻击地面
 
 [template_mediumTankInfo]
 displayDescription: -Medium tank (Heavy vehicle)\n-Effective against light vehicles, light tanks and buildings\n-Attacks ground only
 displayDescription_es: -Tanque medio (Vehículo pesado)\n-Efectivo contra vehículos ligeros, tanques ligeros y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Середній танк (Важка техніка)\n-Ефективний проти легкої техніки, легких танків і споруд\n-Атакує тільки наземні цілі
+displayDescription_zh: -中型坦克(重型车辆)\n-有效打击轻型车辆，轻型坦克，建筑\n-仅攻击地面
 
 [template_heavyTankInfo]
 displayDescription: -Heavy tank (Heavy vehicle)\n-Effective against light vehicles, light/medium tanks and buildings\n-Attacks ground only
 displayDescription_es: -Tanque pesado (Vehículo pesado)\n-Efectivo contra vehículos ligeros, tanques ligeros/medios y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Важкий танк (Важка техніка)\n-Ефективний проти легкої техніки, легких та середніх танків, і споруд\n-Атакує тільки наземні цілі
+displayDescription_zh: -重型坦克（重型车辆）\n-有效打击轻型车辆，轻\中型坦克，建筑\n-仅攻击地面
 
 [template_tankDestroyerInfo]
 displayDescription: -Tank destroyer (Heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
 displayDescription_es: -Cazacarros (Vehículo pesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+displayDescription_uk: -Винищувач танків (Важка техніка)\n-Ефективний проти техніки\n-Атакує тільки наземні цілі
+displayDescription_zh: -坦克歼击车（重型车辆）\n-有效打击车辆\n-仅攻击地面
 
 [template_flamethrowerTankInfo]
 displayDescription: -Flamethrower tank (Heavy vehicle)\n-Effective against infantry and buildings\n-Attacks ground only
 displayDescription_es: -Tanque lanzallamas (Vehículo pesado)\n-Efectivo contra infantería y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Вогнеметний танк (Важка техніка)\n-Ефективний проти піхоти та споруд\n-Атакує тільки наземні цілі
+displayDescription_zh: -喷火坦克（重型车辆）\n-有效打击步兵和建筑\n-仅攻击地面
 
 [template_lightFighterInfo]
 displayDescription: -Light fighter (Airplane)\n-Effective against airplanes and infantry\n-Attacks ground and air
 displayDescription_es: -Caza ligero (Avión)\n-Efectivo contra aviones e infantería\n-Ataca a tierra y aire
+displayDescription_uk: -Легкий винищувач (Літак)\n-Ефективний проти літаків і піхоти\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -轻型战斗机（飞机）\n-有效打击步兵与战机\n-攻击地面与空中
 
 [template_fighterJetInfo]
 displayDescription: -Fighter jet (Airplane)\n-Effective against airplanes and infantry\n-Attacks ground and air
 displayDescription_es: -Jet caza (Avión)\n-Efectivo contra aviones e infantería\n-Ataca a tierra y aire
+displayDescription_uk: -Винищувач (Літак)\n-Ефективний проти літаків і піхоти\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -战斗机（飞机）\n-有效打击战机和步兵\n-攻击地面与空中
 
 [template_diveBomberInfo]
 displayDescription: -Dive bomber (Airplane)\n-Effective against vehicles, ships and buildings\n-Attacks ground and air
 displayDescription_es: -Bombardero en picada (Avión)\n-Efectivo contra vehículos, barcos y edificios\n-Ataca a tierra y aire
+displayDescription_uk: -Пікіруючий бомбардувальник (Літак)\n-Ефективний проти техніки, кораблів і споруд\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -俯冲轰炸机（飞机）\n-有效打击车辆，舰船与建筑\n-攻击地面和空中
 
 [template_mediumBomberInfo]
 displayDescription: -Medium bomber (Airplane)\n-Effective against vehicles, infantry and buildings\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing
 displayDescription_es: -Bombardero medio (Avión)\n-Efectivo contra vehículos, infantería y edificios\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear
+displayDescription_uk: -Середній бомбардувальник (Літак)\n-Ефективний проти техніки, піхоти та споруд\n-Атакує наземні та повітряні цілі\n-Може бомбити лише споруди\n-Автоматично повертається на базу після бомбардування
+displayDescription_zh: -中型轰炸机（飞机）\n-有效打击车辆，步兵和建筑\n-攻击地面和空中\n-可以向建筑投掷炸弹\n-轰炸后将自动返回基地
 
 [template_heavyBomberInfo]
 displayDescription: -Heavy bomber (Airplane)\n-Effective against vehicles, infantry and buildings\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing
 displayDescription_es: -Bombardero pesado (Avión)\n-Efectivo contra vehículos, infantería y edificios\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear
+displayDescription_uk: -Важкий бомбардувальник (Літак)\n-Ефективний проти техніки, піхоти та споруд\n-Атакує наземні та повітряні цілі\n-Може бомбити лише споруди\n-Автоматично повертається на базу після бомбардування
+displayDescription_zh: -重型轰炸机（飞机）\n-有效打击车辆，步兵与建筑\n-攻击地面与空中\n-可以向建筑投掷炸弹\n-轰炸完将自动返回基地
 
 [template_destroyerInfo]
 displayDescription: -Destroyer (Ship)\n-Effective against vehicles, ships and airplanes\n-Attacks ground, air and underwater
 displayDescription_es: -Destructor (Barco)\n-Efectivo contra vehículos, barcos y aviones\n-Ataca a tierra, aire y bajo el agua
+displayDescription_uk: -Есмінець (Корабель)\n-Ефективний проти техніки, кораблів і літаків\n-Атакує наземні, повітряні та підводні цілі
+displayDescription_zh: -驱逐舰（舰船）\n-有效打击车辆舰船与飞机\n-攻击水下，空中与地面
 
 [template_submarineInfo]
 displayDescription: -Submarine (Submarine)\n-Effective against ships\n-Attacks underwater, ground and air
 displayDescription_es: -Submarino (Submarino)\n-Efectivo contra barcos\n-Ataca bajo el agua, a tierra y a aire
+displayDescription_uk: -Підводний човен (Субмарина)\n-Ефективний проти кораблів\n-Атакує наземні, повітряні та підводні цілі
+displayDescription: -潜艇（潜艇）\n-有效打击舰船\n-攻击水下，地面与空中
 
 [template_battleshipInfo]
 displayDescription: -Battleship (Ship)\n-Effective against vehicles, ships and buildings\n-Attacks ground and air
 displayDescription_es: -Acorazado (Barco)\n-Efectivo contra vehículos, barcos y edificios\n-Ataca a tierra y aire
+displayDescription_uk: -Лінкор (корабель)\n-Ефективний проти техніки кораблів і споруд\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -战列舰（舰船）\n-有效打击车辆，舰船与建筑\n-攻击地面与空中
 
 #
 #============ Easter egg units ==============#
@@ -533,14 +824,20 @@ displayDescription_es: -Acorazado (Barco)\n-Efectivo contra vehículos, barcos y
 [template_fooFighterInfo]
 displayDescription: "Is it an illusion, is it a balloon? No one knows..."\n\n-Easter egg unit (?)\n-World war II UFO
 displayDescription_es: "¿Es una ilusión, es un globo? Nadie lo sabe..."\n\n-Unidad easter egg (?)\n-OVNI de la segunda guerra mundial
+displayDescription_uk: «Це ілюзія, чи повітряна куля? Ніхто не знає...»\n\n-Пасхальна одиниця (?)\n-НЛО Другої Світової війни
+displayDescription_zh: “是幻觉吗，是气球吗？没人知道”\n-复活节彩蛋单位（？）\n-第二次世界大战中的UFO
 
 [template_wojtekInfo]
 displayDescription: "Pay respect to the sargeant Wojtek!!"\n\n-Easter egg unit (?)\n-Polish military bear in charge of supplying the war front
 displayDescription_es: "¡¡Muestre respeto al sargento Wojtek!!"\n\n-Unidad easter egg (?)\n-Oso militar polaco a cargo de suministrar el frente de guerra
+displayDescription_uk: «Віддайте шану сержанту Войтеку!!»\n\n-Пасхальна одиниця (?)\n-Польський військовий ведмідь, відповідальний за забезпечення фронту
+displayDescription_zh: “向伟大的熊战士沃铁致敬！！”复活节彩蛋单位（？）\n-二战中波兰军队中的一头熊战士，负责向前线输送补给
 
 [template_prisoner4859Info]
 displayDescription: "People behave much worse than animals..."\n\n-Easter egg unit (?)\n-Polish resistance agent infiltrated in Auschwitz
 displayDescription_es: "La gente se comporta mucho peor que los animales..."\n\n-Unidad easter egg (?)\n-Agente de la resistencia polaca infiltrado en Auschwitz
+displayDescription_uk: «Люди поводяться набагато гірше тварин...»\n\n-Пасхальна одиниця (?)\n-Польський агент опору проник в Освенцим
+displayDescription_zh: “人的行为比动物恶劣的多……”\n-复活节彩蛋单位\n-波兰抵抗组织潜入奥斯维辛集中营的特工
 
 #
 #============ Alliance units ==============#
@@ -549,14 +846,20 @@ displayDescription_es: "La gente se comporta mucho peor que los animales..."\n\n
 [template_cacCa-1WirrawayInfo]
 displayDescription: -Australia special unit, provided through an alliance\n-Improved dive-bomber (Airplane)\n-Effective against airplanes, ships and buildings\n-Attacks ground and air
 displayDescription_es: -Unidad especial de Australia, proveída a través de una alianza\n-Bombardero-en-picada mejorado (Avión)\n-Efectivo contra aviones, barcos y edificios\n-Ataca a tierra y aire
+displayDescription_uk: -Австралійська спеціальна одиниця, надана через альянс\n-Покращений пікіруючий бомбардувальник (Літак)\n-Ефективний проти літаків, кораблів і споруд\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -澳大利亚特殊单位，通过联盟提供\n-改进型俯冲轰炸机（飞机）\n-有效打击战机舰船和建筑\n-攻击地面和空中
 
 [template_d-classInfo]
 displayDescription: -Canada special unit, provided through an alliance\n-Improved destroyer (Ship)\n-Effective against vehicles, submarines and airplanes\n-Attacks ground, air and underwater
 displayDescription_es: -Unidad especial de Canadá, proveída a través de una alianza\n-Destructor mejorado (Barco)\n-Efectivo contra vehículos, submarinos y aviones\n-Ataca a tierra, aire y bajo el agua
+displayDescription_uk: -Канадська спеціальна одиниця, надана через альянс\n-Покращений есмінець (Корабель)\n-Ефективний проти техніки, підводних човнів і літаків\n-Атакує наземні, повітряні та підводні цілі
+displayDescription_zh: -加拿大特殊单位，通过联盟提供\n-改进型驱逐舰（舰船）\n-有效打击建筑，潜艇和战机\n-攻击地面，空中和水下
 
 [template_dunkirkClassInfo]
 displayDescription: -Vichy France special unit, provided through an alliance\n-Improved battleship (Ship)\n-Effective against vehicles, ships and buildings\n-Attacks ground and air
 displayDescription_es: -Unidad especial de la Francia de Vichy, proveída a través de una alianza\n-Acorazado mejorado (Barco)\n-Efectivo contra vehículos, barcos y edificios\n-Ataca a tierra y aire
+displayDescription_uk: -Вішівська Французька спеціальна одиниця, надана через альянс\n-Покращений лінкор (Корабель)\n-Ефективний проти техніки, кораблів і споруд\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -维希法国特殊单位，通过联盟提供\n-改进型战列舰（舰船）\n-有效打击车辆，舰船和建筑\n-攻击地面和空中
 
 #
 #============ USA Units ==============#
@@ -565,62 +868,92 @@ displayDescription_es: -Unidad especial de la Francia de Vichy, proveída a trav
 [template_3-inchM3Info]
 displayDescription: -Defensive anti-air gun\n-USA special building\n-Fast-firing anti-air defense\n-Effective against airplanes\n-Attacks air only
 displayDescription_es: -Cañón antiaéreo defensivo\n-Edificio especial de EE. UU.\n-Defensa antiaérea de fuego rápido\n-Efectiva contra aviones\n-Ataca a aire únicamente
+displayDescription_uk: -Оборонна ППО\n-Спеціальна споруда США\n-Швидкострільна протиповітряна оборона\n-Ефективна проти літаків\n-Атакує тільки повітряні цілі
+displayDescription_zh: -防空火炮\n-美利坚合众国特殊建筑\n-射速较快\n-有效打击战机\n-仅攻击空中
 
 [template_16-inchM1919Info]
 displayDescription: -Defensive naval gun\n-USA special building\n-Long-range coastal defense\n-Effective against ships and submarines\n-Attacks ground only\n-Can attack terrain continuously
 displayDescription_es: -Cañón naval defensivo\n-Edificio especial de EE. UU.\n-Defensa costera de largo alcance\n-Efectiva contra barcos y submarinos\n-Ataca a tierra únicamente\n-Puede atacar terreno continuamente
+displayDescription_uk: -Оборонна морська гармата\n-Спеціальна споруда США\n-Дальня берегова оборона\n-Ефективна проти кораблів і підводних човнів\n-Атакує тільки наземні цілі\n-Може постійно атакувати місцевість
+displayDescription_zh: -海岸炮\n-美利坚合众国特殊建筑\n-射程较远的岸防炮\n-有效打击舰船和潜艇
 
 [template_rangerTeamInfo]
 displayDescription: -Special squad\n-USA special unit\n-Multipurpose infantry (Infantry)\n-Effective against vehicles and buildings\n-Attacks ground only\n-Self-regenerates
 displayDescription_es: -Escuadrón especial\n-Unidad especial de EE.UU.\n-Infantería multipropósito (Infantería)\n-Efectiva contra vehículos y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+displayDescription_uk: -Спеціальний загін\n-Спеціальна одиниця США\n-Багатоцільова піхота (Піхота)\n-Ефективний проти техніки та споруд\n-Атакує тільки наземні цілі\n-Має регенерацію здоров'я
+displayDescription_zh: -一支特种部队\n-美利坚合众国特殊单位\n-多用途步兵（步兵）\n-有效打击车辆和建筑\n-仅攻击地面\n-可以自愈
 
 [template_marineTeamInfo]
 displayDescription: -Amphibious special forces\n-USA special unit\n-Landing infantry (Infantry)\n-Receives +3 armor when near landing units\n-Effective against infantry and buildings\n-Attacks ground only\n-Self-regenerates
 displayDescription_es: -Fuerzas especiales anfibias\n-Unidad especial de EE.UU.\n-Infantería de desembarco (Infantería)\n-Recibe +3 de armadura cuando está cerca de unidades de desembarco\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+displayDescription_uk: -Десантний спецназ\n-Спеціальна одиниця США\n-Десантна піхота (Піхота)\n-Отримує +3 броні, коли знаходиться поблизу десантних одиниць\n-Ефективний проти піхоти та споруд\n-Атакує тільки наземні цілі\n-Має регенерацію здоров'я
+displayDescription_zh: -海军陆战队\n-美利坚合众国特殊单位\n-两栖步兵（步兵）\n-靠近登陆艇时加3护甲\n-有效打击步兵和建筑\n-仅攻击地面\n-可以自愈
 
 [template_b-29SuperfortressInfo]
 displayDescription: -Ultimate destruction massive weapon\n-USA special unit\n-Nuclear bomber (Airplane)\n-Effective against everything\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing
 displayDescription_es: -Arma de destrucción masiva definitiva\n-Unidad especial de EE. UU.\n-Bombardero nuclear (Avión)\n-Efectivo contra todo\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear
+displayDescription_uk: -Масова зброя остаточного знищення\n-Спеціальна одиниця США\n-Ядерний бомбардувальник (Літак)\n-Ефективний проти всього\n-Атакує наземні та повітряні цілі\n-Може бомбити лише споруди\n-Автоматично повертається на базу після бомбардування
+displayDescription_zh: -大规模杀伤性武器\n-美利坚合众国特殊单位\n-超级空中堡垒(飞机)\n-有效打击一切\n-攻击地面和空中\n-可以向建筑投放原子弹\n-投放后自动返回基地
 
 [template_gummanTbfAvengerInfo]
 displayDescription: -Ground-attack airplane\n-USA special unit\n-Torpedo plane (Airplane)\n-Effective against ships, submarines and buildings\n-Attacks ground, air and underwater
 displayDescription_es: -Avión de ataque a tierra\n-Unidad especial de EE. UU.\n-Torpedero (Avión)\n-Efectivo contra barcos, submarinos y edificios\n-Ataca a tierra, aire y bajo el agua
+displayDescription_uk: -Атакуючий землю літак\n-Спеціальна одиниця США\n-Торпедний літак (Літак)\n-Ефективний проти кораблів, підводних човнів і споруд\n-Атакує наземні, повітряні та підводні цілі
+displayDescription_zh: -鱼雷轰炸机\n-美利坚合众国特殊单位\n-鱼雷轰炸机（飞机）\n-有效打击舰船，潜艇和建筑\n-攻击地面，水下和空中
 
 [template_kClassInfo]
 displayDescription: -Submarine tracker\n-USA special unit\n-Exploration and anti-submarine dirigible (Anti-submarines)\n-Effective against submarines, ships and buildings\n-Attacks ground and underwater
 displayDescription_es: -Rastreador de submarinos\n-Unidad especial de EE. UU.\n-Dirigible de exploración y anti-submarinos (Anti-submarinos)\n-Efectivo contra submarinos, barcos y edificios\n-Ataca a tierra y bajo el agua
+displayDescription_uk: -Підводний трекер\n-Спеціальна одиниця США\n-Розвідувальний і протичовновий дирижабль (Анти-субмарина)\n-Ефективний проти підводних човнів, кораблів і споруд\n-Атакує наземні та підводні цілі
+displayDescription_zh: -反潜飞艇\n-美利坚合众国特殊单位\n-能够搜索敌方潜艇并将其摧毁（反潜）\n-有效打击潜艇，舰船和建筑\n-攻击地面和水下
 
 [template_lockheedP-38LightningInfo]
 displayDescription: -Exceptional fighter\n-USA special unit\n-Multipurpose airplane (Airplane)\n-Effective against airplanes, ships and buildings\n-Attacks ground and air
 displayDescription_es: -Caza excepcional\n-Unidad especial de EE. UU.\n-Avión multipropósito (Avión)\n-Efectivo contra aviones, barcos y edificios\n-Ataca a tierra y aire
+displayDescription_uk: -Винятковий винищувач\n-Спеціальна одиниця США\n-Багатоцільовий літак (Літак)\n-Ефективний проти літаків, кораблів і споруд\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -性能杰出的战斗机\n-美利坚合众国特殊单位\n-多用途战斗机（飞机）\n-有效打击战机，舰船和建筑\n-攻击地面和空中
 
 [template_m8GreyhoundInfo]
 displayDescription: -Infantry shock unit\n-USA special unit\n-Tactic tankette (Light vehicle)\n-Effective against infantry and buildings\n-Attacks ground only\n-Can place traps
 displayDescription_es: -Unidad de choque de infantería\n-Unidad especial de EE. UU.\n-Tanqueta táctica (Vehículo ligero)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Puede colocar trampas
+displayDescription_uk: -Піхотна ударна одиниця\n-Спеціальна одиниця США\n-Швидка танкетка (Легка техніка)\n-Ефективний проти піхоти та споруд\n-Атакує тільки наземні цілі\n-Може розставляти пастки
+displayDescription_zh: -装甲车\n-美利坚合众国特殊单位\n-装甲车（轻型车辆）\n-有效打击步兵和建筑\n-仅攻击地面\n-可以布置陷阱
 
 [template_hmcM8ScottInfo]
 displayDescription: -Demolition armored unit\n-USA special unit\n-Self-propelled howitzer (Light vehicle)\n-Effective against infantry and buildings\n-Attacks ground only
 displayDescription_es: -Unidad blindada de demolición\n-Unidad especial de EE. UU.\n-Obús auto-propulsado (Vehículo ligero)\n-Efectivo contra infantería y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: Підривна броньована одиниця\n-Спеціальна одиниця США\n-Самохідна гаубиця (Легка техніка)\n-Ефективна проти піхоти та споруд\n-Атакує лише наземні цілі
+displayDescription_zh: -自行榴弹炮\n-美利坚合众国特殊单位\n-自行榴弹炮（轻型车辆）\n-有效打击步兵和建筑\n-仅攻击地面
 
 [template_t34CalliopeInfo]
 displayDescription: -Demolition variation\n-USA special unit\n-Medium tank equipped with a rocket launcher (Heavy vehicle)\n-Effective against light vehicles, light tanks and buildings\n-Attacks ground only\n-Has a passive powerful rocket burst attack
 displayDescription_es: -Variación de demolición\n-Unidad especial de EE. UU.\n-Tanque medio equipado con un lanzacohetes (Vehículo pesado)\n-Efectivo contra vehículos ligeros, tanques ligeros y edificios\n-Ataca a tierra únicamente\n-Tiene un ataque de ráfaga de ráfaga de misiles poderoso
+displayDescription_uk: -Варіація знесення\n-Спеціальна одиниця США\n-Середній танк, оснащений реактивною установкою (Важка техніка)\n-Ефективний проти легкої техніки, легких танків і споруд\n-Атакує тільки наземні цілі\n-Атакує масивною потужною ракетною
+displayDescription_zh: -自行火箭炮\n-美利坚合众国特殊单位\n-m4中型坦克加装多管火箭炮（重型车辆）\n-有效打击轻型车辆轻型坦克和建筑\n-仅攻击地面\n-加装的火箭炮使他有强大的战场支援能力
 
 [template_shermanDDInfo]
 displayDescription: -Amphibious variation\n-USA special unit\n-Amphibious medium tank (Heavy vehicle)\n-Effective against light vehicles, light tanks and buildings\n-Attacks ground only\n-Cannot attack while over water
 displayDescription_es: -Variación anfibia\n-Unidad especial de EE. UU.\n-Tanque medio anfibio (Vehículo pesado)\n-Efectivo contra vehículos ligeros, tanques ligeros y edificios\n-Ataca a tierra únicamente\n-No puede atacar cuando está sobre el agua
+displayDescription_uk: -Амфібійний різновид\n-Спеціальна одиниця США\n-Середній танк-амфібія (Важка техніка)\n-Ефективний проти легкої техніки, легких танків та споруд\n-Атакує наземні цілі\n-Не може атакувати, перебуваючи над водою
+displayDescription_zh: -两栖坦克\n-美利坚合众国特殊单位\n-水陆两栖中型坦克（重型车辆）\n-有效打击轻型车辆轻型坦克和建筑\n-仅攻击地面\n-在水上时无法攻击
 
 [template_essexClassInfo]
 displayDescription: -Main maritime articulation\n-USA special unit\n-Resistant aircraft carrier (Ship)\n-Attacks air only\n-Can transport up to 8 light airplanes\n-Includes 3 light fighters\n-Can transport medium bombers
 displayDescription_es: -Articulación marítima principal\n-Unidad especial de EE. UU.\n-Portaaviones resistente (Barco)\n-Ataca a aire únicamente\n-Puede transportar hasta 8 aviones ligeros\n-Incluye 3 cazas ligeros\n-Puede transportar bombarderos medios
+displayDescription_uk: -Головне морське сполучення\n-Спеціальна одиниця США\n-Стійкий авіаносець (Корабель)\n-Атакує тільки повітряні цілі\n-Може перевозити до 8 легких літаків\n-Включає 3 легких винищувачів\n-Може транспортувати середні бомбардувальники
+displayDescription_zh: -高速机动航母\n-美利坚合众国特殊单位\n-航空母舰（舰船）\n-仅攻击空中\n-可以搭载8架轻型飞机\n-自带3架轻型战斗机\n-可以搭载中型轰炸机
 
 [template_t30Info]
 displayDescription: -Experimental heavy tank\n-USA special unit\n-Very resistant super heavy tank (Super heavy vehicle)\n-Effective against light vehicles and buildings\n-Attacks ground only
 displayDescription_es: -Tanque pesado experimental\n-Unidad especial de EE. UU.\n-Tanque superpesado muy resistente (Vehículo superpesado)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Експериментальний важкий танк\n-Спеціальна одиниця США\n-Дуже стійкий надважкий танк (Надважка техніка)\n-Ефективний проти легкої техніки та споруд\n-Атакує тільки наземні цілі.
+displayDescription_zh: -超重型坦克\n-美利坚合众国特殊单位\n-超重型坦克（超重型车辆）\n-有效打击轻型车辆和建筑\n-仅攻击地面
 
 [template_t28Info]
 displayDescription: -The largest tank developed\n-USA special unit\n-Very long-ranged super heavy tank destroyer (Super heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
 displayDescription_es: -El tanque más grande desarrollado\n-Unidad especial de EE. UU.\n-Cazacarros superpesado de muy largo alcance (Vehículo superpesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+displayDescription_uk: -Найбільший розроблений танк\n-Спеціальна одиниця США\n-Надважкий винищувач танків великої дальності (Надважка техніка)\n-Ефективний проти техніки\n-Атакує тільки наземні цілі
+displayDescription_zh: -美国研制的最大的坦克\n-美利坚合众国特殊单位\n-超重型坦克歼击车（超重型车辆）\n-有效打击车辆\n-仅攻击地面
 
 #
 #============ USSR Units ==============#
@@ -629,67 +962,99 @@ displayDescription_es: -El tanque más grande desarrollado\n-Unidad especial de 
 [template_gulagInfo]
 displayDescription: -Confinement place\n-USSR special building\n-Industry generator that isn't affected by morale or HP\n-Does not reduces morale when destroyed
 displayDescription_es: -Lugar de reclusión\n-Edificio especial de la URSS\n-Generador de industria que no es afectado por la moral o los PV\n-No reduce la moral cuando es destruido
+displayDescription_uk: -Місце ув'язнення\n-Спеціальна споруда СРСР\n-Генератор промисловості, на який не впливає моральний дух чи здоров'я\n-Не знижує моральний дух при знищенні
+displayDescription_zh: -这里关闭着苏联的敌人\n-苏联特殊建筑\n-工业产值不受士气和血量影响\n-摧毁时不会降低士气
 
 [template_bm-13KatyushaInfo]
 displayDescription: -Intimidating artillery\n-USSR special unit\n-Mobile rocket launcher (Light vehicle)\n-Effective against infantry and buildings\n-Attacks ground only\n-Reduces morale on attack
 displayDescription_es: -Artillería intimidante\n-Unidad especial de la URSS\n-Lanzacohetes móvil (Vehículo ligero)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Reduce la moral al atacar
+displayDescription_uk: -Залякувальна артилерія\n-Спеціальна одиниця СРСР\n-Мобільна ракетна установка (Легка техніка)\n-Ефективна проти піхоти та споруд\n-Атакує лише наземні цілі\n-Знижує моральний дух під час атаки
+displayDescription_zh: -望而生畏的火箭炮\n-苏联特殊单位\n-自行火箭炮（轻型车辆）\n-有效打击步兵和建筑\n-仅攻击地面\n-攻击时降低敌人士气
 
 [template_203mmB-4HowitzerInfo]
 displayDescription: -Powerful artillery\n-USSR special unit\n-Very long-ranged and powerful artillery (Light vehicle)\n-Effective against infantry, vehicles and buildings\n-Attacks ground only\n-Must be deployed to attack\n-Can attack terrain continuously
 displayDescription_es: -Artillería potente\n-Unidad especial de la URSS\n-Artillería de muy largo alcance y muy poderosa (Vehículo ligero)\n-Efectiva contra infantería, vehículos y edificios\n-Ataca a tierra únicamente\n-Debe ser desplegado para atacar\n-Puede atacar terreno continuamente
+displayDescription_uk: -Потужна артилерія\n-Спеціальна одиниця СРСР\n-Дуже далекобійна та потужна артилерія (Легка техніка)\n-Ефективна проти піхоти, техніки та споруд\n-Атакує тільки наземні цілі\n-Повинна бути розгорнута для стрільби\n-Може атакувати місцевість
+displayDescription_zh: -威力巨大的火炮\n-苏联特殊单位\n-射程较远并且威力巨大的火炮（轻型车辆）\n-有效打击步兵，车辆和建筑\n-仅攻击地面\n-必须部署后攻击\n-可以进行火力覆盖
 
 [template_partisanTroopInfo]
 displayDescription: -Brave and patriotic civilians\n-USSR special unit\n-Rebellion infantry (Infantry)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only\n-Affects terrain with fire\n-Fire does not affects vehicles\n-Self-regenerates
 displayDescription_es: -Civiles valientes y patrióticos\n-Unidad especial de la URSS\n-Infantería de rebelión (Infantería)\n-Efectiva contra infantería, vehículos ligeros y edificios\n-Ataca a tierra únicamente\n-Afecta el terreno con fuego\n-El fuego no afecta vehículos\n-Se auto-regenera
+displayDescription_uk: -Сміливі та патріотичні громадяни\n-Спеціальна одиниця СРСР\n-Повстанський загін (Піхота)\n-Ефективний проти піхоти, легкої техніки та споруд\n-Атакує тільки наземні цілі\n-Вражає місцевість вогнем\n-Вогонь не впливає на техніку\n-Має регенерацію здоров'я
+displayDescription_zh: -由勇敢爱国的平民，之前没来得及撤退的老兵组成\n-苏联特殊单位\n-游击队（步兵）\n-有效打击步兵，车辆和建筑\n-仅攻击地面\n-可以投掷燃烧瓶\n-燃烧瓶引发的大火不会伤害车辆\n-可以自愈
 
 [template_assaultSappersInfo]
-#EDITED description
 displayDescription: -Saboteur forces\n-USSR special unit\n-Trapper and anti-building infantry (Infantry)\n-Effective against infantry and buildings\n-Attacks ground only\n-Can place minefields with no oil cost\n-Can throw demolition charges to buildings\n-Self-regenerates
 displayDescription_es: -Fuerzas saboteadoras\n-Unidad especial de la URSS\n-Infantería trampera y anti-edificios (Infantería)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Puede colocar minados sin costo en petróleo\n-Puede lanzar cargas de demolición a los edificios\n-Se auto-regenera
+displayDescription_uk: -Диверсійні сили\n-Спеціальна одиниця СРСР\n-Трапер і протиспорудна піхота (Піхота)\n-Ефективний проти піхоти та споруд\n-Атакує тільки наземні цілі\n-Може розміщувати мінні поля без витрат нафти\n-Може кидати підривні заряди на будівлі\n-Має регенерацію здоров'я
+displayDescription_zh: -摧毁防线的好手\n-苏联特殊单位\n-摧毁建筑与陷阱\n-有效打击步兵和建筑\n-仅攻击地面\n-无需石油成本即可放置雷区\n- 可以拆除陷阱\n-可以向建筑物投掷爆破炸药\n-可以自愈
+#TRANSLATES NEEDED --> *zh
 
 [template_sniperTeamInfo]
 displayDescription: -Lethal hunters\n-USSR special unit\n-Very long-ranged infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-High sight range\n-Self-regenerates
 displayDescription_es: -Cazadores letales\n-Unidad especial de la URSS\n-Infantería de muy largo alcance(Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Alto rango de visión\n-Se auto-regenera
+displayDescription_uk: -Смертоносні мисливці\n-Спеціальна одиниця СРСР\n-Піхота з дуже великою дальністю атаки (Піхота)\n-Ефективна проти піхоти\n-Атакує тільки наземні цілі\n-Висока дальність зору\n-Має регенерацію здоров'я
+displayDescription_zh: -废墟中可一枪致命的猎人\n-苏联特殊单位\n-狙击手（步兵）\n-有效打击步兵\n-仅攻击地面\n-高射程范围\n-可以自愈
 
 [template_nkvdTeamInfo]
 displayDescription: -The people's police\n-USSR special unit\n-Very heavy infantry (Infantry)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only\n-Invulnerable to toxic gas\n-Rises morale a lot when killing\n-Self-regenerates
 displayDescription_es: -La policía del pueblo\n-Unidad especial de la URSS\n-Infantería muy pesada (Infantería)\n-Efectiva contra infantería, vehículos ligeros y edificios\n-Ataca a tierra únicamente\n-Invulnerable al gas tóxico\n-Incrementa mucho la moral al matar\n-Se auto-regenera
+displayDescription_uk: -Народна міліція\n-Спеціальна одиниця СРСР\n-Дуже важка піхота (піхота)\n-Ефективна проти піхоти, легкої техніки та споруд\n-Атакує тільки наземні цілі\n-Невразлива до токсичного газу\n-Під час вбивства сильно піднімається моральний дух\n-Має регенерацію здоров'я
+displayDescription_zh: -人民警察\n-苏联特殊单位\n-重步兵（步兵）\n-有效打击步兵，车辆和建筑\n-仅攻击地面\n-免疫毒气\n-击杀敌方单位获得的士气会更多\n-可以自愈
 
 [template_shchukaClassInfo]
 displayDescription: -Main anti-submarine presence\n-USSR special unit\n-Quick anti-submarine submarine (Anti-submarines)\n-Effective against submarines\n-Attacks underwater and air
 displayDescription_es: -Presencia anti-submarina principal\n-Unidad especial de la URSS\n-Submarino anti-submarinos rápido (Anti-submarinos)\n-Efectivo contra submarinos\n-Ataca bajo el agua y a aire
+displayDescription_uk: -Основна протичовнова одиниця\nСпеціальна одиниця СРСР\n-Протичовновий підводний човен (Анти-субмарина)\n-Ефективний проти підводних човнів\n-Атакує підводні та повітряні цілі
+displayDescription_zh: -反潜潜艇\n-苏联特殊单位\n-快速反潜潜艇（反潜）\n-有效打击潜艇\n-攻击水下和空中
 
 [template_su-100yInfo]
 displayDescription: -Mobile naval gun\n-USSR special unit\n-Self-propelled naval gun (Heavy vehicle)\n-Effective against ships and submarines\n-Attacks ground only\n-Can attack terrain continuously\n-Can attack tank traps
 displayDescription_es: -Cañón naval móvil\n-Unidad especial de la URSS\n-Cañón naval auto-propulsado (Vehículo pesado)\n-Efectivo contra barcos y submarinos\n-Ataca a tierra únicamente\n-Puede atacar terreno continuamente\n-Puede atacar trampas de tanque
+displayDescription_uk: -Мобільна морська гармата\n-Спеціальна одиниця СРСР\n-Морська самохідна гармата (Важка техніка)\n-Ефективна проти кораблів і підводних човнів\n-Атакує тільки наземні цілі\n-Може постійно атакувати місцевість\n-Може атакувати танкові їжаки
+displayDescription_zh: -自行舰炮\n-苏联特殊单位\n-自行舰炮（重型车辆）\n-有效打击舰船和潜艇\n-仅攻击地面\n-可以摧毁陷阱
 
 [template_t-40Info]
 displayDescription: -Tactical vehicle\n-USSR special unit\n-Amphibious light tank (Heavy vehicle)\n-Effective against infantry\n-Attacks ground only
 displayDescription_es: -Vehículo táctico\n-Unidad especial de la URSS\n-Tanque ligero anfibio (Vehículo pesado)\n-Efectivo contra infantería\n-Ataca a tierra únicamente
+displayDescription_uk: -Тактична техніка\n-Спеціальна одиниця СРСР\n-Легкий танк-амфібія (Важка техніка)\n-Ефективний проти піхоти\n-Атакує тільки наземні цілі
+displayDescription_zh: -两栖车辆\n-苏联特殊单位\n-水陆两栖轻型坦克（重型车辆）\n-有效打击步兵\n-仅攻击地面
 
 [template_tupolevBomberInfo]
 displayDescription: -Experimental success\n-USSR special unit\n-Heavy bomber and aircraft carrier (Airplane)\n-Includes two I-16 fighters at no cost\n-Effective against airplanes, vehicles, infantry and buildings\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing
 displayDescription_es: -Éxito experimental\n-Unidad especial de la URSS\n-Bombardero pesado y portaaviones (Avión)\n-Incluye dos cazas I-16 sin costo\n-Efectivo contra aviones, vehículos, infantería y edificios\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear
+displayDescription_uk: -Експериментальний успіх\n-Спеціальна одиниця СРСР\n-Важкий бомбардувальник і авіаносець (Літак)\n-Включає два безкоштовних винищувача I-16\n-Ефективний проти літаків, техніки, піхоти й споруд\n-Атакуж наземні та повітряні цілі\n-Може бомбити лише споруди\n-Автоматично повертається на базу після бомбардування
+displayDescription_zh: -空天母舰计划成功的结果\n-苏联特殊单位\n-重型轰炸机和航空母舰（飞机）\n-可以起飞两架伊16战斗机\n-有效打击飞机，车辆，步兵与建筑\n-攻击地面与空中\n-可以向建筑投掷炸弹\n-轰炸完自动返回基地
 
 [template_polikarpovFighterInfo]
 displayDescription: -Common fighter\n-USSR special unit\n-Free fighter transported by TB-3 bombers (Airplane)\n-Effective against airplanes and infantry\n-Attacks ground and air\n-Doesn't reduce morale when destroyed
 displayDescription_es: -Caza común\n-Unidad especial de la URSS\n-Caza gratis transportado por bombarderos TB-3 (Avión)\n-Efectivo contra aviones e infantería\n-Ataca a tierra y aire\n-No reduce la moral cuando es destruido
+displayDescription_uk: -Звичайний винищувач\n-Спеціальна одиниця СРСР\n-Безкоштовний винищувач, транспортований бомбардувальником TB-3 (Літак)\n-Ефективний проти літаків і піхоти\n-Атакує наземні та повітряні цілі\n-Не знижує моральний дух при знищенні
+displayDescription_zh: -普通的战斗机\n-苏联特殊单位\n-由TB-3轰炸机运送的战斗机（飞机）\n-有效打击飞机与步兵\n-攻击空中与地面\n-被击落时不降低士气
 
 [template_zsu-37Info]
 displayDescription: -Anti-air offensive force\n-USSR special unit\n-Anti-air and anti-tank self-propelled gun (Heavy vehicle)\n-Effective against heavy vehicles and airplanes\n-Attacks ground and air\n-Can switch between air and ground attack
 displayDescription_es: -Fuerza ofensiva antiaérea\n-Unidad especial de la URSS\n-Cañón auto-propulsado antiaéreo y anti-tanques (Vehículo pesado)\n-Efectivo contra vehículos pesados y aviones\n-Ataca a tierra y aire\n-Puede cambiar entre ataque de aire y tierra
+displayDescription_uk: -Протиповітряні наступальні сили\n-Спеціальна одиниця СРСР\n-Протиповітряна і протитанкова самохідна установка (Важка техніка)\n-Ефективний проти важкої техніки та літаків\n-Атакує наземні та повітряні цілі\n-Може перемикатися між повітряною і наземною атакою
+displayDescription_zh: -伴随着装甲部队前进的自行防空部队\n-苏联特殊单位\n-自行防空车（重型车辆）\n-有效打击重型车辆与飞机\n-攻击地面与空中\n-可以在对空射击和对地射击之间切换
 
 [template_kv-2Info]
 displayDescription: -Defense destroyer\n-USSR special unit\n-Heavy self-propelled howitzer (Heavy vehicle)\n-Effective against infantry and buildings\n-Attacks ground only
 displayDescription_es: -Destructor de defensas\n-Unidad especial de la URSS\n-Obús auto-propulsado pesado (Vehículo pesado)\n-Efectivo contra infantería y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Винищувач оборони\n-Спеціальна одиниця СРСР\n-Важка самохідна гаубиця (Важка техніка)\n-Ефективна проти піхоти та споруд\n-Атакує тільки наземні цілі 
+displayDescription_zh: -陆地无畏舰\n-苏联特殊单位\n-重型自行榴弹炮（重型车辆）\n-有效打击步兵和建筑\n-仅攻击地面
 
 [template_kv-5Info]
 displayDescription: -Heavy tank with multiple turrets\n-USSR special unit\n-Very quick super heavy tank (Super heavy vehicle)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only
 displayDescription_es: -Tanque pesado con múltiples torretas\n-Unidad especial de la URSS\n-Tanque superpesado muy rápido (Vehículo superpesado)\n-Efectivo contra infantería, vehículos ligeros y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Важкий танк із кількома турелями\n-Спеціальна одиниця СРСР\n-Дуже швидкий надважкий танк (Надважка техніка)\n-Ефективний проти піхоти, легкої техніки та споруд\n-Атакує лише наземні цілі
+displayDescription_zh: -多炮塔重型坦克\n-苏联特殊单位\n-非常快的超重型坦克（超重型车辆）\n-有效打击步兵，轻型车辆与建筑\n-仅攻击地面
 
 [template_t-100Info]
 displayDescription: -Fastest main battle tank\n-USSR special unit\n-Fast-firing super heavy tank destroyer (Super heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
 displayDescription_es: -Tanque principal de batalla más rápido\n-Unidad especial de la URSS\n-Cazacarros superpesado de fuego rápido (Vehículo superpesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+displayDescription_uk: -Найшвидший основний бойовий танк\n-Спеціальна одиниця СРСР\n-Швидкостріляючий надважкий винищувач танків (Надважка техніка)\n-Ефективний проти техніки\n-Атакує тільки наземні цілі 
+displayDescription_zh: -超重型坦克\n-苏联特殊单位\n-多炮塔超重型坦克（超重型车辆）\n-有效打击车辆\n-仅攻击地面
 
 #
 #============ United Kingdom Units ==============#
@@ -698,54 +1063,80 @@ displayDescription_es: -Tanque principal de batalla más rápido\n-Unidad especi
 [template_horsaTroopCarrierInfo]
 displayDescription: -Main airborne tool\n-United Kingdom special unit\n-Troop-carrying glider (Airplane)\n-Attacks ground only\n-Cannot be attacked by land defenses\n-Does not have fuel limit\n-Can drop up to 6 paratrooper units
 displayDescription_es: -Herramienta de aerotransporte principal\n-Unidad especial de Reino Unido\n-Planeador porta-tropas (Avión)\n-Ataca a tierra únicamente\n-No puede ser atacado por defensas de tierra\n-No tiene límite de combustible\n-Puede soltar hasta 6 unidades paracaidistas
+displayDescription_uk: -Основний бортовий інструмент\n-Спеціальна одиниця Сполученого Королівства\n-Планер (Літак)\n-Атакує тільки наземні цілі\n-Не може бути атакуваним наземною обороною\n-Не має ліміту палива\n-Може скинути до 6 одиниць-десантників
+displayDescription_zh: -悄无声息的飞机\n-联合王国特殊单位\n-滑翔机（飞机）\n-仅攻击地面\n-不能被地面防空攻击\n-无燃料限制\n-可以空降6队步兵
 
 [template_avroLancasterBiInfo]
 displayDescription: -Expensive weapon of massive destruction\n-United Kingdom special unit\n-Seismic bomber (Airplane)\n-Effective against light vehicles and buildings\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing
 displayDescription_es: -Arma cara de destrucción masiva\n-Unidad especial de Reino Unido\n-Bombardero sísmico (Avión)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear
+displayDescription_uk: -Дорога зброя масового ураження\n-Спеціальна одиниця Сполученого Королівства\n-Сейсмічний бомбардувальник (Літак)\n-Ефективний проти легкої техніки засобів і споруд\n-Атакує наземні та повітряні цілі\n-Може бомбити лише споруди\n-Автоматично повертається на базу після бомбардування
+displayDescription_zh: -昂贵的大规模杀伤性武器\n-联合王国特殊单位\n-地震轰炸机\n-有效打击轻型车辆与建筑\n-攻击地面与空中\n-可以向建筑投掷地震炸弹\n-轰炸后自动返回
 
 [template_colonialCenterInfo]
 displayDescription: -Organization point with the colonies\n-United Kingdom special building\n-Secondary base and resource generator\n-Can build structures\n-Produces industry and oil\n-Its production is not reduced by damage or low morale
 displayDescription_es: -Punto de organización con las colonias\n-Edificio especial de Reino Unido\n-Base secundaria y generador de recursos\n-Puede construir estructuras\n-Produce industria y petróleo\n-Su producción no se reduce por daño o baja moral
+displayDescription_uk: -Організаційний пункт з колоніями\n-Спеціальна споруда Сполученого Королівства\n-Вторинна база та генератор ресурсів\n-Може будувати споруди\n-Виробляє промисловість і нафту\n-Її виробництво не зменшується через пошкодження чи низький моральний дух
+displayDescription_zh: -殖民地的行政机构\n-联合王国特殊建筑\n-相当于一个基地和资源产生器\n-可以建造建筑\n-会不断产生石油与工业值\n-产量不会因受损和士气减少
 
 [template_commandoTeamInfo]
 displayDescription: -Assault infantry\n-United Kingdom special unit\n-Demolition infantry (Infantry)\n-Effective against infantry and buildings\n-Attacks ground only\n-Can throw demolition charges to buildings\n-Self-regenerates
 displayDescription_es: -Infantería de asalto\n-Unidad especial de Reino Unido\n-Infantería de demolición (Infantería)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Puede lanzar cargas de demolición a los edificios\n-Se auto-regenera
+displayDescription_uk: -Штурмова піхота\n-Спеціальна одиниця Сполученого Королівства\n-Підривна піхота (Піхота)\n-Ефективна проти піхоти та споруд\n-Атакує тільки наземні цілі\n-Може кидати підривні заряди в споруди\n-Має регенерацію здоров'я
+displayDescription_zh: -突击步兵\n-联合王国特种部队\n-爆破步兵（步兵）\n-有效打击步兵和建筑\n-仅攻击地面\n-可以向建筑投掷炸药包\n-可以自愈
 
 [template_sasTeamInfo]
 displayDescription: -Special air service soldiers\n-United Kingdom special unit\n-Stealth infantry (Infantry)\n-Effective against infantry, vehicles and buildings\n-Attacks ground only\n-Cannot be detected on minimap by enemies\n-Self-regenerates
 displayDescription_es: -Soldados del servicio aéreo especial\n-Unidad especial de Reino Unido\n-Infantería furtiva (Infantería)\n-Efectiva contra infantería, vehículos y edificios\n-Ataca a tierra únicamente\n-No puede ser detectada en el minimapa por enemigos\n-Se auto-regenera
+displayDescription_uk: -Диверсійна піхота\n-Спеціальна одиниця Сполученого Королівства\n-Протиспорудна піхота (Піхота)\n-Ефективна проти піхоти та споруд\n-Атакує тільки наземні цілі\n-Може кидати підривні заряди по спорудах\n-Може пересуватися через гори\n-Має регенерацію здоров'я
+displayDescription_zh: -特种空勤团\n-联合王国特种部队\n-有效打击步兵，车辆与建筑\n-仅攻击地面\n-敌人无法在小地图上发现SAS特种空勤团\n-可以自愈
 
 [template_havillandFighterInfo]
 displayDescription: -Wood airplane\n-United Kingdom special unit\n-Quick bomber-fighter (Airplane)\n-Effective against airplanes, ships and buildings\n-Attacks ground and air
 displayDescription_es: -Avión de madera\n-Unidad especial de Reino Unido\n-Caza-bombardero rápido (Avión)\n-Efectivo contra aviones, barcos y edificios\n-Ataca a tierra y aire
+displayDescription_uk: -Дерев'яний літак\n-Спеціальна одиниця Сполученого Королівства\n-Швидкий бомбардувальник-винищувач (Літак)\n-Ефективний проти літаків, кораблів і споруд\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -木制飞机\n-联合王国特殊单位\n-高机动的战斗轰炸机（飞机）\n-有效打击飞机，建筑和舰船\n-攻击地面与空中
 
 [template_flowerClassInfo]
 displayDescription: -Patrolling unit\n-United Kingdom special unit\n-Resistant anti-submarine corvette (Anti-sumarines)\n-Effective against submarines\n-Attacks ground, air and underwater
 displayDescription_es: -Unidad de patrullaje\n-Unidad especial de Reino Unido\n-Corveta anti-submarinos resistente (Anti-submarinos)\n-Efectiva contra submarinos\n-Ataca a tierra, aire y bajo el agua
+displayDescription_uk: -Патрульна одиниця\n-Спеціальна одиниця Сполученого Королівства\n-Стійкий протичовновий корвет (Анти-субмарина)\n-Ефективний проти підводних човнів\n-Атакує наземні, повітряні та підводні цілі
+displayDescription_zh: -巡逻小队\n-联合王国特殊单位\n-反潜护卫舰（反潜）\n-有效打击潜艇\n-攻击地面，空中与水下
 
 [template_implacableClassInfo]
 displayDescription: -Vanguard ship\n-United Kingdom special unit\n-Long-ranged aircraft carrier (Ship)\n-Attacks air only\n-Can transport up to 8 light airplanes\n-Includes 3 light fighters\n-Can build light fighters
 displayDescription_es: -Navío de vanguardia\n-Unidad especial de Reino Unido\n-Portaaviones de largo alcance (Barco)\n-Ataca a aire únicamente\n-Puede transportar hasta 8 aviones ligeros\n-Incluye 3 cazas ligeros\n-Puede construir cazas ligeros
+displayDescription_uk: -Авангардний корабель\n-Спеціальна одиниця Сполученого Королівства\n-Авіаносець дальньої дії (Корабель)\n-Атакує тільки повітряні цілі\n-Перевозить до 8 легких літаків\n-Включає в себе 3 легких винищувача\n-Може будувати легкі винищувачі
+displayDescription_zh: -先锋舰\n-联合王国特殊单位\n-航空母舰（舰船）\n-仅攻击空中\n-可以搭载8架飞机\n-自带3架轻型战斗机\n-可以搭载轻型战斗机
 
 [template_rdfInfo]
 displayDescription: -Chain home node\n-United Kingdom special building\n-Range and direction finder (Radar)\n-Detects enemy airplanes within its range, even in the fog\n-Provides +20% damage to all anti-air units within its range, including airplanes
 displayDescription_es: -Nodo de la chain home\n-Edificio especial de Reino Unido\n-Buscador de rango y dirección (Radar)\n-Detecta aviones enemigos dentro de su rango, incluso en la niebla\n-Provee +20% de daño a todas las unidades antiaéreas en su rango, incluyendo aviones
+displayDescription_uk: -Домашній вузол ланцюжка\n-Спеціальна споруда Сполученого Королівства\n-Дальномір та пеленгатор (Радар)\n-Виявляє ворожі літаки в межах своєї дії, навіть у тумані війни\n-Надає +30% шкоди по ворожим одинциям для всіх протиповітряних одиниць у межах своєї дії, включаючи літаки
+displayDescription_zh: -一个巨大的优势\n-联合王国特殊建筑\n-测距与测向仪（雷达）\n-即使有战争迷雾也能够探测其中的敌军飞机\n-范围内所有防空单位（包括飞机）增加百分之20伤害
 
 [template_redoubtInfo]
 displayDescription: -Adapted medieval building\n-United Kingdom special building\n-Defensive structure\n-Can garrison infantry
 displayDescription_es: -Edificio medieval adaptado\n-Edificio especial de Reino Unido\n-Estructura defensiva\n-Puede guarecer infantería
+displayDescription_uk: -Адаптована середньовічна споруда\n-Спеціальна споруда Сполученого Королівства\n-Оборонна споруда\n-Може зайняти піхота
+displayDescription_zh: -改造后的中世纪建筑\n-联合王国特殊建筑\n-防御设施\n-可以进驻步兵\n-进驻的步兵可以攻击
 
 [template_shermanFireflyTulipInfo]
 displayDescription: -Anti-tank sherman variation\n-United Kingdom special unit\n-Tank destroyer equipped with rocket launchers (Heavy vehicle)\n-Effective against vehicles, buildings and infantry\n-Attacks ground only
 displayDescription_es: -Variación de sherman anti-tanque\n-Unidad especial de Reino Unido\n-Cazacarros equipado con lanzacohetes (Vehículo pesado)\n-Efectivo contra vehículos, edificios e infantería\n-Ataca a tierra únicamente
+displayDescription_uk: -Протитанковий варіант Шермана\n-Спеціальна одиниця Сполученого Королівства\n-Винищувач танків, оснащений ракетними установками (Важка техніка)\n-Ефективний проти техніки, споруд і піхоти\n-Атакує тільки наземні цілі
+displayDescription_zh: -萤火虫改装型\n-联合王国特殊单位\n-装备了火箭发射器的坦克（重型车辆）\n-有效打击车辆，建筑与步兵\n-仅攻击地面
 
 [template_churchillAvreInfo]
 displayDescription: -Engineering vehicle\n-United Kingdom special unit\n-Armored self-propelled mortar (Heavy vehicle)\n-Effective against infantry and buildings\n-Attacks ground only\n-Can place traps
 displayDescription_es: -Vehículo de ingeniería\n-Unidad especial de Reino Unido\n-Mortero auto-propulsado blindado (Vehículo pesado)\n-Efectivo contra infantería y edificios\n-Ataca a tierra únicamente\n-Puede colocar trampas
+displayDescription_uk: -Інженерна машина\n-Спеціальна одиниця Сполученого Королівства\n-Броньований самохідний міномет (Важка техніка)\n-Ефективна проти піхоти і споруд\n-Атакує тільки землю\n-Може розставляти пастки
+displayDescription_zh: -工程坦克\n-联合王国特殊单位\n-自行迫击炮（重型车辆）\n-有效打击步兵与建筑\n-仅攻击地面\n-可以布置陷阱
 
 [template_a39TortoiseInfo]
 displayDescription: -Heavy assault tank\n-United Kingdom special unit\n-Super heavy tank destroyer with critical damage (Super heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
 displayDescription_es: -Tanque de asalto pesado\n-Unidad especial de Reino Unido\n-Cazacarros superpesado con daño crítico (Vehículo superpesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+displayDescription_uk: -Важкий штурмовий танк\n-Спеціальна одиниця Сполученого Королівства\n-Надважкий винищувач танків з критичною шкодою (Надважка техніка)\n-Ефективний проти техніки\n-Атакує тільки наземні цілі
+displayDescription_zh: -重型突击坦克\n-联合王国特殊单位\n-高伤害的超重型坦克（超重型车辆）\n-有效打击车辆\n-仅攻击地面
 
 #
 #============ Nazi Germany Units ==============#
@@ -754,54 +1145,80 @@ displayDescription_es: -Tanque de asalto pesado\n-Unidad especial de Reino Unido
 [template_concentrationCampInfo]
 displayDescription: -Purging place\n-Nazi Germany special building\n-Industry generator that isn't affected by morale or HP\n-Does not reduces morale when destroyed\n-Can train prisoners
 displayDescription_es: -Lugar de purga\n-Edificio especial de la Alemania Nazi\n-Generador de industria que no es afectado por la moral o los PV\n-No reduce la moral cuando es destruido\n-Puede entrenar prisioneros
+displayDescription_uk: -Місце очищення\n-Спеціальна споруда Нацистської Німеччини\n-Генератор промисловості, на який не впливає моральний дух або здоров'я\n-Не знижує моральний дух при знищенні\n-Може навчати ув'язнених
+displayDescription_zh: -“净化”之地（原文直译）\n-纳粹德国特殊建筑\n-产值不受受损和士气的影响\n-摧毁时不降低士气\n-可以训练囚犯
 
 [template_flakTowerInfo]
 displayDescription: -Imposing german defense\n-Nazi Germany special building\n-Powerful anti-air defense\n-Effective against airplanes\n-Attacks air only
 displayDescription_es: -Defensa alemana imponente\n-Edificio especial de la Alemania Nazi\n-Defensa antiaérea poderosa\n-Efevtiva contra aviones\n-Ataca a aire únicamente
+displayDescription_uk: -Вражаюча німецька оборона\n-Спеціальна споруда Нацистської Німеччини\n-Потужна протиповітряна оборона\n-Ефективна проти літаків\n-Атакує тільки повітряні цілі
+displayDescription_zh: -这将加强柏林的防空力量\n-纳粹德国特殊建筑\n-强大的防空力量\n-有效打击飞机\n-仅攻击空中
 
 [template_panzerIiInfo]
 displayDescription: -Profitable vehicle\n-Nazi Germany special unit\n-Light tank with burst attack (Heavy vehicle)\n-Effective against light vehicles and buildings\n-Attacks ground only
 displayDescription_es: -Vehículo rentable\n-Unidad especial de la Alemania Nazi\n-Tanque ligero con ataque de ráfaga (Vehículo pesado)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Прибуткова техніка\n-Спеціальна одиниця Нацистської Німеччини\n-Легкий танк зі швидкою атакою (Важка техніка)\n-Ефективний проти легкої техніки і споруд\n-Атакує тільки наземні цілі
+displayDescription_zh: -轻型坦克\n-纳粹德国特殊单位\n-装备机关炮的轻型坦克（重型车辆）\n-有效打击轻型车辆和建筑\n-仅攻击地面
 
 [template_prisonersInfo]
 displayDescription: -Free and discardable manpower\n-Nazi Germany special unit\n-Quick builders that don't reduce morale on death\n-Cannot attack\n-Can build structures at lower cost (-30%)\n-Can disarm enemy traps and obstacles
 displayDescription_es: -Mano de obra gratis y descartable\n-Unidad especial de la Alemania Nazi\n-Constructores rápidos que no reducen la moral al morir\n-No pueden atacar\n-Pueden construir estructuras a menor costo (-30%)\n-Pueden desarmar trampas enemigas y obstáculos
+displayDescription_uk: -Безкоштовна робоча сила\n-Спеціальна одиниця Нацистської Німеччини\n-Швидкі будівники, які не знижують моральний дух після смерті\n-Не можуть атакувати\n-Будують споруди з меншою вартістю (-30%)\n-Можуть знешкодити ворожі пастки та перешкоди
+displayDescription_zh: -可以随意放弃的单位\n-纳粹德国特殊单位\n-移速较快的建造者死亡时不降低士气\n-不能攻击\n-可以以更低的价格建造建筑（-30%）\n-可以解除敌人的陷阱
 
 [template_schnellbootInfo]
 displayDescription: -Naval guard element\n-Nazi Germany special unit\n-Very fast anti-ship corvette (Ship)\n-Effective against ships\n-Attacks ground only
 displayDescription_es: -Elemento de guardia naval\n-Unidad especial de la Alemania Nazi\n-Corveta anti-barcos muy rápida (Barco)\n-Efectiva contra barcos\n-Ataca a tierra únicamente
+displayDescription_uk: -Елемент морської охорони\n-Спеціальна одиниця Нацистської Німеччини\n-Швидкий протикорабельний корвет (Корабель)\n-Ефективний проти кораблів\n-Атакує тільки наземні цілі
+displayDescription_zh: -海岸警卫队\n-纳粹德国特殊单位\n-非常快的反舰单位（舰船）\n-有效打击舰船\n-仅攻击地面
 
 [template_goliathInfo]
 displayDescription: -Slippery tracked mine\n-Nazi Germany special unit\n-Remotely controlled bomb (Heavy vehicle)\n-Effective against vehicles and buildings\n-Attacks ground only
 displayDescription_es: -Mina de rastreo escurridiza\n-Unidad especial de la Alemania Nazi\n-Bomba controlada remotamente (Vehículo pesado)\n-Efectiva contra vehículos y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Слизька гусенична міна\n-Спеціальна одиниця Нацистської Німеччини\n-Бомба з дистанційним керуванням (Важка техніка)\n-Ефективна проти техніки та споруд\n-Атакує тільки наземні цілі
+displayDescription_zh: -遥控爆破车\n-纳粹德国特色单位\n-遥控炸弹（重型车辆）\n-有效打击车辆和建筑\n-仅攻击地面
 
 [template_panzergrenadiersInfo]
 displayDescription: -Motorized divisions\n-Nazi Germany special unit\n-Cheap anti-vehicle infantry (Infantry)\n-Effective against vehicles\n-Attacks ground only\n-Self-regenerates
 displayDescription_es: -Divisiones motorizadas\n-Unidad especial de la Alemania Nazi\n-Infantería anti-vehículos barata (Infantería)\n-Efectiva contra vehículos\n-Ataca a tierra únicamente\n-Se auto-regenera
+displayDescription_uk: -Моторизовані дивізії\n-Спеціальна одиниця Нацистської Німеччини\n-Дешева протитанкова піхота (Піхота)\n-Ефективна проти техніки\n-Атакує лише наземні цілі\n-Має регенерацію здоров'я
+displayDescription_zh: -摩托化部队（原文直译）\n-纳粹德国特殊单位\n-廉价反坦克部队\n-有效打击车辆\n-仅攻击地面\n-可以自愈
 
 [template_ssTeamInfo]
 displayDescription: -Elite forces\n-Nazi Germany special unit\n-Versatile infantry (Infantry)\n-Effective against infantry, vehicles and buildings\n-Attacks ground only\n-Self-regenerates
 displayDescription_es: -Fuerzas de élite\n-Unidad especial de la Alemania Nazi\n-Infantería versátil (Infantería)\n-Efectiva contra infantería, vehículos y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+displayDescription_uk: -Елітні сили\n-Спеціальна одиниця Нацистської Німеччини\n-Універсальна піхота (Піхота)\n-Ефективна проти піхоти, техніки та споруд\n-Атакує тільки наземні цілі\n-Має регенерацію здоров'я
+displayDescription_zh: -精锐部队\n-纳粹德国特殊单位\n-多用途步兵（步兵）\n-有效打击步兵，车辆和建筑\n-仅攻击地面\n-可以自愈
 
 [template_nebelwerfer42Info]
 displayDescription: -Light rocket artilley\n-Nazi Germany special unit\n-Artillery infantry (Infantry)\n-Effective against infantry and buildings\n-Attacks ground only\n-Self-regenerates
 displayDescription_es: -Artillería de cohetes ligera\n-Unidad especial de la Alemania Nazi\n-Infantería de artillería (Infantería)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+displayDescription_uk: -Легка реактивна артилерія\n-Спеціальна одиниця Нацистської Німеччини\n-Артилерійська піхота (Піхота)\n-Ефективна проти піхоти та споруд\n-Атакує тільки наземні цілі\n-Має регенерацію здоров'я
+displayDescription_zh: -轻型火箭发射器\n-纳粹德国特殊单位\n-支援步兵的炮兵（步兵）\n-有效打击步兵与建筑\n-仅攻击地面\n-可以自愈
 
 [template_typeViiBInfo]
 displayDescription: -Submarine countermeasure\n-Nazi Germany special unit\n-Powerful anti-submarine submarine (Anti-submarines)\n-Effective against submarines\n-Attacks underwater and air
 displayDescription_es: -Contramedida submarina\n-Unidad especial de la Alemania Nazi\n-Submarino anti-submarinos potente (Anti-submarinos)\n-Efectivo contra submarinos\n-Ataca bajo el agua y a aire
+displayDescription_uk: -Протидія підводним човнам\n-Спеціальна одиниця Нацистської Німеччини\n-Потужний протичовновий підводний човен (Анти-субмарина)\n-Ефективний проти підводних човнів\n-Атакує підводні та повітряні цілі
+displayDescription_zh: -反潜潜艇\n-纳粹德国特殊单位\n-强大的反潜潜艇\n-有效打击潜艇\n-攻击水下与空中
 
 [template_v2LaunchpadInfo]
 displayDescription: -V2 rocket launcher\n-Nazi Germany special building\n-Ballistic rocket launcher\n-Can create and launch V2 rockets\n-V2 rockets reduce enemy morale
 displayDescription_es: -Lanzador de cohetes V2\n-Edificio especial de la Alemania Nazi\n-Lanzacohetes balístico\n-Puede crear y lanzar cohetes V2\n-Los cohetes V2 reducen la moral del enemigo
+displayDescription_uk: -Ракетна установка V2\n-Спеціальна споруда Нацистської Німеччини\n-Ракетна установка V2\n-Може створювати та запускати ракети V2\n-Ракети V2 знижують моральний дух противника
+displayDescription_zh: -V2火箭发射器\n-纳粹德国特殊建筑\n-弹道火箭发射器\n-可以制造并发射V2导弹\n-V2导弹攻击敌人时将会降低敌方士气
 
 [template_panzerViiiMausInfo]
 displayDescription: -The most tough tank of history\n-Nazi Germany special unit\n-Powerful super heavy tank (Super heavy vehicle)\n-Effective against light vehicles and buildings\n-Attacks ground only
 displayDescription_es: -El tanque más pesado de la historia\n-Unidad especial de la Alemania Nazi\n-Tanque super pesado potente (Vehículo superpesado)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Найжорсткіший танк в історії\n-Спеціальна одиниця Нацистської Німеччини\n-Потужний надважкий танк (Надважка техніка)\n-Ефективний проти легкої техніки та споруд\n-Атакує лише наземні цілі
+displayDescription_zh: -史上最强的坦克\n-纳粹德国特殊单位\n-超重型坦克（超重型车辆）\n-有效打击轻型车辆和建筑\n-仅攻击地面
 
 [template_jagdtigerInfo]
 displayDescription: -Infantry support vehicle\n-Nazi Germany special unit\n-Demolition super heavy tank destroyer (Super heavy vehicle)\n-Effective against vehicles and buildings\n-Attacks ground only
 displayDescription_es: -Vehículo de apoyo de infantería\n-Unidad especial de la Alemania Nazi\n-Cazacarros superpesado de demolición (Vehículo superpesado)\n-Efectivo contra vehículos y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Машина підтримки піхоти\n-Спеціальна одиниця Нацистської Німеччини\n-Підривний надважкий винищувач танків (Надважка техніка)\n-Ефективний проти техніки та споруд\n-Атакує лише наземні цілі
+displayDescription_zh: -步兵支援车辆\n-纳粹德国特殊单位\n-超重型坦克歼击车（超重型车辆）\n-有效打击车辆与建筑\n-仅攻击地面
 
 #
 #============ Japan Empire Units ==============#
@@ -810,62 +1227,92 @@ displayDescription_es: -Vehículo de apoyo de infantería\n-Unidad especial de l
 [template_aichiM6aInfo]
 displayDescription: -Scouting seaplane\n-Japan Empire special unit\n-Dive bomber with no cost (Airplane)\n-Effective against vehicles, ships and buildings\n-Attacks ground and air
 displayDescription_es: -Hidroavión de exploración\n-Unidad especial del Imperio del Japón\n-Bombardero en picada sin costo (Avión)\n-Efectivo contra vehículos, barcos y edificios\n-Ataca a tierra y aire
+displayDescription_uk: -Розвідувальний гідролітак\n-Спеціальна одиниця Японської Імперії\n-Безкоштовний пікіруючий бомбардувальник (Літак)\n-Ефективний проти техніки, кораблів і споруд\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -水上侦查飞机\n-日本帝国特殊单位\n-免费的俯冲轰炸机（飞机）\n-有效打击车辆，舰船和建筑\n-攻击地面与空中
 
 [template_fortInfo]
 displayDescription: -Special defensive architecture\n-Japan Empire special structure\n-Defensive bunker\n-Effective against vehicles\n-Attacks ground only\n-Can garrison infantry\n-Garrisoned infantry cannot be damaged\n-Infantry can attack when garrisoned
 displayDescription_es: -Arquitectura defensiva especial\n-Estructura especial del Imperio del Japón\n-Búnker defensivo\n-Efectiva contra vehículos\n-Ataca a tierra únicamente\n-Puede guarecer infantería\n-La infantería guarecida no puede ser dañada\n-La infantería puede atacar cuando está guarecida
+displayDescription_uk: -Спеціальна оборонна архітектура\n-Спеціальна споруда Японської Імперії\n-Оборонний бункер\n-Ефективний проти техніки\n-Атакує тільки наземні цілі\n-Може зайняти піхота\n-Гарнізонна піхота не може отримати шкоди\n-Піхота може атакувати в гарнізоні
+displayDescription_zh: -特殊防御建筑\n-日本帝国特殊建筑\n-防御设施\n-有效打击车辆\n-仅攻击地面\n-可以进驻步兵\n-进驻的步兵不会受到敌方攻击的伤害\n-进驻的步兵可以开火
 
 [template_banzaiTeamInfo]
 displayDescription: -Honorable soldiers\n-Japan Empire special unit\n-Suicide infantry (Infantry)\n-Effective against infantry, vehicles and buildings\n-Attacks ground only\n-Reduces morale on attack\n-Self-regenerates
 displayDescription_es: -Soldados honorables\n-Unidad especial del Imperio del Japón\n-Infantería suicida (Infantería)\n-Efectiva contra infantería, vehículos y edificios\n-Ataca a tierra únicamente\n-Reduce la moral al atacar\n-Se auto-regenera
+displayDescription_uk: -Почесні солдати\в-Спеціальна одиниця Японської Імперії\n-Піхота-смертник (Піхота)\n-Ефективна проти піхоти, техніки та споруд\n-Атакує лише наземні цілі\n-Знижує моральний дух під час атаки\n-Має регенерацію здоров'я
+displayDescription_zh: -光荣的战士们（此为原文直译）\n-日本帝国特殊单位\n-自杀式步兵\n-有效打击步兵，车辆与建筑\n-仅攻击地面\n-在攻击时降低敌方士气\n-可以自愈
 
 [template_teishinShudanTeamInfo]
 displayDescription: -Sabotaging forces\n-Japan Empire special unit\n-Versatile infantry (Infantry)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only\n-Self-regenerates
 displayDescription_es: -Fuerzas de sabotaje\n-Unidad especial del Imperio del Japón\n-Infantería versátil (Infantería)\n-Efectiva contra infantería, vehículos ligeros y edificios\n-Ataca a tierra únicamente\n-Se auto-regenera
+displayDescription_uk: -Диверсійні сили\n-Спеціальна одиниця Японської Імперії\n-Універсальна піхота (Піхота)\n-Ефективна проти піхоти, легкої техніки та споруд\n-Атакує лише наземні цілі\n-Має регенерацію здоров'я 
+displayDescription_zh: -伞兵\n-日本帝国特殊单位\n-多用途步兵（步兵）\n-有效打击步兵，轻型车辆与建筑\n-仅攻击地面\n-可以自愈
 
 [template_gaserTeamInfo]
 displayDescription: -Chemical team\n-Japan Empire special unit\n-Gas-thrower infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-Affects terrain with toxic gas\n-Gas does not affects buildings and vehicles, but reduces morale\n-Self-regenerates
 displayDescription_es: -Equipo químico\n-Unidad especial del Imperio del Japón\n-Infantería lanza-gases (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Afecta el terreno con gas tóxico\n-El gas no afecta vehículos y edificios, pero reduce la moral\n-Se auto-regenera
+displayDescription_uk: -Хімічна команда\n-Спеціальна одиниця Японської Імперії\n-Газометна піхота (Піхота)\n-Ефективна проти піхоти\n-Атакує тільки наземні цілі\n-Атакує газом по площі\n-Газ не шкодить спорудам та техніці, але знижує моральний дух\n-Має регенерацію здоров'я
+displayDescription_zh: -化学小组\n-日本帝国特殊单位\n-发射毒气的化学步兵（步兵）\n-有效打击步兵\n-仅攻击地面\n-毒气将在地面残留段时间\n-毒气不能伤害建筑和车辆，但是可以降低敌方士气
 
 [template_typeB3Info]
 displayDescription: -Maritime countermeasure\n-Japan Empire special unit\n-Resistant anti-submarine submarine (Anti-submarines)\n-Effective against submarines\n-Attacks underwater and air
 displayDescription_es: -Contramedida marítima\n-Unidad especial del Imperio del Japón\n-Submarino anti-submarinos resistente (Anti-submarinos)\n-Efectivo contra submarinos\n-Ataca bajo el agua y a aire
+displayDescription_uk: -Морська протидія\n-Спеціальна одиниця Японської Імперії\n-Стійкий протичовновий підводний човен (Анти-субмарина)\n-Ефективний проти підводних човнів\n-Атакує повітряні та підводні цілі
+displayDescription_zh: -海上反潜措施\n-日本帝国特殊单位\n-反潜潜艇（反潜）\n-有效打击潜艇\n-攻击水下与空中
 
 [template_shokakuClassInfo]
 displayDescription: -Key point in naval battles\n-Japan Empire special unit\n-Quick aircraft carrier (Ship)\n-Attacks air only\n-Can transport up to 8 light airplanes\n-Includes 3 light fighters\n-Can build dive bombers
 displayDescription_es: -Un punto clave en batallas navales\n-Unidad especial del Imperio del Japón\n-Portaaviones rápido (Barco)\n-Ataca a aire únicamente\n-Puede transportar hasta 8 aviones ligeros\n-Incluye 3 cazas ligeros\n-Puede construir bombarderos en picada
+displayDescription_uk: -Ключова одиниця у морських боях\n-Спеціальна одиниця Японської Імперії\n-Швидкий авіаносець (Корабель)\n-Атакує тільки повітряні цілі\n-Може перевозити до 8 легких літаків\n-Включає 3 легких винищувачів\n-Може будувати пікіруючі бомбардувальники
+displayDescription_zh: -海战的关键\n-日本帝国特殊单位\n-快速航母（舰船）\n-仅攻击空中\n-可以搭载8架轻型战斗机\n-自带3架轻型战斗机\n-可以搭载俯冲轰炸机
 
 [template_yamatoClassInfo]
 displayDescription: -The biggest battleship\n-Japan Empire special unit\n-Very resistant and very long-ranged battleship (Ship)\n-Effective against vehicles, ships and buildings\n-Attacks ground and air
 displayDescription_es: -El acorazado más grande\n-Unidad especial del Imperio del Japón\n-Acorazado muy resistente y de gran alcance (Barco)\n-Efectivo contra vehículos, barcos y edificios\n-Ataca a tierra y aire
+displayDescription_uk: -Найбільший лінкор\n-Спеціальна одиниця Японської Імперії\n-Дуже далекобійний і стійкий лінкор (Корабель)\n-Ефективний проти техніки, кораблів і споруд\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -最大的战列舰\n-日本帝国特殊单位\n-装甲坚固且射程很远的战列舰（舰船）\n-有效打击车辆，舰船与建筑\n-攻击地面与空中
 
 [template_mitsubishiA6mZeroInfo]
 displayDescription: -One of the best airplanes of Japan\n-Japan Empire special unit\n-Suicide dive-bomber (Airplane)\n-Effective against ships and buildings\n-Attacks ground and air\n-Kamikaze when destroyed
 displayDescription_es: -Uno de los mejores aviones de Japón\n-Unidad especial del Imperio del Japón\n-Bombardero en picada suicida (Avión)\n-Efectivo barcos y edificios\n-Ataca a tierra y aire\n-Es kamikaze cuando es destruido
+displayDescription_uk: -Один з найкращих літаків Японії\n-Спеціальна одиниця Японської Імперії\n-Пікіруючий бомбардувальник-смертник (Літак)\n-Ефективний проти кораблів і споруд\n-Атакує наземні та повітряні цілі\n-Камікадзе при знищенні
+displayDescription_zh: -日本最好飞机之一\n-日本帝国特殊单位\n-自杀式俯冲轰炸机（飞机）\n-有效打击舰船与建筑\n-攻击地面与空中\n-血量归零式将化身神风特攻队
 
 [template_mitsubishiG4mInfo]
 displayDescription: -Result of the kamikaze program\n-Japan Empire special unit\n-Medium bomber that transports kamikaze airplanes (Airplane)\n-Effective against vehicles, infantry and buildings\n-Attacks ground and air\n-Can bomb buildings only\n-Automatically returns to base after bombing\n-Can deploy ohka kamikaze airplanes
 displayDescription_es: -Resultado del programa kamikaze\n-Unidad especial del Imperio del Japón\n-Bombardero medio que transporta aviones kamikaze (Avión)\n-Efectivo contra vehículos, infantería y edificios\n-Ataca a tierra y aire\n-Puede bombardear edificios únicamente\n-Regresa automáticamente a base después de bombardear\n-Puede desplegar aviones ohka kamikaze
+displayDescription_uk: -Результат програми камікадзе\n-Спеціальна одиниця Японської Імперії\n-Середній бомбардувальник, який транспортує літаки-камікадзе (Літак)\n-Ефективний проти техніки, піхоти та споруд\n-Атакує наземні та повітряні цілі\n-Може бомбити лише споруди\n-Автоматично повертається на базу після бомбардування\n-Може розгортати літаки-камікадзе
+displayDescription_zh: -神风项目的结果\n-日本帝国特殊单位\n-运送樱花特攻机的中型轰炸机（飞机）\n-有效打击车辆，步兵与建筑\n-攻击地面与空中\n-可以向建筑和舰船投掷炸弹\n-轰炸完自动返回基地\n-可以向舰船或建筑发射樱花特攻机
 
 [template_i-400ClassInfo]
 displayDescription: -Experimental project\n-Japan Empire special unit\n-Carrier submarine (Submarine)\n-Effective against ships\n-Attacks underwater, ground and air\n-Includes 2 M6A dive bombers at no cost
 displayDescription_es: -Proyecto experimental\n-Unidad especial del Imperio del Japón\n-Submarino portaaviones (Submarino)\n-Efectivo contra barcos\n-Ataca bajo el agua, a tierra y a aire\n-Incluye 2 bombarderos en picada M6A sin costo
+displayDescription_uk: -Експериментальний проект\n-Спеціальна одиниця Японської Імперії\n-Підводний човен (Субмарина)\n-Ефективний проти кораблів\n-Атакує під водою, наземні та повітряні цілі\n-Включає 2 пікіруючих бомбардувальника M6A безкоштовно
+displayDescription_zh: -实验项目\n-日本帝国特殊单位\n-潜艇航母（潜艇）\n-有效打击舰船\n-攻击水下，地面与空中\n-包括两架不需要额外成本的M6A型飞机
 
 [template_type94Te-KeInfo]
 displayDescription: -Chemical vehicle\n-Japan Empire special unit\n-Gas-thrower light tank (Heavy vehicle)\n-Effective against infantry\n-Attacks ground only\n-Affects terrain with toxic gas\n-Gas does not affects buildings and vehicles, but reduces morale
 displayDescription_es: -Vehículo químico\n-Unidad especial del Imperio del Japón\n-Tanque ligero lanzagas (Vehículo pesado)\n-Efectivo contra infantería\n-Ataca a tierra únicamente\n-Afecta el terreno con gas tóxico\n-El gas no afecta vehículos y edificios, pero reduce la moral
+displayDescription_uk: -Хімічна техніка\n-Спеціальна одиниця Японської Імперії\n-Легкий газометний танк (Важка техніка)\n-Ефективний проти піхоти\n-Атакує тільки наземні цілі\n-Атакує газом по площі\n-Газ не шкодить спорудам та техніці, але знижує моральний дух
+displayDescription_zh: -生化部队\n-日本帝国特殊单位\n-轻型毒气坦克（重型车辆）\n-有效打击步兵\n-仅攻击地面\n-毒气将在地面残留段时间\n-毒气不能伤害建筑和车辆，但是可以降低敌方士气
 
 [template_type4Ha-ToInfo]
 displayDescription: -Strong mobile mortar\n-Japan Empire special unit\n-Self-propelled mortar (Heavy vehicle)\n-Effective against light vehicles, buildings ans ships\n-Attacks ground only\n-Must be deployed to attack\n-Can attack terrain continuously
 displayDescription_es: -Mortero móvil fuerte\n-Unidad especial del Imperio del Japón\n-Mortero auto-propulsado (Vehículo pesado)\n-Efectivo contra vehículos ligeros, edificios y barcos\n-Ataca a tierra únicamente\n-Debe ser desplegado para atacar\n-Puede atacar terreno continuamente
+displayDescription_uk: -Потужний мобільний міномет\n-Спеціальна одиниця Японської Імперії\n-Самохідний міномет (Важка техніка)\n-Ефективний проти легкої техніки, споруд та кораблів\n-Атакує тільки наземні цілі\n-Необхідно розгорнути\n-Може постійно атакувати місцевість
+displayDescription_zh: -高机动自行迫击炮\n-日本帝国特殊单位\n-自行迫击炮（重型车辆）\n-有效打击轻型车辆，建筑和舰船\n-仅攻击地面\n-必须部署后攻击\n-可以进行火力覆盖
 
 [template_o-iInfo]
 displayDescription: -Experimental armored unit\n-Japan Empire special unit\n-Fast-firing super heavy tank (Super heavy vehicle)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only
 displayDescription_es: -Unidad blindada experimental\n-Unidad especial del Imperio del Japón\n-Tanque super pesado de fuego rápido (Vehículo superpesado)\n-Efectivo contra infantería, vehículos ligeros y edificios\n-Ataca a tierra únicamente
+displayDescription_uk: -Експериментальна броньована одиниця\n-Спеціальна одиниця Японської Імперії\n-Швидкостріляючий надважкий танк (Надважка техніка)\n-Ефективний проти піхоти, легкої техніки та споруд\n-Атакує тільки наземні цілі
+displayDescription_zh: -实验装甲部队\n-日本帝国特殊单位\n-多炮塔超重型坦克（超重型车辆）\n-有效打击步兵，轻型车辆与建筑\n-仅攻击地面
 
 [template_type2605O-RiInfo]
 displayDescription: -Entering to the armored combat!\n-Japan Empire special unit\n-Heavily armored super heavy tank destroyer (Super heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
 displayDescription_es: -¡Entrando al combate blindado!\n-Unidad especial del Imperio del Japón\n-Cazacarros superpesado fuertemente blindado (Vehículo superpesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+displayDescription_uk: -Вступ до броньованого бою!\n-Спеціальна одиниця Японської Імперії\n-Важкоброньований надважкий винищувач танків (Надважка техніка)\n-Ефективний проти техніки\n-Атакує тільки наземні цілі
+displayDescription_zh: -进入坦克战斗！\n-日本帝国特殊单位\n-装甲厚重的超重型坦克（超重型车辆）\n-有效打击车辆\n-仅攻击地面
 
 #
 #============ Italy Kingdom Units ==============#
@@ -874,58 +1321,86 @@ displayDescription_es: -¡Entrando al combate blindado!\n-Unidad especial del Im
 [template_blackBrigadeTeamInfo]
 displayDescription: -Fascist skirmishers\n-Italy Kingdom special unit\n-Booster infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-Rises morale a lot when killing\n-Increases attack damage of nearby infantry by 10%\n-Self-regenerates
 displayDescription_es: -Guerrilleros fascistas\n-Unidad especial del Reino de Italia\n-Infantería de intensificación (Infantería)\n-Efectiva contra infantería\n-Ataca a tierra únicamente\n-Incrementa mucho la moral al matar\n-Incrementa el daño de ataque de la infantería cercana en 10%\n-Se auto-regenera
+displayDescription_uk: -Фашистські стрільці\n-Спеціальна одиниця Королівства Італії\n-Піхотний підсилювач (Піхота)\n-Ефективний проти піхоти\n-Атакує лише наземні цілі\n-Значно підвищує моральний дух під час вбивства\n-Збільшує шкоду від атаки найближчої піхоти на 10%\n-Має регенерацію здоров'я
+displayDescription_zh: -法西斯的工具\n-意大利王国特殊单位\n-墨索里尼上台的帮手（步兵）\n-有效打击步兵\n-仅攻击地面\n-击杀敌方单位时会提升士气\n-会提高附近士兵百分之10的攻击\n-可以自愈
 
 [template_bersaglieriInfo]
 displayDescription: -Motorized infantry\n-Italy Kingdom special unit\n-Very versatile infantry (Infantry)\n-Effective against infantry and light vehicles\n-Attacks ground only\n-Can be repaired at the garage\n-Self-regenerates
 displayDescription_es: -Infantería motorizada\n-Unidad especial del Reino de Italia\n-Infantería muy versátil (Infantería)\n-Efectiva contra infantería y vehículos ligeros\n-Ataca a tierra únicamente\n-Puede ser reparado en el garaje\n-Se auto-regenera
+displayDescription_uk: -Моторизована піхота\n-Спеціальна одиниця Королівства Італії\n-Дуже універсальна піхота (Піхота)\n-Ефективна проти піхоти та легкої техніки\n-Атакує лише наземні цілі\n-Можна відремонтувати в гаражі\n-Має регенерацію здоров'я
+displayDescription_zh: -摩托化步兵\n-意大利王国特殊单位\n-全能步兵（步兵）\n-有效打击步兵与轻型车辆\n-仅攻击地面\n-可以在车库维修\n-可以自愈
 
 [template_alpiniTeamInfo]
 displayDescription: -Alpine elite men\n-Italy Kingdom special unit\n-Climber infantry (Infantry)\n-Effective against infantry, light vehicles and buildings\n-Attacks ground only\n-High sight range\n-Self-regenerates\n-Can move over cliffs
 displayDescription_es: -Hombres de élite alpinos\n-Unidad especial del Reino de Italia\n-Infantería escaladora (Infantería)\n-Efectiva contra infantería, vehículos ligeros y edificios\n-Alto rango de visión\n-Se auto-regenera\n-Puede moverse sobre desniveles
+displayDescription_uk: -Альпійські елітні чоловіки\n-Спеціальна одиниця Королівства Італії\n-Загін альпіністів (Піхота)\n-Ефективний проти піхоти, техніки і споруд\n-Атакує наземні цілі\n-Може пересуватися через гори\n-Має регенерацію здоров'я
+displayDescription_zh: -山地精英部队\n-意大利特殊单位\n-山地步兵（步兵）\n-有效打击步兵，轻型车辆和建筑\n-仅攻击地面\n-射程较远\n-可以自愈\n-能无视部分地形
 
 [template_cavallieriInfo]
 displayDescription: -Main shock forces\n-Italy Kingdom special unit\n-Mounted infantry (Infantry)\n-Effective against infantry, vehicles and buildings\n-Attacks ground only\n-Affects terrain with fire\n-Fire does not affects vehicles\n-Self-regenerates
 displayDescription_es: -Fuerzas de choque principales\n-Unidad especial del Reino de Italia\n-Infantería montada (Infantería)\n-Efectiva contra infantería, vehículos y edificios\n-Ataca a tierra únicamente\n-Afecta el terreno con fuego\n-El fuego no afecta vehículos\n-Se auto-regenera
+displayDescription_uk: -Основні ударні сили\n-Спеціальна одиниця Королівства Італії\n-Кінна піхота (Піхота)\n-Ефективна проти піхоти, техніки й споруд\n-Атакує тільки наземні цілі\n-Має регенерацію здоров'я 
+displayDescription_zh: -冲击力极强的骑兵\n-意大利王国特殊单位\n-骑兵（步兵）\n-有效打击步兵，车辆和建筑\n-仅攻击地面\n-攻击后会在敌人附近留下火焰烧伤敌人\n-火焰不能伤害车辆\n-可以自愈
 
 [template_aquilaInfo]
 displayDescription: -Modified cruiser\n-Italy Kingdom special unit\n-Cheap aircraft carrier (Ship)\n-Attacks air only\n-Can transport up to 10 light airplanes\n-Includes 3 light fighters
 displayDescription_es: -Crucero modificado\n-Unidad especial del Reino de Italia\n-Portaaviones barato (Barco)\n-Ataca a aire únicamente\n-Puede transportar hasta 10 aviones ligeros\n-Incluye 3 cazas ligeros
+displayDescription_uk: -Модифікований крейсер\n-Спеціальна одиниця Королівства Італії\n-Дешевий авіаносець (корабель)\n-Атакує повітряні цілі\n-Може транспортувати до 10 легких літаків\n-Включає 3 легких винищувачів
+displayDescription_zh: -巡洋舰改装型航母\n-意大利王国特殊单位\n-廉价航母（舰船）\n-仅攻击空中\n-可以搭载10架飞机\n-自带3架轻型战斗机
 
 [template_breda501Info]
 displayDescription: -Multipurpose gun\n-Italy Kingdom special unit\n-Self-propelled anti-tank gun (Light vehicle)\n-Effective against vehicles and airplanes\n-Attacks ground and air\n-Must be deployed to attack air
 displayDescription_es: -Cañón multipropósito\n-Unidad especial del Reino de Italia\n-Cañón anti-tanque auto-propulsado (Vehículo ligero)\n-Efectivo contra vehículos y aviones\n-Ataca a tierra y aire\n-Debe ser desplegada para atacar a aire
+displayDescription_uk: -Багатоцільова гармата\n-Спеціальна одиниця Королівства Італії\n-Самохідна протитанкова гармата (Легка техніка)\n-Ефективний проти техніки та літаків\n-Атакує наземні та повітряні цілі\n-Повинен бути розгорнутий для атаки літаків
+displayDescription_zh: -多用途火炮\n-意大利王国特殊单位\n-自行反坦克炮（轻型车辆）\n-有效打击车辆和飞机\n-攻击地面和空中\n-必须部署才能攻击空中
 
 [template_bunkerM-13Info]
 displayDescription: -Entrenched tank\n-Italy Kingdom special structure\n-Tank bunker\n-Effective against light vehicles, light tanks and buildings\n-Attacks ground only\n-Can be unbury to move the tank
 displayDescription_es: -Tanque atrincherado\n-Estructura especial del Reino de Italia\n-Tanque búnker\n-Efectiva contra vehículos ligeros, tanques ligeros y edificios\n-Ataca a tierra únicamente\n-Puede ser desenterrado para mover el tanque
+displayDescription_uk: -Вкопаний танк\n-Спеціальна споруда Королівства Італії\n-Танковий бункер\n-Ефективний проти легкої техніки, легких танків і споруд\n-Атакує тільки наземні цілі\n-Можна розкопати, щоб перемістити танк
+displayDescription_zh: -坚不可摧的坦克\n-意大利王国特殊单位\n-地堡坦克\n-有效打击轻型车辆，轻型坦克与建筑\n-仅攻击地面\n-可以随时挖开来撤退或者进攻
 
 [template_cannone149/35Info]
 displayDescription: -Lined up naval guns\n-Italy Kingdom special building\n-Fast-firing coastal defense\n-Effective against ships and submarines\n-Attacks ground only\n-Can be rotated
 displayDescription_es: -Cañones navales alineados\n-Edificio especial del Reino de Italia\n-Defensa costera de fuego rápido\n-Efectiva contra barcos y submarinos\n-Ataca a tierra únicamente\n-Puede ser rotada
+displayDescription_uk: -Вишикувані морські гармати\n-Спеціальна споруда Королівства Італії\n-Швидкострільна берегова оборона\n-Ефективний проти кораблів і підводних човнів\n-Атакує тільки наземні цілі\n-Може бути повернута
+displayDescription_zh: -准备好齐射的舰炮\n-意大利王国特殊建筑\n-射速较快的岸防设施\n-有效打击舰船和潜艇\n-仅攻击地面\n-可以旋转
 
 [template_gabbianoClassInfo]
 displayDescription: -Naval hunter\n-Italy Kingdom special unit\n-Quick anti-submarine corvette (Anti- submarine)\n-Effective against submarines\n-Attacks ground, air and underwater
 displayDescription_es: -Cazador naval\n-Unidad especial del Reino de Italia\n-Corveta anti-submarinos rápida (Anti-submarinos)\n-Efectiva contra submarinos\n-Ataca a tierra, aire y bajo el agua
+displayDescription_uk: -Морський мисливець\n-Спеціальна одиниця Королівства Італії\n-Швидкий протичовновий корвет (Протичовновий)\n-Ефективний проти субмарин\n-Атакує наземні, повітряні та підводні цілі
+displayDescription_zh: -水下猎人\n-意大利王国特殊单位\n-快速反潜潜艇（反潜潜艇）\n-有效打击潜艇\n攻击地面，空中和水下
 
 [template_savoia-marchettiInfo]
 displayDescription: -Multipurpose bomber\n-Italy Kingdom special unit\n-Bomber-fighter that drops bombs in 2 rounds (Airplane)\n-Effective against airplanes, ships and buildings\n-Attacks ground and air
 displayDescription_es: -Bombardero multipropósito\n-Unidad especial del Reino de Italia\n-Caza-bombardero que suelta bombas en 2 rondas (Avión)\n-Efectivo contra aviones, barcos y edificios\n-Ataca a tierra y aire
+displayDescription_uk: -Багатоцільовий бомбардувальник\n-Спеціальна одиниця Королівства Італії\n-Бомбардувальник-винищувач, який скидає бомби за 2 заходи (Літак)\n-Ефективний проти літаків, кораблів і споруд\n-Атакує наземні та повітряні цілі
+displayDescription_zh: -多用途轰炸机\n-意大利王国特殊单位\n-可以投掷俩轮炸弹且能够与敌机搏斗的轰炸机（飞机）\n-有效打击飞机，舰船与建筑\n-攻击地面与空中
 
 [template_semoventeDa20/70QuadruploInfo]
 displayDescription: -Improvised anti-air vehicle\n-Italy Kingdom special unit\n-Self-propelled anti-air and anti-infantry gun (Heavy vehicle)\n-Effective against infantry and airplanes\n-Attacks ground and air\n-Can switch between air and ground attack
 displayDescription_es: -Vehículo antiaéreo improvisado\n-Unidad especial del Reino de Italia\n-Cañón antiaéreo y anti-infantería auto-propulsado (Vehículo pesado)\n-Efectivo contra infantería y aviones\n-Ataca a tierra y aire\n-Puede cambiar entre ataque de aire y tierra
+displayDescription_uk: -Імпровізована зенітна техніка\n-Спеціальна одиниця Королівства Італії\n-Самохідна зенітна та протипіхотна установка (Важка техніка)\n-Ефективна проти піхоти та літаків\n-Атакує наземні та повітряні цілі\n-Може перемикатися між повітряною і наземною атакою
+displayDescription_zh: -简易防空车辆\n-意大利王国特殊单位\n-自行防空车（重型车辆）\n-有效打击步兵和飞机\n-攻击地面和空中\n-可以在对地攻击和对空攻击之间切换
 
 [template_l640Info]
 displayDescription: -Cheap vehicle\n-Italy Kingdom special unit\n-Light tank with burst attack (Heavy vehicle)\n-Effective against light vehicles and buildings\n-Attacks ground only\n-Can move over cliffs
 displayDescription_es: -Vehículo barato\n-Unidad especial del Reino de Italia\n-Tanque ligero con ataque de ráfaga (Vehículo pesado)\n-Efectivo contra vehículos ligeros y edificios\n-Ataca a tierra únicamente\n-Puede moverse sobre desniveles
+displayDescription_uk: -Дешева техніка\n-Спеціальна одиниця Королівства Італії\n-Легкий танк із розривною атакою (Важка техніка)\n-Ефективний проти легкої техніки та споруд\n-Атакує лише наземні цілі\n-Може пересуватися через гори
+displayDescription_zh: -廉价车辆\n-意大利王国特殊单位\n-装备机关炮的轻型坦克（重型车辆）\n-有效打击轻型车辆和建筑\n-仅攻击地面\n-可以无视部分地形
 
 [template_p43BisInfo]
 displayDescription: -Modern medium tank\n-Italy Kingdom special unit\n-Fast-firing and long-ranged super heavy tank destroyer (Super heavy vehicle)\n-Effective against vehicles\n-Attacks ground only
 displayDescription_es: -Tanque medio moderno\n-Unidad especial del Reino de Italia\n-Cazacarros superpesado de fuego rápido y amplio alcance (Vehículo superpesado)\n-Efectivo contra vehículos\n-Ataca a tierra únicamente
+displayDescription_uk: -Сучасний середній танк\n-Спеціальна одиниця Королівства Італії\n-Швидкостріляючий і далекобійний надважкий винищувач танків (Надважка техніка)\n-Ефективний проти техніки\n-Атакує тільки наземні цілі
+displayDescription_zh: -现代化中型坦克\n-意大利王国特殊单位\n-射程较远且射速较快的中型坦克（超重型车辆）\n-有效打击车辆\n-仅攻击地面
 
 [template_semoventeDa14940M42Info]
 displayDescription: -Support artillery\n-Italy Kingdom special unit\n-Long-ranged and armored self-propelled gun (Super heavy vehicle)\n-Effective against vehicles and buildings\n-Attacks ground only\n-Must be deployed to attack\n-Can attack terrain continuously
 displayDescription_es: -Artillería de apoyo\n-Unidad especial del Reino de Italia\n-Cañón de largo alcance blindado auto-propulsado (Vehículo superpesado)\n-Efectivo contra vehículos y edificios\n-Ataca a tierra únicamente\n-Debe ser desplegado para atacar\n-Puede atacar terreno continuamente
+displayDescription_uk: -Підтримка артилерії\n-Спеціальна одиниця Королівства Італії\n-Броньована самохідна гармата великої дальності (Надважка техніка)\n-Ефективна проти техніки та споруд\n-Атакує тільки наземні цілі\n-Необхідно розгорнути для атаки\n-Може постійно атакувати місцевість
+displayDescription_zh: -支援炮兵\n-意大利王国特殊单位\n-远程自行火炮（超重型车辆）\n-有效打击车辆与建筑\n-仅攻击地面\n-必须部署后攻击\n-可以进行火力覆盖
 
 #
 #============ Generic Actions and Skills ==============#
@@ -934,132 +1409,215 @@ displayDescription_es: -Artillería de apoyo\n-Unidad especial del Reino de Ital
 [template_buildingEnemyLockInfo]
 isLockedMessage: -There are enemy units too near\n-We cannot work under attack
 isLockedMessage_es: -Hay unidades enemigas demasiado cerca\n-No podemos trabajar bajo ataque
+isLockedMessage_uk: -Поруч є ворожі одиниці\n-Ми не можемо працювати, коли нас атакують
+isLockedMessage_zh: -敌人距离太近，我们不能在敌人的进攻下工作！
 
 [template_buildingRepairInfo]
 text: Repair
 text_es: Reparar
+text_uk: Ремонт
+text_zh: 维修
 description: -Prioritizes this building repair\n-Repairs +2,5% of its HP per second until it's fully repaired
 description_es: -Prioritiza la reparación de este edificio\n-Repara +2,5% de sus PV por segundo hasta que esté completamente reparado
+description_uk: Пріоритет ремонту цієї споруди\n-Ремонтує +2,5% її загального здоров'я за секунду, доки її не буде повністю відремонтовано
+description_zh: -优先对此建筑进行维修\n-每秒增加2.5%的HP直到完全维修
 
 [template_buildingRepairingInfo]
 text: Repairing...
 text_es: Reparando...
+text_uk: Ремонтується...
+text_zh: 维修中…
 description: -This building has higher repair priority
 description_es: -Este edificio tiene mayor prioridad de reparación
+description_uk: -Ця споруда має вищий пріоритет ремонту
+description_zh: 该建筑正在维修
 
 [template_buildingDismantleInfo]
 text: Dismantle
 text_es: Desmantelar
+text_uk: Демонтувати
+text_zh: 拆除
 description: -Dismantles this building returning ${int(core.maxHp*0.05)} industry
 description_es: -Desmantela este edificio retornando ${int(core.maxHp*0.05)} de industria
+description_uk: -Розбирає цю будівлю, повертаючи ${int(core.maxHp*0.05)} промисловості 
+description_zh: -拆除此建筑获得 ${int(core.maxHp*0.05)}工业值
 
 [template_suppressiveFireInfo]
 text: Suppressive Fire
 text_es: Fuego Supresivo
+text_uk: Прикриття Вогнем
+text_zh: 火力覆盖
 description: -Orders this artillery to attack terrain constantly\n-Can attack at longer distance but with lower accuracy
 description_es: -Ordena a esta artillería atacar terreno constantemente\n-Puede atacar a mayor distancia pero con menor precisión
+description_uk: Наказує цій артилерії постійно атакувати місцевість\n-Може атакувати на велику відстань, але з меншою точністю
+description_zh: -命令该单位不断攻击指定区域\n-可以将炮弹发射的更远但会减少精度
 
 [template_stopSuppressiveFireInfo]
 text: Stop S. Fire
 text_es: Parar Fuego S.
+text_uk: Зупинити П. Вогнем
+text_zh: 停火
 description: -Stops the suppressive fire\n-Can attack at shorter distance automatically with higher accuracy
 description_es: -Para el fuego supresivo\n-Puede atacar a distancia más corta automáticamente con mayor precisión
+description_uk: Зупиняє прикриття вогнем\n-Може автоматично атакувати на меншу відстань з вищою точністю
+description_zh: -停止火力覆盖\n-可以增加精度但会减少射程
 
 [template_airBaseSetRallyPointInfo]
 text: Rally Point
 text_es: Punto de Reunión
+text_uk: Точка Збору
 description: -Set a rally point for airplanes\n-Airplanes will move to this point when taking off
 description_es: -Establece un punto de reunión para los aviones\n-Los aviones se moverán a este punto cuando despeguen
+description_uk: -Встановлює точку збору для літаків\n-Літаки рухатимуться до цієї точки коли злітатимуть
+#TRANSLATES NEEDED --> *zh
 
 [template_takeoffAllAirplanesInfo]
 text: Takeoff Airplanes
 text_es: Despegar Aviones
+text_uk: Підняти Літаки
 description: -Orders all airplanes to takeoff
 description_es: -Ordena a todos los aviones despegar
+description_uk: -Наказує всім літакам злетіти
+#TRANSLATES NEEDED --> *zh
 
 [template_airBaseHangarInfo]
 text: No airplanes
 text_es: Sin aviones
+text_uk: Немає літаків
 description: -This air base is empty, build more airplanes at the hangar or land some airplanes
 description_es: -Esta base aérea está vacía, construya más aviones en el hangar o aterrice algunos aviones
+description_uk: -Ця авіабаза порожня, побудуйте більше літаків в ангарі або посадіть кілька літаків
+#TRANSLATES NEEDED --> *zh
 
 [template_returnAirplanesInfo]
 text: Return Airplanes
 text_es: Regresar Aviones
+text_uk: Повернення Літаків
+text_zh: 飞机返航
 description: -Orders all airplanes to land\n-Flying units will move to the nearest air base or aircraft carrier
 description_es: -Ordena a todos los aviones aterrizar\n-Las unidades aéreas se moverán a la base aérea o portaaviones más cercano
+description_uk: -Наказує всім літакам приземлитися\n-Літаючі одиниці рухаються до найближчої авіабази чи авіаносця
+description_zh: -命令所有飞机返航\n-飞机将会降落在最近的航母或空军基地
 
 [template_returnSingleInfo]
 text: Return to Base
 text_es: Regresar a Base
+text_uk: Повернутися на Базу
+text_zh: 返回基地
 description: -Orders this airplane to land
 description_es: -Ordena a este avión a aterrizar
+description_uk: -Наказує цьому літаку приземлитися
+description_zh: -命令这架飞机降落
 
 [template_bombInfo]
 text: Bombs: %{self.ammo}
 text_es: Bombas: %{self.ammo}
+text_uk: Бомби: %{self.ammo}
+text_zh: 炸弹: %{self.ammo}
 description: -Amount of bombs available to drop\n-Damage per bomb: ${bombDamage}
 description_es: -Cantidad de bombas disponibles para soltar\n-Daño por bomba: ${bombDamage}
+description_uk: -Кількість бомб, які можна скинути\n-Кожна бомба завдає ${bombDamage} шкоди
+description: -可供投掷的炸弹数量\n-单枚炸弹伤害: ${bombDamage}
 
 [template_torpedoInfo]
 text: Torpedoes: %{self.resource(type='torpedo')}
 text_es: Torpedos: %{self.resource(type='torpedo')}
+text_uk: Торпеди: %{self.resource(type='torpedo')}
+text_zh: 鱼雷: %{self.resource(type='torpedo')}
 description: -Amount of torpedoes available to drop\n-Damage per torpedo: ${torpedoDamage}
 description_es: -Cantidad de torpedos disponibles para soltar\n-Daño por torpedo: ${torpedoDamage}
+description_uk: -Кількість торпед, які можна використати\n-Кожна торпеда завдає ${torpedoDamage} шкоди
+description_zh: -可供投放的鱼雷数量\n-单枚鱼雷伤害:  ${torpedoDamage}
 
 [template_rocketInfo]
 text: Rockets: %{self.resource(type='rocket')}
 text_es: Cohetes: %{self.resource(type='rocket')}
+text_uk: Ракети: %{self.resource(type='rocket')}
+text_zh: 火箭弹: %{self.resource(type='rocket')}
 description: -Amount of rockets available to launch\n-Damage per rocket: ${rocketDamage}
 description_es: -Cantidad de cohetes disponibles para lanzar\n-Daño por cohete: ${rocketDamage}
+description_uk: Кількість ракет, які можна запустити\n-Кожна ракета завдає ${rocketDamage} шкоди
+description_zh: 可供发射的火箭弹数量\n-单枚火箭弹伤害: ${rocketDamage}
 
 [template_paratroopersInfo]
 text: Paratroopers: %{self.ammo}
 text_es: Paracaidistas: %{self.ammo}
+text_uk: Десант: %{self.ammo}
+text_zh: 伞兵: %{self.ammo}
 description: -Amount of paratrooper units available to drop\n-Paratroopers are dropped when attacking a building
 description_es: -Cantidad de unidades paracaidistas disponibles para soltar\n-Los paracaidistas se sueltan al atacar un edificio
+description_uk: -Кількість десанту, доступного для скидання\n-Десантники скидаються під час атаки на споруду
+description_zh: -可供空降的伞兵数量\n-伞兵会在飞机靠近敌方建筑时自动空降
 
 [template_manualDropInfo]
 text: Manual Drop
 text_es: Descenso Manual
+text_uk: Ручне скидання
+text_zh: 空降指令
 description: -Drops all paratroopers, even without having a target
 description_es: -Suelta todos los paracaidistas, incluso sin tener un objetivo
+description_uk: -Скидає весь десант, навіть якщо немає цілі
+description_zh: -命令所有伞兵空降，即使没有敌方单位
 
 [template_airplaneAlertOnInfo]
 text: Enable Alert
 text_es: Habilitar Alerta
+text_uk: Увімкнути Тривогу
+text_zh: 启用防空警报
 description: -Enables an air raid alert that takeoffs fighters when detecting enemy airplanes automatically
 description_es: -Habilita una alerta de asalto aéreo que despega a los cazas cuando detecta aviones enemigos automáticamente
+description_uk: -Вмикає оповіщення про повітряний наліт, через яке автоматично злітають винищувачі при виявленні ворожих літаків
+description_zh: -启用后侦测到敌机后会自动命令附近机场的战斗机起飞
 
 [template_airplaneAlertOffInfo]
 text: Disable Alert
 text_es: Inhabilitar Alerta
+text_uk: Вимкнути Тривогу
+text_zh: 关闭防空警报
 description: -Disables the air raid alert when detecting enemy airplanes
 description_es: -Inhabilita la alerta de asalto aéreo cuando detecta aviones enemigos
+description_uk: -Вимикає оповіщення про повітряний наліт при виявленні ворожих літаків
+description_zh: -侦测到敌方空军时不起用警报
 
 [template_moraleVeryHighInfo]
 text: Morale: Very High
 text_es: Moral: Muy Alta
+text_uk: Моральний Дух: Дуже Високий
+text_zh: 士气: 非常高
 description: -Morale is very high\n-Our units cause full damage
 description_es: -La moral está muy alta\n-Nuestras unidades causan daño completo
+description_uk: -Моральний дух дуже високий\n-Наші одиниці завдають повної шкоди
+description_zh: -士气非常高\n-军事单位造成百分之百的伤害
 
 [template_moraleHighInfo]
 text: Morale: High
 text_es: Moral: Alta
+text_uk: Моральний Дух: Високий 
+text_zh: 士气: 高
 description: -Morale is high\n-Our units cause -10% damage
 description_es: -La moral está alta\n-Nuestras unidades causan -10% de daño
+description_uk: -Моральний дух високий\n-Наші одиниці завдають -10% шкоди
+description_zh: -士气较高\n-军事单位伤害-10%
 
 [template_moraleMediumInfo]
 text: Morale: Medium
 text_es: Moral: Media
+text_uk: Моральний Дух: Середній 
+text_zh: 士气: 中等
 description: -Morale is medium\n-Our units cause -20% damage
 description_es: -La moral es media\n-Nuestras unidades causan -20% de daño
+description_uk: -Моральний дух середній\in-Наші одиниці завдають -20% шкоди
+description_zh: -士气中等\n-军事单位伤害-20%
 
 [template_moraleLowInfo]
 text: Morale: Low
 text_es: Moral: Baja
+text_uk: Моральний Дух: Низький
+text_zh: 士气: 低
 description: -Morale is low\n-Our units cause -30% damage
 description_es: -La moral es baja\n-Nuestras unidades causan -30% de daño
+description_uk: -Моральний дух низький\in-Наші одиниці завдають -30% шкоди
+description_zh: -士气较低\n-军事单位伤害-30%
 
 #
 #============ Factory Actions and Skills ==============#
@@ -1068,20 +1626,32 @@ description_es: -La moral es baja\n-Nuestras unidades causan -30% de daño
 [template_factoryProductionInfo]
 text: Production: %{self.resource(type='industryProduction')}
 text_es: Producción: %{self.resource(type='industryProduction')}
+text_uk: Виробництво: %{self.resource(type='industryProduction')}
+text_zh: 工业产值: %{self.resource(type='industryProduction')}
 description: -%{self.resource(type='morale')} morale grants this production\n-Reduction by damage: -5\n-Reduction by induced inflation: -5
 description_es: -%{self.resource(type='morale')} de moral otorga esta producción\n-Reducción por daño: -5\n-Reducción por inflación inducida: -5
+description_uk: -%{self.resource(type='morale')} морального духу гарантує це виробництво\n-Зниження шкодою: -5\n-Зниження за рахунок індукованої інфляції: -5
+description_zh: -%{self.resource(type='morale')}因士气较低\n-因为受损产值: -5\n-因为通货膨胀产值: -5
 
 [template_localTradingInfo]
 text: Local Trading
 text_es: Comercio Local
+text_uk: Локальна торгівля
+text_zh: 本地贸易
 description: -Increases industry production spending oil\n-Costs more oil over time
 description_es: -Incrementa la producción de industria gastando petróleo\n-Cuesta más petróleo con el tiempo
+description_uk: -Збільшення промислового виробництва за рахунок нафти\n-З часом коштує все більше й більше нафти
+description_zh: -支出石油以增加工业产值\n-支出的石油会随时间慢慢增加
 
 [template_stopLocalTradingInfo]
 text: Stop Local Trading
 text_es: Parar Comercio Local
+text_uk: Зупинити Локальну Торгівлю
+text_zh: 停止本地贸易
 description: -Reduces industry production and stops oil expense
 description_es: -Reduce la producción de industria y para el gasto de petróleo
+description_uk: -Зменшує промислове виробництво та зупиняє витрати нафти
+description_zh: -减少工业产值和停止石油支出
 
 #
 #============ Refinery Actions and Skills ==============#
@@ -1090,14 +1660,22 @@ description_es: -Reduce la producción de industria y para el gasto de petróleo
 [template_countCrudeOilInfo]
 text: Crude Oil: %{self.resource(type='crudeOil')}
 text_es: Petróleo Crudo: %{self.resource(type='crudeOil')}
+text_uk: Сира Нафта: %{self.resource(type='crudeOil')}
+text_zh: 原油: %{self.resource(type='crudeOil')}
 description: -Amount of crude oil available to refine
 description_es: -Cantidad de petróleo crudo disponible para refinar
+description_uk: -Кількість сирої нафти, доступної для переробки
+description_zh: -可供提取的原油数量
 
 [template_refineryProductionInfo]
 text: Production: %{self.resource(type='refiningSpeed')}
 text_es: Producción: %{self.resource(type='refiningSpeed')}
+text_uk: Виробництво: %{self.resource(type='refiningSpeed')}
+text_zh: 产值: %{self.resource(type='refiningSpeed')}
 description: -This is the current oil production level\n-Reduction by damage: -5\n-Reduction by induced inflation: -5
 description_es: -Este es el nivel de producción de petróleo actual\n-Reducción por daño: -5\n-Reducción por inflación inducida: -5
+description_uk: -Це поточний рівень видобутку нафти\n-Зниження шкодою: -5\n-Зниження за рахунок індукованої інфляції: -5
+description_zh: -这代表着当前该炼油厂产值\n-因建筑受损-5\n-因通货膨胀-5
 
 #
 #============ Rod Pump Actions and Skills ==============#
@@ -1106,22 +1684,37 @@ description_es: -Este es el nivel de producción de petróleo actual\n-Reducció
 [template_rodPumpProductionInfo]
 text: Production: %{self.resource(type='ammo')}
 text_es: Producción: %{self.resource(type='ammo')}
+text_uk: Виробництво: %{self.resource(type='ammo')}
+text_zh: 原油产值: %{self.resource(type='ammo')}
 description: -This is the current crude oil extraction level\n-Upgrade the pump to increase the extraction rate
 description_es: -Este es el nivel de extracción de petróleo crudo actual\n-Mejore la bomba para incrementar la tasa de extracción
+description_uk: -Це поточний рівень видобутку сирої нафти\n-Покращіть насос, щоб збільшити швидкість видобування 
+
+description: -这代表着该油井的原油产值\n-升级油井获得更高产值
 
 [template_rodPumpSupervisionInfo]
 isLockedAltMessage: -Requires a refinery
 isLockedAltMessage_es: -Requiere una refinería
+isLockedAltMessage_uk: -Потрібен нафтопереробний завод
+isLockedAltMessage_zh: -需要一个炼油厂
 text: Supervision
 text_es: Supervisión
+text_uk: Нагляд
+text_zh: 监督
 description: -Increases crude oil extraction speed by 100%\n-Adds an engineering team to this pump
 description_es: -Incrementa la velocidad de extracción de petróleo crudo por 100%\n-Añade un equipo de ingeniería a esta bomba
+description_uk: -Збільшує швидкість видобутку сирої нафти на 100%\n-Додає інженерну команду до цього насоса
+description_zh: -原油开采速度增加百分之百\n-为这个油井添加一个工程师进行监督并防守该油井
 
 [template_rodPumpReinforcementInfo]
 text: Reinforcement
 text_es: Refuerzo
+text_uk: Армування
+text_zh: 配备防火设施
 description: -Increases crude oil extraction speed by 100%\n-Increases HP and prevents fires
 description_es: -Incrementa la velocidad de extracción de petróleo crudo por 100%\n-Incrementa los PV y previene los incendios
+description_uk: -Збільшує швидкість видобутку сирої нафти на 100%\n-Збільшує здоров'я та запобігає пожежам
+description_zh: -原油开采速度增加百分之百\n-增加防火设备防止火灾
 
 #
 #============ Theater Actions and Skills ==============#
@@ -1130,22 +1723,36 @@ description_es: -Incrementa la velocidad de extracción de petróleo crudo por 1
 [template_warPropagandaInfo]
 isLockedMessage: -This skill is active
 isLockedMessage_es: -Esta habilidad está activa
+isLockedMessage_uk: -Цей навик активний
+isLockedMessage_zh: -该技能正生效
 text: War Propaganda
 text_es: Propaganda de Guerra
+text_uk: Воєнна Пропаганда
+text_zh: 战争宣传
 description: -Theater generates 0.15 morale/second passively, during 2 minutes
 description_es: -El teatro genera 0.15 de moral/segundo pasivamente, durante 2 minutos
+description_uk: -Театр пасивно генерує 0,15 морального духу в секунду протягом 2 хвилин
+description_zh: -战争宣传期间产生0.15士气/秒，持续2分钟
 
 [template_highClassInvestmentsInfo]
 text: High Class Investments
 text_es: Inversiones de Clase Alta
+text_uk: Інвестиції Високого Класу
+text_zh: 高级投资
 description: -Generates 800 industry by 5 influence
 description_es: -Genera 800 de industria por 5 de influencia
+description_uk: -Створює 800 промисловості за допомогою 5 впливу
+description_zh: -消耗5影响来换取800工业值
 
 [template_criminalAdmissionInfo]
 text: Criminal Admission
 text_es: Admisión Criminal
+text_uk: Кримінальний Допуск
+text_zh: 刑事走私
 description: -Generates 400 oil by 5 influence
 description_es: -Genera 400 de petróleo por 5 de influencia
+description_uk: -Генерує 400 нафти за допомогою 5 впливу
+description_zh: -消耗5影响来换取400石油
 
 #
 #============ Square Actions and Skills ==============#
@@ -1154,22 +1761,37 @@ description_es: -Genera 400 de petróleo por 5 de influencia
 [template_honorableRecruitmentInfo]
 text: Honorable Recruitment
 text_es: Reclutamiento Honorable
+text_uk: Почесне Наймання
+text_zh: 战争动员
 description: -Square generates 4 conscript troops at no cost, every 5 seconds
 description_es: -La plaza genera 4 tropas de conscriptos sin costo, cada 5 segundos
+description_uk: -Майдан генерує 4 загони строковиків безкоштовно кожні 5 секунд
+description_zh: -每5秒征集4队征召兵，不需要任何费用
 
 [template_culturalEventsInfo]
 isLockedMessage: -There's no factories near this building
 isLockedMessage_es: -No hay fábricas cerca de este edificio
+isLockedMessage_uk: -Поблизу цієї будівлі немає фабрик
+isLockedMessage_zh: -没有工厂在广场附近
+
 text: Cultural Events
 text_es: Eventos Culturales
+text_uk:Культурні Події
+text_zh: 文化宣传
 description: -Factories affected by this square, produce +3 industry\n-Affected factory's local trading doesn't require starting oil
 description_es: -Las fábricas afectadas por esta plaza, producen +3 de industria\n-El comercio local de las fábricas afectadas no requiere petróleo inicial
+description_uk: -Фабрики, які постраждали від цього майдану, виробляють +3 промисловості\n-Локальна торгівля постраждалої фабрики не потребує початкову нафту
+description_zh: -受此广场影响的工厂增加3产能\n-受影响的工厂启动本地贸易不需要石油
 
 [template_defensivePointInfo]
 text: Defensive Point
 text_es: Punto Defensivo
+text_uk: Оборонна Точка
+text_zh: 武装据点
 description: -Square is reinforced with 4 artillery guns\n-Adds +25 HP auto-repair per second to nearby buildings
 description_es: -La plaza está reforzada con 4 cañones de artillería\n-Añade +25 de auto-reparación de PV por segundo los edificios cercanos
+description_uk: -Майдан посилений 4 артилерійськими гарматами\n-Додає +25 здоров'я до автоматичного ремонту в секунду до сусідніх споруд
+description_zh: -将此广场武装为据点\n-在广场内部署4门火炮\n-附近的所有建筑增加自动修复能力（每秒修复25点血量）
 
 #
 #============ University Actions and Skills ==============#
@@ -1178,22 +1800,36 @@ description_es: -La plaza está reforzada con 4 cañones de artillería\n-Añade
 [template_modernArchitectureInfo]
 text: Modern Architecture
 text_es: Arquitectura Moderna
+text_uk: Сучасна Архітектура
+text_zh: 建筑技术
 description: -Buildings affected by university have +20 armour and +2000 HP
 description_es: -Los edificios afectados por la universidad tienen +20 de armadura y +2000 PV
+description_uk: -Споруді, на які впливає університет, мають +20 броні та +2000 здоров'я
+description_zh: -受大学影响的建筑物拥有+20装甲和+2000生命值
 
 [template_economicAdviseInfo]
 isLockedMessage: -There's no economic buildings near this building
 isLockedMessage_es: -No hay edificios económicos cerca de este edificio
+isLockedMessage_uk: -Біля цієї споруди немає господарських будівель
+isLockedMessage_zh: -没有工厂或炼油厂在大学附近
 text: Economic Advise
 text_es: Asesoría Económica
+text_uk: Економічні Поради
+text_zh: 经济学术
 description: -Factories and refineries affected by university produce 33% faster
 description_es: -Las fábricas y refinerías afectadas por la universidad producen 33% más rápido
+description_uk: -Фабрики та нафтопереробні заводи, на які впливає університет, виробляють на 33% швидше
+description_zh: 在大学影响范围内的工厂与炼油厂增加百分之33的生产速度
 
 [template_nationalistFurorInfo]
 text: Nationalist Furor
 text_es: Furor Nacionalista
+text_uk: Націоналістичний Фурор
+text_zh: 民族怒火
 description: -University generates 8 morale every minute
 description_es: -La universidad genera 8 de moral cada minuto
+description_uk: -Університет генерує 8 моралі щохвилини
+description_zh: -大学每分钟将产生8士气
 
 #
 #============ Diplomatic Center Actions and Skills ==============#
@@ -1203,161 +1839,263 @@ description_es: -La universidad genera 8 de moral cada minuto
 #CREATE A ${name} FOR ALLIANCE NAME IN YOUR LANGUAGE TO BE ABLE TO TRANSLATE ITS NAME. EXAMPLE: ${name_ru}
 text: ${name}
 text_es: ${name_es}
+text_uk: ${name_uk}
+text_zh: ${name_zh}
 showQuickWarLogToAllPlayers: %{self.playerName} has allied with ${name}
 showQuickWarLogToAllPlayers_es: %{self.playerName} se ha aliado con ${name_es}
+showQuickWarLogToAllPlayers_uk: %{self.playerName} тепер в альянсі з ${name_uk}
+showQuickWarLogToAllPlayers_zh: %{self.playerName} 已经和${name_zh}结盟
 
 [template_usaAllianceInfo]
 #DEFINE NEW STATIC VARIABLES WITH THE NAME OF THE COUNTRY YOU CHOSEN. EXAMPLE: @define name_ru:
 @define name: USA
 @define name_es: EE. UU.
+@define name_uk: США
+@define name_zh: 美利坚合众国
 description: -Grants +2K industry and +1K oil instantly
 description_es: -Otorga +2K de industria y +1K de petróleo instantáneamente
+description_uk:  -Миттєво надає +2000 промисловості та +1000 нафти
+description_zh: -立即获得2000工业值与1000石油
 
 [template_ussrAllianceInfo]
 @define name: USSR
 @define name_es: URSS
+@define name_uk: СРСР
+@define name_zh: 苏维埃社会主义共和国联盟
 description: -Factories produce +5 industry
 description_es: -Las fábricas producen +5 de industria
+description_uk: -Фабрики виробляють +5 промисловості
+description_zh: -工厂产值+5
 
 [template_unitedKingdomAllianceInfo]
 @define name: United Kingdom
 @define name_es: Reino Unido
+@define name_uk: Сполучене Королівство 
+@define name_zh: 联合王国
 description: -Air bases have +2 airplane capacity
 description_es: -Las bases aéreas tienen +2 de capacidad de aviones
+description_uk: -Авіабази мають +2 місткості літаків
+description_zh: -空军基地飞机容量+2
 
 [template_freeFranceAllianceInfo]
 @define name: Free France
 @define name_es: Francia Libre
+@define name_uk: Вільна Франція 
+@define name_zh: 自由法国
 description: -Grants 50% chance of getting a free rifle troop when training infantry
 description_es: -Otorga un 50% de probabilidad de obtener una tropa de rifle gratis cuando se entrena infantería
+description_uk: -Надає 50% шанс отримати безкоштовне стрілецьке військо під час навчання піхоти
+description_zh: -训练步兵时有百分之50的概率免费训练一支步枪部队
 
 [template_polandAllianceInfo]
 @define name: Poland
 @define name_es: Polonia
+@define name_uk: Польща
+@define name_zh: 波兰
 description: -Increases morale by 25 instantly\n-Conscript troops rise morale a lot when killing (+1 per kill)
 description_es: -Incrementa la moral en 25 instantáneamente\n-Las tropas de conscriptos elevan mucho la moral al matar (+1 por muerte)
+description_uk: - Миттєво підвищує моральний дух на 25\n- Загони строковиків значно підвищують моральний дух під час вбивства (+1 за вбивство)
+description_zh: -立即获得25士气\n-征召兵击杀敌方单位时增加士气（+1每个单位）
 
 [template_czechoslovakiaAllianceInfo]
 @define name: Czechoslovakia
 @define name_es: Checoslovaquia
+@define name_uk: Чехословаччина
+@define name_zh: 捷克斯洛伐克
 description: -All units return industry and oil on death (4% of their HP as industry, 2% of their HP as oil)
 description_es: -Todas las unidades retornan industria y petróleo al morir (4% de sus PV como industria, 2% de sus PV como petróleo)
+description_uk: -Усі одиниці повертають промисловість і нафту після смерті (4% їх здоров'я як промисловість, 2% їх здоров'я як нафта)
+description_zh: -所有单位死亡后根据最大生命值返还资源（最大生命值的百分之4返还工业，百分之2返还石油）
 
 [template_australiaAllianceInfo]
 @define name: Australia
 @define name_es: Australia
+@define name_uk: Австралія
+@define name_zh: 澳大利亚
 description: -Ships and submarines rise morale when constructed (+0.2 per unit)\n-Improves dive bombers to CAC CA-1 Wirraway\n-Dive bombers have more attack damage and speed
 description_es: -Los barcos y submarinos elevan la moral cuando son construidos (+0.2 por unidad)\n-Mejora los bombarderos en picada a CAC CA-1 Wirraway\n-Los bombarderos en picada tienen más daño de ataque y velocidad
+description_uk: -Кораблі та підводні човни підвищують моральний дух, коли будуються (+0,2 за одиницю)\n-Покращує пікіруючі бомбардувальники до CAC CA-1 Wirraway\n-Пікіруючі бомбардувальники мають більшу шкоду та швидкість
 
 [template_canadaAllianceInfo]
 @define name: Canada
 @define name_es: Canadá
+@define name_uk: Канада 
 description: -Ships and submarines have +7% attack range\n-Improves destroyers to D-Class\n-Destroyers have more attack damage, speed and are created faster
 description_es: -Los barcos y submarinos tienen +7% de rango de ataque\n-Mejora los destructores a Clase-D\n-Los destructores tienen más daño de ataque, velocidad y se crean más rápido
+description_uk: -Кораблі та субмарини мають +7% дальності атаки\n-Покращує есмінці до D-класу\n-Есмінці мають більшу шкоду, швидкість і створюються швидше
+description_zh: -舰船增加百分之7射程\n-提供D级驱逐舰\n驱逐舰将会拥有更高的伤害，更快的速度与更短的建造时间
 
 [template_chinaRepublicAllianceInfo]
 @define name: China Republic
 @define name_es: República de China
+@define name_uk: Китайська Республіка 
+@define name_zh: 中华民国
 description: -Infantry units have +20% HP
 description_es: -Las unidades de infantería tienen +20% PV
+description_uk: -Піхотні одиниці мають +20% здоров'я
+description_zh: -步兵单位增加百分之20HP
 
 [template_philippinesAllianceInfo]
 @define name: Philippines
 @define name_es: Filipinas
+@define name_uk: Філіппіни 
+@define name_zh: 菲律宾
 description: -Ships and submarines have +30% movement speed
 description_es: -Los barcos y submarinos tienen +30% de velocidad de movimiento
+description_uk: -Кораблі та підводні човни мають швидкість руху +30%
+description_zh: -海军舰船增加百分之30移动速度
 
 [template_naziGermanyAllianceInfo]
 @define name: Nazi Germany
 @define name_es: Alemania Nazi
+@define name_uk: Нацистська Німеччина
+@define name_zh: 纳粹德国
 description: -Infantry units have +20% attack damage
 description_es: -Las unidades de infantería tienen +20% de daño de ataque
+description_uk: -Піхотні одиниці мають +20% шкоди
+description_zh: -步兵单位增加百分之20攻击
 
 [template_japanEmpireAllianceInfo]
 @define name: Japan Empire
 @define name_es: Imperio del Japón
+@define name_uk: Японська Імперія
+@define name_zh: 日本帝国
 description: -All enemy players have 30 morale reduction instantly
 description_es: -Todos los jugadores enemigos tienen 30 de reducción de moral instantáneamente
+description_uk: -У всіх ворожих гравців моральний дух миттєво знижується на 30
+description_zh: -所有敌人立刻减少30士气
 
 [template_italyKingdomAllianceInfo]
 @define name: Italy Kingdom
 @define name_es: Reino de Italia
+@define name_uk: Королівство Італія
+@define name_zh: 意大利王国
 description: -Grants +1.2K industry and +800 oil instantly
 description_es: -Otorga +1.2K de industria y +800 de petróleo instantáneamente
+description_uk: -Миттєво надає +1000 промисловості та +800 нафти
+description_zh: -立即获得1200工业值与800石油
 
 [template_vichyFranceAllianceInfo]
 @define name: Vichy France
 @define name_es: Francia de Vichy
+@define name_uk: Франція Віші
+@define name_zh: 维希法国
 description: -Outposts have +10% attack range and +9 sight range\n-Improves battleships to Dunkirk Class\n-Battleships have more attack damage, speed and are created faster
 description_es: -Los puestos avanzados tienen +10% de rango de ataque y +9 de rango de visión\n-Mejora los acorazados a Clase Dunquerque\n-Los acorazados tienen más daño de ataque, velocidad y se crean más rápido
+description_uk: -Аванпости мають +10% дальності атаки та +9 дальності огляду\n-Покращує бойові кораблі до класу Дюнкерк\n-Броненосці мають більшу шкоду, швидкість і створюються швидше
+description_zh: -前哨站增加百分之10射程与9视野\n-提供敦刻尔克级战列舰\n-战列舰将会拥有更高的伤害，更快的速度和更短的建造时间
 
 [template_hungaryKingdomAllianceInfo]
 @define name: Hungary Kingdom
 @define name_es: Reino de Hungría
+@define name_uk: Королівство Угорщина 
+@define name_zh: 匈牙利王国
 description: -Heavy vehicles have +15% attack speed
 description_es: -Los vehículos pesados tienen +15% de velocidad de ataque
+description_uk: -Важка техніка має +15% до швидкості атаки
+description_zh: -重型车辆增加百分之15攻击速度
 
 [template_romaniaKingdomAllianceInfo]
 @define name: Romania Kingdom
 @define name_es: Reino de Rumania
+@define name_uk: Королівство Румунія
+@define name_zh: 罗马尼亚王国
 description: -Refineries produce +5 oil\n-Rod pumps extract +10 crude oil
 description_es: -Las refinerías producen +5 de petróleo\n-Las bombas de varilla extraen +10 de petróleo crudo
+description_uk: -Нафтопереробні заводи виробляють +5 нафти\n-Стержневі насоси видобувають +10 сирої нафти
+description_zh: -炼油厂产值增加5\n-油井原油每次开采量增加10
 
 [template_slovakiaAllianceInfo]
 @define name: Slovakia
 @define name_es: Eslovaquia
+@define name_uk: Словаччина 
+@define name_zh: 斯洛伐克
 description: -Engineering teams have +15% attack damage and +30% HP\n-Engineering teams can build air bases and place traps
 description_es: -Los equipos de ingeniería tienen +15% de daño de ataque y +30% PV\n-Los equipos de ingeniería pueden construir bases aéreas y colocar trampas
+description_uk: -Інженерні команди мають +15% шкоди та +30% здоров'я\n-Інженерні команди можуть будувати авіабази та розставляти пастки
+description_zh: -工程队增加百分之15攻击与百分之30HP\n-工程队可以建造陷阱与机场
 
 [template_bulgariaKingdomAllianceInfo]
 @define name: Bulgaria Kingdom
 @define name_es: Reino de Bulgaria
+@define name_uk: Королівство Болгарія
+@define name_zh: 保加利亚王国
 description: -All map is revealed during 10 seconds
 description_es: -Todo el mapa es revelado durante 10 segundos
+description_uk: -Вся карта розкривається протягом 10 секунд
+description_zh: -获得全地图视野10秒
 
 [template_croatiaAllianceInfo]
 @define name: Croatia
 @define name_es: Croacia
+@define name_uk: Хорватія
+@define name_zh: 克罗地亚
 description: -Traps and defensive structures rise morale when killing units (+0.4 per kill)
 description_es: -Las trampas y las estructuras defensivas elevan la moral cuando matan unidades (+0.4 por muerte)
+description_uk: -Пастки та захисні споруди підвищують моральний дух під час вбивства одиниць (+0,4 за вбивство)
+description_zh: -陷阱和防御设施击杀敌方单位将会增加士气（0.4士气每个单位）
 
 [template_finlandAllianceInfo]
 @define name: Finland
 @define name_es: Finlandia
+@define name_uk: Фінляндія 
+@define name_zh: 芬兰
 description: -Infantry units have +3 armor
 description_es: -Las unidades de infantería tienen +3 de armadura
+description_uk: -Піхотні одиниці мають +3 броні
+description_zh: -步兵单位增加3护甲
 
 [template_sendIndustryOpenInfo]
 text: Send Industry
 text_es: Enviar Industria
+text_uk: Відправити Промисловість
+text_支援工业值
 description: -Send industry to other players
 description_es: -Enviar industria a otros jugadores
+description_uk: -Надсилає промисловість іншим гравцям
+description_zh: -支援其他玩家800工业值\n-警告:请对准其他玩家外交中心或基地
+#TRANSLATES NEEDED --> *zh
 
 [template_sendOilOpenInfo]
 text: Send Oil
 text_es: Enviar Petróleo
+text_uk: Відправитити Нафту
+text_zh: 支援石油
 description: -Send oil to other players
 description_es: -Enviar petróleo a otros jugadores
+description_uk: -Надсилає нафту іншим гравцям
+description_zh: -支援其他玩家400石油\n-警告:请对准其他玩家外交中心或基地
+#TRANSLATES NEEDED --> *zh
 
 [template_sendResourceCancelInfo]
 text: Cancel
 text_es: Cancelar
+text_uk: Скасувати
+#TRANSLATES NEEDED --> *zh
 
 [template_sendIndustryInfo]
 description: -Sends 800 industry to %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Our alliance: %{self.teamName}
 description_es: -Envía 800 de industria a %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Su alianza: %{self.teamName}
+description_uk: -Надсилає 800 промисловості %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Наш альянс: %{self.teamName}
+#TRANSLATES NEEDED --> *zh
 
 [template_sendOilInfo]
 description: -Sends 400 oil to %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Our alliance: %{self.teamName}
-description: -Envía 400 de petróleo a %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Nuestra alianza: %{self.teamName}
+description_es: -Envía 400 de petróleo a %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Nuestra alianza: %{self.teamName}
+description_uk: -Надсилає 400 нафти %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Наш альянс: %{self.teamName}
+#TRANSLATES NEEDED --> *zh
 
 [template_receivedIndustryInfo]
 showQuickWarLogToPlayer: Received 800 Industry from %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
 showQuickWarLogToPlayer_es: 800 de Industria recibido de %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
+showQuickWarLogToPlayer_uk: Отримано 800 промисловлсті від %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
+#TRANSLATES NEEDED --> *zh
 
 [template_receivedOilInfo]
 showQuickWarLogToPlayer: Received 400 Oil from %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
 showQuickWarLogToPlayer_es: 400 de Petróleo recibido de %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
+showQuickWarLogToPlayer_uk: Отримано 400 нафти від %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
+#TRANSLATES NEEDED --> *zh
 
 #
 #============ Technology Info ==============#
@@ -1366,338 +2104,562 @@ showQuickWarLogToPlayer_es: 400 de Petróleo recibido de %{eventData(name="playe
 [template_techGenericsInfo]
 isLockedMessage: -Someone is sabotaging our research!
 isLockedMessage_es: -¡Alguien está saboteando nuestra investigación!
+isLockedMessage_uk: -Хтось саботує наші дослідження!
+isLockedMessage_zh: -有人在破坏我们的研究项目！
 isLockedAlt2Message: -This technology is already being researched
 isLockedAlt2Message_es: -Esta tecnología ya está siendo investigada
+isLockedAlt2Message_uk: -Ця технологія вже досліджується
+isLockedAlt2Message_zh: -这项科技正在研究
 #CREATE A ${tech} FOR ALLIANCE NAME IN YOUR LANGUAGE TO BE ABLE TO TRANSLATE ITS NAME. EXAMPLE: ${tech_ru}
 text: ${tech}
 text_es: ${tech_es}
+text_uk: ${tech_uk}
+text_zh: ${tech_zh}
 showQuickWarLogToPlayer: Research completed: ${tech}
 showQuickWarLogToPlayer_es: Investigación completada: ${tech_es}
+showQuickWarLogToPlayer_uk: Дослідження завершено: ${tech_uk}
+showQuickWarLogToPlayer_zh: 研究已完成: ${tech_zh}
 
 [template_workingHabilitationInfo]
 #DEFINE NEW STATIC VARIABLES WITH THE NAME OF THE TECH YOU CHOSEN. EXAMPLE: @define tech_ru:
 @define tech: Working Habilitation
 @define tech_es: Habilitación Laboral
+@define tech_uk: Робоча Абілітація
+@define tech_zh: 工作资格
 description: -Factories produce industry 15% faster
 description_es: -Las fábricas producen industria 15% más rápido
+description_uk: -Фабрики виробляють промисловість на 15% швидше
+description_zh: -妇女和儿童可以在工厂工作\n-工厂工业生产速度+15%
 
 [template_warContributionEventsInfo]
 @define tech: War Contribution Events
 @define tech_es: Eventos de C. de Guerra
+@define tech_uk: Події Військової Контрибуції
+@define tech_zh: 战争捐款
 description: -Factories produce +5 industry
 description_es: -Las fábricas producen +5 de industria
+description_uk: -Фабрики виробляють +5 промисловість
+description_zh: -举办募集战争资金的活动，激励普通人的爱国主义精神\n-工厂工业生产+5
 
 [template_fastProcessingInfo]
 @define tech: Fast Processing
 @define tech_es: Procesado Rápido
+@define tech_uk: Швидка обробка
+@define tech_zh: 高效加工
 description: -Refineries refine +100% oil each time
 description_es: -Las refinerías refinan +100% de petróleo cada vez
+description_uk: -Нафтопереробні заводи щоразу очищають +100% нафти
+description_zh: -新的技术和方法使石油加工更快、更有效\n-精炼厂每次提炼石油产量+100%
 
 [template_specializedRefinementInfo]
 @define tech: Specialized Refinement
 @define tech_es: Refinación Especializada
+@define tech_uk: Спеціалізоване Доопрацювання
+@define tech_zh: 高效提炼
 description: -Refineries produce +3 oil
 description_es: -Las refinerías producen +3 de petróleo
+description_uk: -Нафтопереробні заводи виробляють +3 нафти
+description_zh: -进一步提高炼油厂的生产效率\n-炼油厂石油产量+3
 
 [template_mobilizationInfo]
 @define tech: Mobilization
 @define tech_es: Movilización
+@define tech_uk: Мобілізація
+@define tech_zh: 动员令
 description: -Infantry units have +3 armour
 description_es: -Las unidades de infantería tienen +3 de armadura
+description_uk: -Піхотні одиниці мають +3 броні
+description_zh: -受过在不利环境下快速移动训练的步兵效率更高\n-步兵单位增加3点护甲
 
 [template_warDrugsInfo]
 @define tech: War Drugs
 @define tech_es: Drogas de Guerra
+@define tech_uk: Воєнні Наркотики
+@define tech_zh: 战争毒品
 description: -Infantry units have +3 armour
 description_es: -Las unidades de infantería tienen +3 de armadura
+description_uk: -Піхотні одиниці мають +3 броні
+description_zh:  -毒品能让士兵保持警觉，减少恐惧，让他们感觉战无不胜\n-步兵单位有+ 3甲
 
 [template_assaultEquipmentInfo]
 @define tech: Assault Equipment
 @define tech_es: Equipamiento de Asalto
+@define tech_uk: Штурмове Спорядження
+@define tech_zh: 突击训练
 description: -Infantry units have +4 armour
 description_es: -Las unidades de infantería tienen +4 de armadura
+description_uk: -Піхотні одиниці мають +4 броні
+description_zh: -突击武器和防护装备给予步兵更高的生存率\n-步兵单位+4装甲
 
 [template_reinforcedInfantryInfo]
 @define tech: Reinforced Infantry
 @define tech_es: Infantería Reforzada
+@define tech_uk: Посилена Піхота
+@define tech_zh: 训练步兵
 description: -Infantry units have +10% attack damage
 description_es: -Las unidades de infantería tienen +10% daño de ataque
+description_uk: -Піхотні одиниці наносять +10% шкоди
+description_zh: -装备精良的步兵在战斗中存活时间更长\n-步兵单位+10%攻击伤害
 
 [template_convoyScortsInfo]
 @define tech: Convoy Scorts
 @define tech_es: Escoltas de Convoy
+@define tech_uk: Конвойний Супровід
+@define tech_zh: 强化补给
 description: -Infantry units have +10% attack damage
 description_es: -Las unidades de infantería tienen +10% daño de ataque
+description_uk: -Піхотні одиниці наносять +10% шкоди
+description_zh: -补给线对大规模进攻来说至关重要\n-步兵单位+10%攻击伤害
 
 [template_strategicSuppliesInfo]
 @define tech: Strategic Supplies
 @define tech_es: Suministros Estratégicos
+@define tech_uk: Стратегічні Постачання
+@define tech_zh: 战略物资
 description: -Infantry units have +15% attack damage
 description_es: -Las unidades de infantería tienen +15% daño de ataque
+description_uk: -Піхотні одиниці наносять +15% шкоди
+description_zh: -空投物资可以增加地面部队的生存能力，即使没有补给线\n-步兵单位+15%攻击伤害
 
 [template_extensiveTracksInfo]
 @define tech: Extensive Tracks
 @define tech_es: Orugas Gruesas
+@define tech_uk: Обширні Траки
+@define tech_zh: 强化履带
 description: -Ground vehicles have +15 armour
 description_es: -Los vehículos terrestres tienen +15 de armadura
+description_uk: -Наземна техніка має +15 броні
+description_zh: -宽大的履带使车辆即使在泥泞的地形上也具有机动性\n-车辆+15装甲
 
 [template_reusableChasisInfo]
 @define tech: Reusable Chasis
 @define tech_es: Chásis Reusables
+@define tech_uk: Багаторазові Шасі
+@define tech_zh: 通用底盘
 description: -Ground vehicles have +15 armour
 description_es: -Los vehículos terrestres tienen +15 de armadura
+description_uk: -Наземна техніка має +15 броні
+description_zh: -高性能底盘允许更换车辆炮塔或发动机，增加通用性\n-车辆+15装甲
 
 [template_100mmArmourInfo]
 @define tech: 100mm Armour
 @define tech_es: Armadura de 100mm
+@define tech_uk: 100-мм Броня
+@define tech_zh: 100毫米装甲
 description: -Ground vehicles have +20 armour
 description_es: -Los vehículos terrestres tienen +20 de armadura
+description_uk: -Наземна техніка має +20 броні
+ description_zh:-更高密度的装甲增强了坦克的耐用性和性能\n-车辆+20装甲
 
 [template_combinedFormationsInfo]
 @define tech: Combined Formations
 @define tech_es: Formaciones Conjuntas
+@define tech_uk: Комбіновані Формування
+@define tech_zh: 合成师
 description: -Ground vehicles have +10% attack damage
 description_es: -Los vehículos terrestres tienen +10% daño de ataque
+description_uk: -Наземна техніка наносить +10% шкоди
+description_zh:  -混合编队训练,使部队在各种情况下做好准备\n-车辆+10%攻击伤害
 
 [template_armoredAmbushInfo]
 @define tech: Armored Ambush
 @define tech_es: Emboscada Blindada
+@define tech_uk: Броньована Засада
+@define tech_zh: 装甲伏击战
 description: -Ground vehicles have +10% attack damage
 description_es: -Los vehículos terrestres tienen +10% daño de ataque
+description_uk: -Наземна техніка наносить +10% шкоди
+description_zh: -伏击的装甲单位对敌人推进是致命的\n-车辆+10%伤害
 
 [template_enhancedShellsInfo]
 @define tech: Enhanced Shells
 @define tech_es: Proyectiles Mejorados
+@define tech_uk: Покращені Оболонки
+@define tech_zh: 强化炮弹
 description: -Ground vehicles have +15% attack damage
 description_es: -Los vehículos terrestres tienen +15% daño de ataque
+description_uk: -Наземна техніка наносить +15% шкоди
+description_zh: -更好的炮弹,加大了摧毁目标的可能\n-车辆+15%攻击伤害
 
 [template_lightStabilizersInfo]
 @define tech: Light Stabilizers
 @define tech_es: Estabilizadores Ligeros
+@define tech_uk: Світлостабілізатори
+@define tech_zh: 轻型稳定器
 description: -Ships and submarines have +15 armour
 description_es: -Los barcos y submarinos tienen +15 de armadura
+description_uk: -Кораблі та субмарини мають +15 броні
+description_zh: -更轻的稳定器可以在不损失速度能力的情况下装备更强大的武器\n-舰船和潜艇+15装甲
 
 [template_armoredDecksInfo]
 @define tech: Armored Decks
 @define tech_es: Cubiertas Blindadas
+@define tech_uk: Броньовані Палуби
+@define tech_zh: 装甲甲板
 description: -Ships and submarines have +15 armour
 description_es: -Los barcos y submarinos tienen +15 de armadura
+description_uk: -Кораблі та субмарини мають +15 броні
+description_zh: -舰船可以通过增加其最脆弱部位的装甲来抵挡更多伤害\n-舰船和潜艇+15装甲
 
 [template_reinforcedStructuresInfo]
 @define tech: Reinforced Structures
 @define tech_es: Estructuras Reforzadas
+@define tech_uk: Посилені Конструкції
+@define tech_zh: 加固结构
 description: -Ships and submarines have +20 armour
 description_es: -Los barcos y submarinos tienen +20 de armadura
+description_uk: -Кораблі та субмарини мають +20 броні
+description_zh -一个好的内部结构可以让舰船抵抗大部分的炮弹命中\n-舰船和潜艇+20装甲
 
 [template_navalCodeInfo]
 @define tech: Naval Code
 @define tech_es: Código Naval
+@define tech_uk: Морський Кодекс
+@define tech_zh: 海军编队
 description: -Ships and submarines have +10% attack damage
 description_es: -Barcos y submarinos tienen +10% daño de ataque
+description_uk: -Кораблі та субмарини наносять +10 шкоди
+description_zh: -编队能使海战中更好地协调作战\n-舰船和潜艇+10%攻击伤害
 
 [template_armoredAxisInfo]
 @define tech: Armored Axis
 @define tech_es: Eje Blindado
+@define tech_uk: Броньована Вісь 
+@define tech_zh: 强化炮膛
 description: -Ships and submarines have +10% attack damage
 description_es: -Barcos y submarinos tienen +10% daño de ataque
+description_uk: -Кораблі та субмарини наносять +10 шкоди
+description_zh: -火炮得到更好的保护，即使在突然袭击下也能保证还击\n-舰船和潜艇+10%攻击伤害
 
 [template_enhancedNavalArtilleryInfo]
 @define tech: Enhanced Naval Artillery
 @define tech_es: Artillería Naval Mejorada
+@define tech_uk: Посилена Морська Артилерія
+@define tech_zh: 火力增强
 description: -Ships and submarines have +15% attack damage
 description_es: -Barcos y submarinos tienen +15% daño de ataque
+description_uk: -Кораблі та субмарини наносять +15 шкоди
+description_zh:  -更好的炮弹能够保证对目标的破坏和损害\n-舰船和潜艇+15%攻击伤害
 
 [template_dogfightTacticsInfo]
 @define tech: Dogfight Tactics
 @define tech_es: Tácticas de Combate Aéreo
+@define tech_uk: Тактика Повітряного Бою
+@define tech_zh: 缠斗战术
 description: -Airplanes have +3 armour
 description_es: -Los aviones tienen +3 de armadura
+description_uk: -Літаки мають +3 броні
+description_zh: -准备得更好的飞行员有更高的生存机会\n-飞机+3装甲
 
 [template_armoredGlassInfo]
 @define tech: Armored Glass
 @define tech_es: Vidrio Blindado
+@define tech_uk: Броньований Клас
+@define tech_zh: 防弹玻璃
 description: -Airplanes have +3 armour
 description_es: -Los aviones tienen +3 de armadura
+description_uk: -Літаки мають +3 броні
+description_zh:  -飞行员的生命至关重要，为此我们特地安装了防弹玻璃\n-飞机+3装甲
 
 [template_monohullConstructionInfo]
 @define tech: Monohull Construction
 @define tech_es: Construcción Monocasco
+@define tech_uk: Однокорпусна Конструкція
+@define tech_zh: 单体结构
 description: -Airplanes have +4 armour
 description_es: -Los aviones tienen +4 de armadura
+description_uk: -Літаки мають +4 броні
+description_zh:  -减少装配零件的数量，可以减少飞机阻力\n-飞机+4装甲
 
 [template_specializedStrafingInfo]
 @define tech: Specialized Strafing
 @define tech_es: Ametrallamiento Especializado
+@define tech_uk: Спеціалізований Страфінг
+@define tech_zh: 对地攻击战术
 description: -Airplanes have +10% attack damage
 description_es: -Los aviones tienen +10% daño de ataque
+description_uk: -Літаки наносять +10% шкоди
+description_zh: -低空飞机的攻击对地面来说是致命的\n-飞机+10%伤害
 
 [template_airRelayInfo]
 @define tech: Air Relay
 @define tech_es: Relevo Aéreo
+@define tech_uk: Повітряна Естафета
+@define tech_zh: 建立航空学院
 description: -Airplanes have +10% attack damage
 description_es: -Los aviones tienen +10% daño de ataque
+description_uk: -Літаки наносять +10% шкоди
+description_zh: --派有经验的飞行员到后方训练新手飞行员，增加空战成功率\n-飞机+10%伤害
 
 [template_30mmAmmoInfo]
 @define tech: 30mm Ammo
 @define tech_es: Munición de 30mm
+@define tech_uk: 30-мм Боєприпаси
+@define tech_zh: 30毫米弹药
 description: -Airplanes have +15% attack damage
 description_es: -Los aviones tienen +15% daño de ataque
+description_uk: -Літаки наносять +15% шкоди
+description_zh: -使用更大的弹药来对付我们的对手\n-飞机+15%伤害
 
 [template_infantryTacticsInfo]
 @define tech: Infantry Tactics
 @define tech_es: Tácticas de Infantería
+@define tech_uk: Піхотна Тактика
+@define tech_zh: 步兵战术
 description: -Rifle, MG, rocket and conscript troops can capture buildings when near them\n-Rifle, MG, rocket and conscript troops can build trenches
 description_es: -Las tropas de rifle, AM, cohete y conscriptos pueden capturar edificios cuando están cerca de ellos\n-Las tropas de rifle, AM, cohete y conscriptos pueden construir trincheras
+description_uk: -Стрілкові, кулементні, ракетні та строкові загони можуть захоплювати споруди, коли вони знаходяться поблизу\n-Стрілецькі, пулеметні, ракетні та строкові загони можуть будувати окопи
+description_zh: -更多有计划的突击使步兵在战场上的效率提高一倍\n-步枪、机枪、火箭和征兵部队可以在靠近建筑物时占领建筑物\n-步枪、机枪、火箭和征兵部队可以建造战壕
 
 [template_mediumTanksInfo]
 @define tech: Medium Tanks
 @define tech_es: Tanques Medios
+@define tech_uk: Середні Танки
+@define tech_zh: 中型坦克
 description: -Upgrades tanks to medium tanks\n-Tanks have more HP, attack range and attack damage
 description_es: -Mejora los tanques a tanques medios\n-Los tanques tienen más PV, rango de ataque y daño de ataque
+description_uk: -Покращує танки до середніх танків\n-Танки мають більше здоров'я, дальності атаки та шкоди
+description_zh: -中型车辆,一个更强的火炮与低的成本装甲单位将被提供到装甲师\n-提供中型坦克\n-坦克获得更高的生命值，攻击距离和攻击伤害
 
 [template_heavyTanksInfo]
 @define tech: Heavy Tanks
 @define tech_es: Tanques Pesados
+@define tech_uk: Важкі Танки 
+@define tech_zh: 重型坦克
 description: -Upgrades tanks to heavy tanks\n-Tanks have more HP, attack range and attack damage
 description_es: -Mejora los tanques a tanques pesados\n-Los tanques tienen más PV, rango de ataque y daño de ataque
+description_uk: -Покращує танки до важких танків\n-Танки мають більше здоров'я, дальності атаки та шкоди
+description_zh: -更大、更好武装和装甲的坦克被整合到装甲师\n-提供重型坦克\n-坦克获得更高的生命值，攻击距离和攻击伤害
 
 [template_superHeavyProjectsInfo]
 @define tech: Super Heavy Projects
 @define tech_es: Proyectos Super Pesados
+@define tech_uk: Надважкі Проекти
+@define tech_zh: 超重型坦克
 description: -Unlocks super heavy vehicles
 description_es: -Desbloquea los vehículos superpesados
+description_uk: -Розблоковує надважку техніку 
+description_zh: -超重型坦克会在敌人的装甲部队之间引起恐慌，因为它们的装甲和射程是异常优秀的\n-解锁超重型车辆
 
 [template_groundTacticsInfo]
 @define tech: Ground Tactics
 @define tech_es: Tácticas de Tierra
+@define tech_uk: Наземна Тактика
+@define tech_zh: 底盘改造
 description: -Upgrades AT guns to tank destroyers\n-Tank destroyers have more mobility and HP
 description_es: -Mejora los cañones AT a cazacarros\n-Los cazacarros tienen más movilidad y PV
+description_uk: -Оновлює протитанкові гармати до винищувачів танків\n-Винищувачі танків мають більше мобільності та здоров'я
+description_zh: -专门为击毁坦克而设计的装甲单位\n-提供坦克歼击车\n-坦克歼击车获得更高的机动性和生命值
 
 [template_mineFlailsInfo]
 @define tech: Mine Flails
 @define tech_es: Mayales de Minas
+@define tech_uk: Мінні Ціпи
+@define tech_zh: 地雷链枷
 description: -Heavy vehicles are invulnerable to traps and remove them when near
 description_es: -Los vehículos pesados son invulnerables a las trampas y las remueven cuando están cerca
+description_uk: -Важкі транспортні засоби невразливі до пасток і знешкоджують їх, коли знаходяться поблизу
+description_zh:-车辆可以用扫雷装置引爆附近的地雷\n-所有重型车辆不会受到陷阱和地雷的影响
 
 [template_heavyAASupportInfo]
 @define tech: Heavy AA Support
 @define tech_es: Apoyo AA Pesado
+@define tech_uk: Потужна Підтримка ППО
+@define tech_zh: 自行防空炮支援
 description: -Upgrades AA halftracks to self-propelled AA guns\n-AA vehicles have more HP, attack range, attack damage and area damage
 description_es: -Mejora los semiorugas AA a cañones AA auto-propulsados\n-Los vehículos AA tienen más PV, rango de ataque, daño de ataque y daño en área
+description_uk: -Удосконалює напівгусеничні ППО до самохідних ППО гармат\n-Самохідні ППО мають більше здоров'я, дальності атаки, шкоду та площу шкоди
+description_zh: -自行高射炮可以保护部队免受空中威胁\n-提供自行高射炮\n-防空车辆获得更高的攻击伤害,攻击距离,伤害范围和生命值
 
 [template_jetPowerInfo]
 @define tech: Jet Power
 @define tech_es: Potencia Jet
+@define tech_uk: Реактивна Сила
+@define tech_zh: 喷气动力
 description: -Improves light fighters to jet fighters\n-Fighters have more HP, move speed and attack damage
 description_es: -Mejora los cazas ligeros a cazas jet\n-Los cazas tienen más PV, velocidad de movimiento y daño de ataque
+description_uk: -Покращує легкі винищувачі до реактивних винищувачів\in-Винищувачі мають більше здоров'я, більшу швидкість та шкоду
+description_zh: -喷气发动机革新了空战。它们的速度和威胁是无与伦比的\n-提供喷气式战斗机\n-战斗机获得更高的生命值，移动速度和攻击伤害
 
 [template_mediumBombersInfo]
 @define tech: Medium Bombers
 @define tech_es: Bombarderos Medios
+@define tech_uk: Середні Бомбардувальники
+@define tech_zh: 燃烧的天空
 description: -Unlocks strategic bombers at the hangar
 description_es: -Desbloquea los bombarderos estratégicos en el hangar
+description_uk: -Розблоковує стратегічні бомбардувальники в ангарі
+description_zh: -空中轰炸可以以极小的消耗迅速摧毁敌人的工业\n-提供中型轰炸机
 
 [template_heavyBombersInfo]
 @define tech: Heavy Bombers
 @define tech_es: Bombarderos Pesados
+@define tech_uk: Важкі Бомбардувальники
+@define tech_zh: 大规模轰炸
 description: -Upgrades strategic bombers to heavy bombers\n-Strategic bombers have more HP, attack damage, speed and can carry more bombs
 description_es: -Mejora los bombarderos estratégicos a bombarderos pesados\n-Los bombarderos estratégicos tienen más PV, daño de ataque, velocidad y pueden llevar más bombas
+description_uk: -Удосконалює стратегічні бомбардувальники до важких\n-Стратегічні бомбардувальники мають більше здоров'я, шкоди, швидкість і можуть нести більше бомб
+description_zh: -重型轰炸机会造成大规模破坏并影响别人的士气\n-提供重型轰炸机\n-轰炸机有更多的生命值，攻击伤害，飞行速度和+5航空炸弹
 
 [template_navalSupportInfo]
 @define tech: Naval Support
 @define tech_es: Apoyo Naval
+@define tech_uk: Морська Підтримка
+@define tech_zh: 海军支援
 description: -Unlocks battleships and LST transports at the harbour
 description_es: -Desbloquea los acorazados y los transportes LST en el puerto
+description_uk: -Розблоковує бойові кораблі та LST транспорт у гавані
+description_zh: -海军可以从海上对地面部队进行猛烈轰炸\n-提供战列舰和坦克登陆舰
 
 [template_submarineWarfareInfo]
 @define tech: Submarine Warfare
 @define tech_es: Guerra Submarina
+@define tech_uk: Підводна Війна
+@define tech_zh: 决战深海
 description: -Unlocks submarines and minesweepers at the harbour\n-Unlocks anti-submarine units\n-Allows placing marine mines
 description_es: -Desbloquea los submarinos y dragaminas en el puerto\n-Desbloquea unidades anti-submarinas\n-Permite colocar minas marinas
+description_uk: -Відкриває підводні човни та тральщики в гавані\n-Відкриває протичовнові одиниці\n-Дозволяє розміщувати морські міни
+description_zh: -潜艇有更大的火力和生存能力\n-提供潜艇和扫雷船\n-提供反潜潜艇\n-允许部署水雷
 
 [template_massiveDestructionInfo]
 @define tech: Massive Destruction
 @define tech_es: Destrucción Masiva
+@define tech_uk: Масове Руйнування
+@define tech_zh: 大规模破坏
 description: -Unlocks flamethrower and chemical units at the barracks and garage
 description_es: -Desbloquea las unidades lanzallamas y químicas en el cuartel y el garaje
+description_uk: -Розблоковує вогнеметні та хімічні одиниці в казармах і гаражах
+description_zh: -化学单位和喷火单位更有效的对步兵和建筑\n-提供喷火坦克,化学坦克,火焰喷射部队和化学部队
 
 [template_manhattanProjectInfo]
 @define tech: Manhattan Project
 @define tech_es: Proyecto Manhattan
+@define tech_uk: Манхеттенський Проект
+@define tech_zh: 曼哈顿计划
 description: -Unlocks the B-29 Superfortress nuclear bomber at the hangar
 description_es: -Desbloquea el bombardero nuclear B-29 Superfortress en el hangar
+description_uk: -Розблоковує ядерний бомбардувальник B-29 Superfortress в ангарі
+description_zh:  -原子弹能造成空前的破坏\n-提供B-29“超级空中堡垒”
 
 [template_additionalFuelTanksInfo]
 @define tech: Additional Fuel Tanks
 @define tech_es: Tanques de C. Adicionales
+@define tech_uk: Додаткові Паливні Баки
+@define tech_zh: 附加油箱
 description: -Airplanes have +20 fuel, to fly more time
 description_es: -Los aviones tienen +20 de combustible, para volar más tiempo
+description_uk: -Літаки мають +20 палива, щоб довше літати
+description_zh: -额外的燃料箱使飞机很笨重，但却能让它们参与遥远的任务\n-所有飞机+20燃油量
 
 [template_finalSolutionInfo]
 @define tech: Final Solution
 @define tech_es: Solución Final
+@define tech_uk: Остаточне Вирішення 
+@define tech_zh: 种族净化
 description: -Allows the building of concentration camps\n-Unlocks the SS team at the barracks
 description_es: -Permite la construcción de campos de concentración\n-Desbloquea el equipo SS en el cuartel
+description_uk: -Дозволяє будувати концентраційні табори\n-Відкриває СС команду в казармах
+description_zh: -伟大德国的敌人必须从这片土地上清除\n-允许建造集中营\n-允许调遣党卫军
 
 [template_strategicRocketsInfo]
 @define tech: Strategic Rockets
 @define tech_es: Cohetes Estratégicos
+@define tech_uk: Стратегічні Ракети
+@define tech_zh: 复仇兵器
 description: -Allows the building of V2 launchpads
 description_es: -Permite la construcción de plataformas V2
+description_uk: -Дозволяє будувати установки V2
+description_zh: -一颗导弹,造成毁灭性的破坏
 
 [template_stalinArsenalInfo]
 @define tech: Stalin's Arsenal
 @define tech_es: Arsenal de Stalin
+@define tech_uk: Сталінський Арсенал
+@define tech_zh: 惟妙乐曲
 description: -Unlocks the BM-13 Katyusha and 203mm B-4 Howitzer artilleries at the garage
 description_es: -Desbloquea las artillerías BM-13 Katiusha y Obús B-4 de 203mm en el garaje
+description_uk: -Розблоковує артилерію БМ-13 Катюша та 203-мм гаубицю Б-4 у гаражі
+description_zh: -新技术和装备提升了火炮的机动性和射程\n-提供BM-13“喀秋莎”火箭炮与B-4重型榴弹炮
 
 [template_allySupportInfo]
 @define tech: Ally Support
 @define tech_es: Apoyo Aliado
+@define tech_uk: Підтримка Союзників
+@define tech_zh: 租借法案
 description: -Reinforcements are generated on the diplomatic center periodically
 description_es: -Se generan refuerzos en el centro diplomático periódicamente
+description_uk: -Періодично в дипломатичному центрі генерується підкріплення
+description_zh: -一条安全的运输路线让盟友的支援物资能够到达\n-每隔一段时间,盟友的支援部队会抵达外交中心
 
 [template_zvenoProjectInfo]
 @define tech: Zveno Project
 @define tech_es: Proyecto Zveno
+@define tech_uk: Проект Звено
+@define tech_zh: 空天母舰计划
 description: -Unlocks the tupolev bomber-aircraft-carrier at the hangar
 description_es: -Desbloquea el bombardero-portaaviones túpolev en el hangar
+description_uk: -Відкриває бомбардувальник-авіаносець Туполєва в ангарі
+description_zh:  -更大的飞机可以携带更多的航空炸弹,轻型坦克或是战斗机\n-提供“图波列夫”轰炸机
 
 [template_navalArsenalInfo]
 @define tech: Naval Arsenal
 @define tech_es: Arsenal Naval
+@define tech_uk: Морський Арсенал
+@define tech_zh: 海军兵工厂
 description: -Unlocks the yamato class battleship at the harbour
 description_es: -Desbloquea el acorazado clase yamato en el puerto
+description_uk: -Відкриває лінкор класу Ямато в гавані
+description_zh: -精确的瞄准系统和强大的火炮有助于提升战列舰的攻击范围和攻击伤害\n-提供“大和”级战列舰
 
 [template_advancedDiveBombersInfo]
 @define tech: Advanced Dive Bombers
 @define tech_es: B. en Picada Avanzados
+@define tech_uk: Просунуті Пікіруючі Бомбардувальники
+@define tech_zh: 神风特攻队
 description: -Unlocks the Aichi M6A at the I-400 Class submarine\n-Upgrades dive bombers to Mitsubishi A6M Zero at the air base\n-Dive bombers have more attack damage, speed, bombs and go suicide on death
 description_es: -Desbloquea el Aichi M6A en el submarino Clase I-400\n-Mejora los bombarderos en picada a Mitsubishi A6M Zero en la base aérea\n-Los bombarderos en picada tienen más daño de ataque, velocidad, bombas y son suicidas al morir
+description_uk: -Розблоковує Aichi M6A на підводному човні класу I-400\n-Модернізує пікіруючі бомбардувальники до Mitsubishi A6M Zero на авіабазі\n-Пікіруючі бомбардувальники мають більшу шкоду, швидкість та кількість бомб, а також йдуть на самогубство при знищенні
+description_zh: -采用先进的瞄准镜,使轰炸准确度大大提升\n-提供晴岚艇载和I-400\n-提供零式舰战
 
 [template_commonwealthPlanInfo]
 @define tech: Commonwealth Plan
 @define tech_es: Plan Commonwealth
+@define tech_uk: План Співдружності
+@define tech_zh: 英联邦计划
 description: -When an airplane is created, a fighter is created for free\n-Unlocks the Horsa glider at the hangar
 description_es: -Cuando un avión es creado, un caza es creado gratis\n-Desbloquea el planeador Horsa en el hangar
+description_uk: -Коли будується літак, винищувач створюється безкоштовно\n-Відкриває планер Horsa в ангарі
+description_zh: -鲜血染红天空\n-当一架飞机建造完毕时,免费添加一架“喷火”MK.V战斗机\n-研发喷气机之后将变为免费添加一架流星喷气式战斗机\n-提供“霍莎”A.S.51
 
 [template_colonialOrganizationInfo]
 @define tech: Colonial Organization
 @define tech_es: Organización Colonial
+@define tech_uk: Колоніальна Організація
+@define tech_zh: 日不落
 description: -Allows the building of colonial centers
 description_es: -Permite la construcción de centros coloniales
+description_uk: -Дозволяє будувати колоніальні центри
+description_zh:  -王国的殖民地必须得到保护\n-允许建造殖民中心
 
 [template_fascistMilitaryServiceInfo]
 @define tech: Fascist Military Service
 @define tech_es: Servicio Militar Fascista
+@define tech_uk: Фашистська Військова Служба
+@define tech_zh: 法西斯兵役
 description: -When an infantry unit is trained, a rifle troop is trained for free\n-Unlocks the alpini troop and the cavallieri at the barracks
 description_es: -Cuando una unidad de infantería es entrenada, una tropa de rifle es entrenada gratis\n-Desbloquea la tropa alpini y el cavallieri en el cuartel
+description_uk: -Коли навчається піхотний підрозділ, загін стрільців створюється безкоштовно\n-Відкриває альпійську команду та кавалерію в казармах
+description_zh: -战争是每个帝国公民的义务\n-当步兵训练完成时,有免费获得一只步兵部队\n-可以训练阿尔卑斯山地部队和骑兵部队
 
 [template_reinforcedFacilitiesInfo]
 @define tech: Reinforced Facilities
 @define tech_es: Instalaciones Reforzadas
+@define tech_uk: Посилені Споруди
+@define tech_zh: 设施加固
 description: -Adds +45 HP auto-repair per second to buildings
 description_es: -Añade +45 de auto-reparación por segundo a los edificios
+description_uk: Додає +45 здоров'я до авторемонту споруд в секунду.
+description_zh: -钢筋混凝土结构可以减少炸弹对建筑的伤害\n-给所有建筑增加自动修理能力（每秒回复45点生命）
 
 #
 #============ Stratagem Info ==============#
@@ -1706,150 +2668,247 @@ description_es: -Añade +45 de auto-reparación por segundo a los edificios
 [template_stratagemGenericsInfo]
 isLockedMessage: -An enemy is confusing us!
 isLockedMessage_es: -¡Un enemigo nos está confundiendo!
+isLockedMessage_uk: -Ворог нас заплутав!
+isLockedMessage_zh: -我们被敌人迷惑了！
 
 [template_massProductionInfo]
 text: Mass Production
 text_es: Producción en Masa
+text_uk: Масове Виробництво
+text_zh: 快速生产
 description: -Vehicles are produced 30% faster and medium tanks cost -30% during 1 minute
 description_es: -Los vehículos son producidos 30% más rápido y los tanques medios cuestan -30% durante 1 minuto
+description_uk: -Техніка виготовляється на 30% швидше, а середні танки коштують -30% протягом 1 хвилини
+description_zh: -1分钟内中型坦克价格减少百分之30并且车库制造速度加快百分之30
 
 [template_codebreakersInfo]
 text: Codebreakers
 text_es: Descifracódigos
+text_uk: Зломщики кодів
+text_zh: 密码破译机
 description: -Ships and submarines have +12 fog sight range during 1 minute
 description_es: -Los barcos y submarinos tienen +12 de rango de visión durante 1 minuto
+description_uk: -Кораблі та підводні човни мають дальність огляду +12 протягом 1 хвилини
+description_zh: -1分钟内海军舰船增加12视野范围
 
 [template_navalRepairingsInfo]
 text: Naval Repairings
 text_es: Reparaciones Navales
+text_uk: Морський ремонт
+text_zh: 精英损管
 description: -Damaged ships and submarines recover 500 HP over 5 seconds
 description_es: -Los barcos y submarinos dañados recuperan 500 PV en 5 segundos
+description_uk: -Пошкоджені кораблі та субмарини відновлюють 500 HP протягом 5 секунд
+description_zh: -受损的海军舰船将会在5秒内逐渐回复500HP
 
 [template_napalmBombingInfo]
 text: Napalm Bombing
 text_es: Bombardeo de Napalm
+text_uk: Бомбардування Напалмом
+text_zh: 燃烧弹
 description: -Strategic bombers cause fires with their bombs during 30 seconds
 description_es: -Los bombarderos estratégicos causan incendios con sus bombas durante 30 segundos
+description_uk: -Стратегічні бомбардувальники викликають пожежі своїми бомбами протягом 30 секунд
+description_zh: -30秒内轰炸机将会挂载燃烧弹对敌方进行攻击
 
 [template_resistanceInfo]
 text: Resistance
 text_es: Resistencia
+text_uk: Опір
+text_zh: 抵抗运动
 description: -Destroyed buildings generate partisan troops during 1 minute
 description_es: -Los edificios destruidos generan tropas de partisanos durante 1 minuto
+description_uk: -Зруйновані будівлі генерують партизанські загони протягом 1 хвилини
+description_zh: -使用后一分钟内在己方被摧毁的建筑的废墟之上将会生成游击队
 
 [template_zealotryInfo]
 text: Zealotry
 text_es: Fanatismo
+text_uk: Завзятість
+text_zh: 俄罗斯母亲
 description: -Infantry units have +30% attack speed during 30 seconds
 description_es: -Las unidades de infantería tienen +30% de velocidad de ataque durante 30 segundos
+description_uk: -Піхотні одиниці отримують +30% швидкості атаки протягом 30 секунд
+description_zh: -30秒内步兵增加百分之30的攻击
 
 [template_227OrderInfo]
 text: 227 Order
 text_es: Orden 227
+text_uk: Наказ 227
+text_zh: 227号命令
 description: -Infantry units generate morale on death (0.1) during 2 minutes
 description_es: -Las unidades de infantería generan moral al morir (0.1) durante 2 minutos
+description_uk: -Піхотні одиниці створюють моральний дух після смерті (0,1) протягом 2 хвилин
+description_zh: 2分钟内步兵死亡将会增加0.1士气
 
 [template_rocketStrafingInfo]
 text: Rocket Strafing
 text_es: Ataque a Tierra de Cohetes
+text_uk: Ракетний обстріл
+text_zh: 对地火箭弹
 description: -Dive bombers attack with air-to-ground rockets during 30 seconds
 description_es: -Los bombardeos en picada atacan con cohetes de aire-tierra durante 30 segundos
+description_uk: -Пікіруючі бомбардувальники атакують ракетами «повітря-поверхня» протягом 30 секунд
+description_zh: 30秒内俯冲轰炸机将可以使用火箭弹进行攻击
 
 [template_sabotageInfo]
 text: Sabotage
 text_es: Sabotaje
+text_uk: Саботаж
+text_zh: 蓄意破坏
 description: -Prevents enemies from investigating during 1 minute
 description_es: -Impide que los enemigos investiguen durante 1 minuto
+description_uk: -Заважає ворогам досліджувати протягом 1 хвилини
+description_zh: -阻止敌人在接下来的1分钟内侦查
 
 [template_spionageInfo]
 text: Spionage
 text_es: Espionaje
+text_uk: Шпигунство
+text_zh: 军情六处
 description: -A random enemy citizen reveals fog of war for you during 15 seconds
 description_es: -Un ciudadano enemigo aleatorio revela niebla de guerra para ti durante 15 segundos
+description_uk: -Випадковий ворожий громадянин розкриває для вас туман війни протягом 15 секунд
+description_zh: -一个随机的敌方公民在15秒内为你揭示战争迷雾
 
 [template_requisitionInfo]
 text: Requisition
 text_es: Requisición
+text_uk: Реквізиція
+text_zh: 皇家造船厂
 description: -When a ship is built a patrol craft is created for free during 2 minutes
 description_es: -Cuando un barco es construido un barco patrulla es creado gratis durante 2 minutos
+description_uk: -Коли корабель будується, патрульний човен створюється безкоштовно протягом 2 хвилин
+description_zh: -2分钟内每建造出一艘海军舰船会免费建造一艘巡逻艇
 
 [template_navalCommerceInfo]
 text: Naval Commerce
 text_es: Comercio Naval
+text_uk: Морська Торгівля
+text_zh: 海军护航
 description: -Harbours generate 5 industry and 3 oil during 1 minute
 description_es: -Los puertos generan 5 de Industria y 3 de petróleo durante 1 minuto
+description_uk: -Гавані генерують 5 промисловості та 3 нафти протягом 1 хвилини
+description_zh: -1分钟内港口会不断生产5工业值和3石油
 
 [template_blitzkriegInfo]
 text: Blitzkrieg
 text_es: Blitzkrieg
+text_uk: Бліцкриг
+text_zh: 闪电战
 description: -Vehicles have +30% movement speed during 1 minute
 description_es: -Los vehículos tienen +30% de velocidad de movimiento durante 1 minuto
+description_uk: -Техніка отримує швидкість руху +30% протягом 1 хвилини
+description_zh: -1分钟内车辆增加百分之30的移动速度
 
 [template_forcedMarchInfo]
 text: Forced March
 text_es: Marcha Forzada
+text_uk: Форсований Марш
+text_zh: 强行军
 description: -Infantry have +50% movement speed during 30 seconds
 description_es: -La infantería tienen +50% de velocidad de movimiento durante 30 segundos
+description_uk: -Піхота отримує швидкість пересування +50% протягом 30 секунд
+description_zh: -30秒内步兵单位增加百分之50移动速度
 
 [template_counterpropagandaInfo]
 text: Counterpropaganda
 text_es: Contrapropaganda
+text_uk: Контрпропаганда
+text_zh:反宣传
 description: -Enemy infantry is trained 50% slower and cause -10% damage during 1 minute
 description_es: -La infantería enemiga es entrenada 50% más lento y causa -10% de daño durante 1 minuto
+description_uk: -Ворожа піхота тренується на 50% повільніше та завдає -10% шкоди протягом 1 хвилини
+description_zh: -敌方步兵在1分钟内训练速度减少百分之50，伤害减少百分之10
 
 [template_inducedInflationInfo]
 text: Induced Inflation
 text_es: Inflación Inducida
+text_uk: Індукована Інфляція
+text_zh: 诱发通货膨胀
 description: -Enemy refineries and factories have -5 production during 2 minutes
 description_es: -Las refinerías y fábricas enemigas tienen -5 de producción durante 2 minutos
+description_uk: -Ворожі нафтопереробні заводи та фабрики мають -5 виробництва протягом 2 хвилин
+description_zh: -敌方炼油厂和工厂在两分钟内-5产值
 
 [template_modifiedTorpedoesInfo]
 text: Modified Torpedoes
 text_es: Torpedos Modificados
+text_uk: Модифіковані Торпеди
+text_zh: 改进型鱼雷
 description: -Main dive bombers attack with torpedoes during 30 seconds
 description_es: -Los bombarderos en picada principales atacan con torpedos durante 30 segundos
+description_uk: -Головні пікіруючі бомбардувальники атакують торпедами протягом 30 секунд
+description_zh: -30秒内俯冲轰炸机将可以使用鱼雷对舰船发起攻击
 
 [template_honorCultureInfo]
 text: Honor Culture
 text_es: Cultura del Honor
+text_uk: Культура Честі
+text_zh: 武士道
 description: -When a infantry unit is trained, a rifle troop and a mortar team are trained for free during 30 seconds
 description_es: -Cuando una unidad de infantería es entrenada, una tropa de rifle y un equipo de mortero son entrenados gratis durante 30 segundos
+description_uk: -Під час навчання піхоти, загін стрільців і команда мінометників тренуються безкоштовно протягом 30 секунд
+description_zh: -在30秒内每训练一个步兵单位会免费训练一支步枪部队和一支迫击炮部队
 
 [template_unexpectedMoveInfo]
 text: Unexpected Move
 text_es: Movimiento Inesperado
+text_uk: Неочікуваний Хід
+text_zh: 意外之举
 description: -Prevents enemies from using stratagems during 1 minute
 description_es: -Evita que los enemigos utilicen estratgemas durante 1 minuto
+description_uk: -Заважає ворогам використовувати хитрощі протягом 1 хвилини
+description_zh: -阻止敌方在1分钟内使用战术
 
 [template_civilBombardmentInfo]
 text: Civil Bombardment
 text_es: Bombardeo Civil
+text_uk: Бомбардування цивільних
 description: -Strategic bombers reduce morale with their bombs (-0.08) during 30 seconds
 description_es: -Los bombarderos estratégicos reducen la moral con sus bombas (-0.08) durante 30 segundos
+description_uk: -Стратегічні бомбардувальники знижують моральний дух своїми бомбами (-0,08) протягом 30 секунд
+description: -在30秒内战略轰炸机每一颗炸弹命中敌方都将降低敌方0.08的士气
 
 [template_industrialExpropiationInfo]
 text: Industrial Expropiation
 text_es: Expropiación Industrial
+text_uk: Промислова Експропріація
+text_zh: 没收工厂
 description: -Factories produce +5 industry during 1 minute
 description_es: -Las fábricas producen +5 de industria durante 1 minuto
+description_uk: -Фабрики виробляють +5 промисловості протягом 1 хвилини
+description_zh: -在1分钟内工厂+5工业产值
 
 [template_fascistSupportInfo]
 text: Fascist Support
 text_es: Apoyo Fascista
+text_uk: Підтримка Фашистів
+text_zh: 轴心国
 description: -A regiment of german units is generated at the diplomatic center
 description_es: -Un regimiento de unidades alemanas es generado en el centro diplomático
+description_uk: -У дипломатичному центрі формуються німецькі одиниці 
+description_zh: -一支德国军队将会抵达外交中心
 
 [template_militarismInfo]
 text: Militarism
 text_es: Militarismo
+text_uk: Мілітаризм
+text_zh: 军国主义
 description: -Infantry doesn't reduce morale on death during 1 minute
 description_es: -La infantería no reduce la moral al morir durante 1 minuto
+description_uk: -Піхота не знижує моральний дух після смерті протягом 1 хвилини
+description_zh: 在1分钟内步兵单位死亡不会降低士气
 
 [template_eliteInfantryInfo]
 text: Elite Infantry
 text_es: Infantería de Élite
+text_uk: Елітна піхота
+text_zh: 精英步兵
 description: -Infantry have +20% attack damage during 30 seconds
 description_es: -La infantería tiene +20% de daño de ataque durante 30 segundos
+description_uk: -Піхота наносить +20% шкоди протягом 30 секунд
+description_zh: -步兵单位在30秒内增加百分之20攻击
 
 #
 #============ Sandbox Tool Actions and Skills ==============#
@@ -1858,32 +2917,52 @@ description_es: -La infantería tiene +20% de daño de ataque durante 30 segundo
 [template_debugAddResourcesInfo]
 text: Add Resources
 text_es: Añadir Recursos
+text_uk: Додати Ресурсів
+text_zh: 增加资源
 description: -Adds 2K industry and 1k oil\n-Only for debug purposes
 description_es: -Añade 2K de industria y 1K de petróleo\n-Solo para propósitos de corrección de bugs
+description_uk: -Додає 2 тисячі промисловості та 1 тисячу нафти\n-Тільки для дебагу
+description_zh: -增加2k工业值和1k石油\n-仅用于调试目的
 
 [template_increaseMoraleInfo]
 text: Increase Morale
 text_es: Incrementar Moral
+text_uk: Підвищення морального духу
+text_zh: 增加士气
 description: -Adds 10 morale\n-Only for debug purposes
 description_es: -Añade 10 de moral\n-Solo para propósitos de corrección de bugs
+description_uk: Додає 10 морального духу\n-Тільки для дебагу
+description_zh: -增加10士气\n-仅用于调试目的
 
 [template_reduceMoraleInfo]
 text: Reduce Morale
 text_es: Reducir Moral
+text_uk: Зниження морального духу
+text_zh: 减少士气
 description: -Removes 10 morale\n-Only for debug purposes
 description_es: -Remueve 10 de moral\n-Solo para propósitos de corrección de bugs
+description_uk: -Знімає 10 морального духу\n-Тільки для дебагу
+description_zh: 减少10士气\n-仅用于调试目的
 
 [template_increaseInfluenceInfo]
 text: Increase Influence
 text_es: Incrementar Influencia
+text_uk: Збільшити вплив
+text_zh: 增加影响力
 description: -Adds 10 influence\n-Only for debug purposes
 description_es: -Añade 10 de influencia\n-Solo para propósitos de corrección de bugs
+description_uk: -Додає 10 впливу\n-Тільки для дебагу
+description_zh: -增加10影响力\n-仅用于调试目的
 
 [template_reduceInfluenceInfo]
 text: Reduce Influence
 text_es: Reducir Influencia
+text_uk: Зменшити вплив
+text_zh: 减少影响力
 description: -Removes 10 influence\n-Only for debug purposes
 description_es: -Remueve 10 de influencia\n-Solo para propósitos de corrección de bugs
+description_uk: -Знімає 10 впливу\n-Тільки для дебагу
+description_zh: -减少10影响力\n-仅用于调试目的
 
 #
 #============ Game Mode Info ==============#
@@ -1892,17 +2971,29 @@ description_es: -Remueve 10 de influencia\n-Solo para propósitos de corrección
 [template_blitzkriegModeInfo]
 showMessageToPlayer: -BLITZKRIEG MODE: Rush your enemies and conquer outposts!
 showMessageToPlayer_es: -MODO BLITZKRIEG: ¡Arrase a sus enemigos y conquiste puestos avanzados!
+showMessageToPlayer_uk: -РЕЖИМ БЛІЦКРИГУ: Атакуйте на своїх ворогів і завойовуйте аванпости!
+showMessageToPlayer_zh: -闪电战模式: 向你的敌人发起冲锋并征服附近的前哨站！
 showQuickWarLogToPlayer: Game mode selected: Blitzkrieg
 showQuickWarLogToPlayer_es: Modo de juego seleccionado: Blitzkrieg
+showQuickWarLogToPlayer_uk: Режим гри обраний: Бліцкриг
+showQuickWarLogToPlayer_zh: 游戏模式: 闪电战
 
 [template_oppositeAiModeInfo]
 showMessageToPlayer: -OPPOSITE AI MODE: Enemy AIs will be on the opposed side!
 showMessageToPlayer_es: -MODO IA ADVERSA: Las IAs enemigas serán del bando opuesto!
+showMessageToPlayer_uk: -РЕЖИМ ПРОТИСТОЯННЯ ШІ: Ворожі ШІ будуть воювати на іншому боці!
+showMessageToPlayer_zh: -AI对抗模式: 敌方AI将会与你所选择的阵营相反！
 showQuickWarLogToPlayer: Game mode selected: Opposite AI
 showQuickWarLogToPlayer_es: Modo de juego seleccionado: IA Adversa
+showQuickWarLogToPlayer_uk: Режим гри обраний: Протистояння ШІ
+showQuickWarLogToPlayer_zh: 游戏模式: AI对抗
 
 [template_rankedModeInfo]
 showMessageToPlayer: -RANKED MODE: Destroy your opponents and earn ES coins!
 showMessageToPlayer_es: -MODO RANKED: ¡Destruya a sus oponentes y obtenga ES coins!
+showMessageToPlayer_uk: -РАНГОВИЙ РЕЖИМ: Знищуйте своїх супротивників і заробляйте ES-монети!
+showMessageToPlayer_zh: -排名模式: 摧毁你的对手来赚得ES服务器的虚拟货币
 showQuickWarLogToPlayer: Game mode selected: Ranked
-showQuickWarLogToPlayer_es: Modo de juego seleccionado: Ranked
+showQuickWarLogToPlayer_es: Modo de juego seleccionado: Ranked 
+showQuickWarLogToPlayer_uk: Режим гри обраний: Ранговий
+showQuickWarLogToPlayer_zh: 游戏模式: 排名模式
