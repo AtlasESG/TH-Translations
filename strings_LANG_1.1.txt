@@ -988,8 +988,7 @@ displayDescription_zh: -由勇敢爱国的平民，之前没来得及撤退的�
 displayDescription: -Saboteur forces\n-USSR special unit\n-Trapper and anti-building infantry (Infantry)\n-Effective against infantry and buildings\n-Attacks ground only\n-Can place minefields with no oil cost\n-Can throw demolition charges to buildings\n-Self-regenerates
 displayDescription_es: -Fuerzas saboteadoras\n-Unidad especial de la URSS\n-Infantería trampera y anti-edificios (Infantería)\n-Efectiva contra infantería y edificios\n-Ataca a tierra únicamente\n-Puede colocar minados sin costo en petróleo\n-Puede lanzar cargas de demolición a los edificios\n-Se auto-regenera
 displayDescription_uk: -Диверсійні сили\n-Спеціальна одиниця СРСР\n-Трапер і протиспорудна піхота (Піхота)\n-Ефективний проти піхоти та споруд\n-Атакує тільки наземні цілі\n-Може розміщувати мінні поля без витрат нафти\n-Може кидати підривні заряди на будівлі\n-Має регенерацію здоров'я
-displayDescription_zh: -摧毁防线的好手\n-苏联特殊单位\n-摧毁建筑与陷阱\n-有效打击步兵和建筑\n-仅攻击地面\n-无需石油成本即可放置雷区\n- 可以拆除陷阱\n-可以向建筑物投掷爆破炸药\n-可以自愈
-#TRANSLATES NEEDED --> *zh
+displayDescription_zh: -摧毁防线的好手\n-苏联特殊单位\n-兼顾攻坚与埋伏地雷任务的步兵（步兵）\n-有效打击步兵和建筑\n-仅攻击地面\n-无需石油成本即可放置雷区\n- 可以拆除陷阱\n-可以向建筑物投掷爆破炸药\n-可以自愈
 
 [template_sniperTeamInfo]
 displayDescription: -Lethal hunters\n-USSR special unit\n-Very long-ranged infantry (Infantry)\n-Effective against infantry\n-Attacks ground only\n-High sight range\n-Self-regenerates
@@ -1467,28 +1466,31 @@ description_zh: -停止火力覆盖\n-可以增加精度但会减少射程
 text: Rally Point
 text_es: Punto de Reunión
 text_uk: Точка Збору
+text_zh: 集合地点
 description: -Set a rally point for airplanes\n-Airplanes will move to this point when taking off
 description_es: -Establece un punto de reunión para los aviones\n-Los aviones se moverán a este punto cuando despeguen
 description_uk: -Встановлює точку збору для літаків\n-Літаки рухатимуться до цієї точки коли злітатимуть
-#TRANSLATES NEEDED --> *zh
+description_zh: -为飞机设置集结点\n-飞机起飞后会自动飞至集结点
 
 [template_takeoffAllAirplanesInfo]
 text: Takeoff Airplanes
 text_es: Despegar Aviones
 text_uk: Підняти Літаки
+text_zh: 飞机起飞
 description: -Orders all airplanes to takeoff
 description_es: -Ordena a todos los aviones despegar
 description_uk: -Наказує всім літакам злетіти
-#TRANSLATES NEEDED --> *zh
+description_zh: 命令所有飞机起飞
 
 [template_airBaseHangarInfo]
 text: No airplanes
 text_es: Sin aviones
 text_uk: Немає літаків
+text_zh: 没有飞机
 description: -This air base is empty, build more airplanes at the hangar or land some airplanes
 description_es: -Esta base aérea está vacía, construya más aviones en el hangar o aterrice algunos aviones
 description_uk: -Ця авіабаза порожня, побудуйте більше літаків в ангарі або посадіть кілька літаків
-#TRANSLATES NEEDED --> *zh
+description_zh: -该机场没有任何飞机，请建造飞机活着转移飞机到此机场
 
 [template_returnAirplanesInfo]
 text: Return Airplanes
@@ -2050,12 +2052,11 @@ description_zh: -步兵单位增加3护甲
 text: Send Industry
 text_es: Enviar Industria
 text_uk: Відправити Промисловість
-text_支援工业值
+text_zh: 支援工业值
 description: -Send industry to other players
 description_es: -Enviar industria a otros jugadores
 description_uk: -Надсилає промисловість іншим гравцям
-description_zh: -支援其他玩家800工业值\n-警告:请对准其他玩家外交中心或基地
-#TRANSLATES NEEDED --> *zh
+description_zh: -运输800工业值给其他玩家
 
 [template_sendOilOpenInfo]
 text: Send Oil
@@ -2065,38 +2066,37 @@ text_zh: 支援石油
 description: -Send oil to other players
 description_es: -Enviar petróleo a otros jugadores
 description_uk: -Надсилає нафту іншим гравцям
-description_zh: -支援其他玩家400石油\n-警告:请对准其他玩家外交中心或基地
-#TRANSLATES NEEDED --> *zh
+description_zh: -运输400石油给其他玩家
 
 [template_sendResourceCancelInfo]
 text: Cancel
 text_es: Cancelar
 text_uk: Скасувати
-#TRANSLATES NEEDED --> *zh
+text_zh: 取消
 
 [template_sendIndustryInfo]
 description: -Sends 800 industry to %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Our alliance: %{self.teamName}
 description_es: -Envía 800 de industria a %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Su alianza: %{self.teamName}
 description_uk: -Надсилає 800 промисловості %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Наш альянс: %{self.teamName}
-#TRANSLATES NEEDED --> *zh
+description_zh: -运输800工业值给%{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-我们的队伍属于: %{self.teamName}
 
 [template_sendOilInfo]
 description: -Sends 400 oil to %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Our alliance: %{self.teamName}
 description_es: -Envía 400 de petróleo a %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Nuestra alianza: %{self.teamName}
 description_uk: -Надсилає 400 нафти %{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-Наш альянс: %{self.teamName}
-#TRANSLATES NEEDED --> *zh
+description_zh: -运输400石油给%{${gsffu}(withTag='${id}', relation='any').playerName}\n\n-我们的队伍属于: %{self.teamName}
 
 [template_receivedIndustryInfo]
 showQuickWarLogToPlayer: Received 800 Industry from %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
 showQuickWarLogToPlayer_es: 800 de Industria recibido de %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
 showQuickWarLogToPlayer_uk: Отримано 800 промисловлсті від %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
-#TRANSLATES NEEDED --> *zh
+showQuickWarLogToPlayer_zh: 收到了%{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})运输的800工业值
 
 [template_receivedOilInfo]
 showQuickWarLogToPlayer: Received 400 Oil from %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
 showQuickWarLogToPlayer_es: 400 de Petróleo recibido de %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
 showQuickWarLogToPlayer_uk: Отримано 400 нафти від %{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})
-#TRANSLATES NEEDED --> *zh
+showQuickWarLogToPlayer_zh: 收到了%{eventData(name="playerName", type="string")} (%{eventData(name="playerTeam", type="string")})运输的400石油
 
 #
 #============ Technology Info ==============#
@@ -2816,7 +2816,7 @@ description_zh: -30秒内步兵单位增加百分之50移动速度
 text: Counterpropaganda
 text_es: Contrapropaganda
 text_uk: Контрпропаганда
-text_zh:反宣传
+text_zh: 反宣传
 description: -Enemy infantry is trained 50% slower and cause -10% damage during 1 minute
 description_es: -La infantería enemiga es entrenada 50% más lento y causa -10% de daño durante 1 minuto
 description_uk: -Ворожа піхота тренується на 50% повільніше та завдає -10% шкоди протягом 1 хвилини
