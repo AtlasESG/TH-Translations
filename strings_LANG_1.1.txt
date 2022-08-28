@@ -61,6 +61,7 @@ displayName_zh: 原油
 displayName: Local Industry
 displayName_es: Industria Local
 displayName_uk: Локальна промисловість
+displayName_zh: 本地工业
 
 [global_resource_industry]
 displayName: Industry
